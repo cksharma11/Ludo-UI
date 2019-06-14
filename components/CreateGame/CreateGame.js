@@ -1,4 +1,5 @@
 import React from 'react';
+import CreateGameStyles from './CreateGame.style';
 
 const CreateGame = () => {
   return (
@@ -10,6 +11,7 @@ const CreateGame = () => {
         placeholder="number of players"
       />
       <input type="submit" />
+      <style jsx>{CreateGameStyles}</style>
     </form>
   );
 };

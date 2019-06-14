@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next build && next start",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "lint:script": "eslint . -c .eslintrc.json --ext js,jsx --fix",
     "lint:style": "stylelint '**/*.style.js'",
     "lint": "npm run lint:script && npm run lint:style"
@@ -24,8 +24,10 @@
     "styled-jsx": "^3.2.1"
   },
   "devDependencies": {
-    "prettier": "^1.18.2",
     "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.3.0",
@@ -33,7 +35,9 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.13.0",
-    "styled-jsx-plugin-postcss": "^2.0.0",
+    "jest": "^24.1.0",
+    "prettier": "^1.18.2",
+    "styled-jsx-plugin-postcss": "^2.0.1",
     "styled-jsx-plugin-stylelint": "^0.1.0",
     "stylelint": "^9.10.1",
     "stylelint-config-prettier": "^4.0.0",
