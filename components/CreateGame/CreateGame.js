@@ -1,9 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
 
 const CreateGame = () => {
   return (
-    <form>
+    <form method="POST" action="createGame">
       <input type="text" name="hostname" placeholder="hostname" />
       <input
         type="number"

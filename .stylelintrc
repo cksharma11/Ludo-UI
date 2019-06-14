@@ -1,0 +1,14 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
+  "processors": ["stylelint-processor-styled-components"],
+  "rules": {
+    "declaration-no-important": true,
+    "no-empty-source": null,
+    "string-no-newline": null,
+    "at-rule-no-unknown": [ true, { "ignoreAtRules": ["mixin"] }],
+    "selector-pseudo-class-no-unknown": [
+      true,
+      { "ignorePseudoClasses": ["global"] }
+    ]
+  }
+}
