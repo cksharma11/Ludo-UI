@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render properly 1`] = `
+"<div>
+  <Header title=\\"title\\" />
+  <a href=\\"#\\">
+    Create Game
+  </a>
+  <a href=\\"#\\">
+    Join Game
+  </a>
+</div>"
+`;

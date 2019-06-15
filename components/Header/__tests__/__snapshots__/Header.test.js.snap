@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render properly 1`] = `
+"<div className=\\"jsx-402481476 header\\">
+  title
+  <JSXStyle id=\\"402481476\\">
+    .
+    h
+    e
+    a
+    d
+    e
+    r
+    .
+    j
+    s
+    x
+    -
+    4
+    0
+    2
+    4
+    8
+    1
+    4
+    7
+    6
+    {
+    f
+    o
+    n
+    t
+    -
+    s
+    i
+    z
+    e
+    :
+    2
+    0
+    p
+    x
+    ;
+    w
+    i
+    d
+    t
+    h
+    :
+    1
+    0
+    0
+    %
+    ;
+    h
+    e
+    i
+    g
+    h
+    t
+    :
+    2
+    0
+    0
+    p
+    x
+    ;
+    b
+    a
+    c
+    k
+    g
+    r
+    o
+    u
+    n
+    d
+    :
+    g
+    r
+    a
+    y
+    ;
+    }
+  </JSXStyle>
+</div>"
+`;
