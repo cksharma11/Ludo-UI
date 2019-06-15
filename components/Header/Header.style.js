@@ -8,8 +8,8 @@ const HeaderStyles = css`
     text-align: center;
     width: 100%;
     height: 200px;
-    background: ${colors.orange.shade1};
-    color: ${colors.gray.shade1};
+    background: ${colors.gray.shade1};
+    color: ${colors.orange.shade1};
   }
 `;
 

@@ -8,7 +8,7 @@ const CreateGame = () => {
       <Header title="Ludo" />
       <form method="POST" action="/createGame">
         <div className="activity-header">Host Game</div>
-        <input type="text" name="hostname" placeholder="hostname" />
+        <input type="text" name="hostName" placeholder="hostname" />
         <input
           type="number"
           name="numberOfPlayers"

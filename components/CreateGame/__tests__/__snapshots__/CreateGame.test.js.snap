@@ -3,15 +3,15 @@
 exports[`CreateGame should render properly 1`] = `
 "<Fragment>
   <Header title=\\"Ludo\\" />
-  <form method=\\"POST\\" action=\\"/createGame\\" className=\\"jsx-1230876516\\">
-    <div className=\\"jsx-1230876516 activity-header\\">
+  <form method=\\"POST\\" action=\\"/createGame\\" className=\\"jsx-1941168962\\">
+    <div className=\\"jsx-1941168962 activity-header\\">
       Host Game
     </div>
-    <input type=\\"text\\" name=\\"hostname\\" placeholder=\\"hostname\\" className=\\"jsx-1230876516\\" />
-    <input type=\\"number\\" name=\\"numberOfPlayers\\" placeholder=\\"number of players\\" className=\\"jsx-1230876516\\" />
-    <input type=\\"submit\\" value=\\"Create Game\\" className=\\"jsx-1230876516\\" />
+    <input type=\\"text\\" name=\\"hostName\\" placeholder=\\"hostname\\" className=\\"jsx-1941168962\\" />
+    <input type=\\"number\\" name=\\"numberOfPlayers\\" placeholder=\\"number of players\\" className=\\"jsx-1941168962\\" />
+    <input type=\\"submit\\" value=\\"Create Game\\" className=\\"jsx-1941168962\\" />
   </form>
-  <JSXStyle id=\\"1230876516\\">
+  <JSXStyle id=\\"1941168962\\">
     f
     o
     r
@@ -22,15 +22,15 @@ exports[`CreateGame should render properly 1`] = `
     x
     -
     1
-    2
-    3
-    0
-    8
-    7
-    6
-    5
+    9
+    4
+    1
     1
     6
+    8
+    9
+    6
+    2
     {
     f
     o
@@ -124,6 +124,19 @@ exports[`CreateGame should render properly 1`] = `
     f
     l
     e
+    x
+    ;
+    h
+    e
+    i
+    g
+    h
+    t
+    :
+    5
+    5
+    0
+    p
     x
     ;
     -
@@ -415,20 +428,6 @@ exports[`CreateGame should render properly 1`] = `
     4
     6
     ;
-    p
-    a
-    d
-    d
-    i
-    n
-    g
-    :
-    1
-    0
-    0
-    p
-    x
-    ;
     }
     f
     o
@@ -440,15 +439,15 @@ exports[`CreateGame should render properly 1`] = `
     x
     -
     1
-    2
-    3
-    0
-    8
-    7
-    6
-    5
+    9
+    4
+    1
     1
     6
+    8
+    9
+    6
+    2
     &gt;
     i
     n
@@ -461,15 +460,15 @@ exports[`CreateGame should render properly 1`] = `
     x
     -
     1
-    2
-    3
-    0
-    8
-    7
-    6
-    5
+    9
+    4
+    1
     1
     6
+    8
+    9
+    6
+    2
     {
     b
     a
@@ -551,11 +550,13 @@ exports[`CreateGame should render properly 1`] = `
     i
     d
      
-    b
-    l
-    a
-    c
-    k
+    #
+    2
+    2
+    2
+    8
+    3
+    1
     ;
     c
     o
@@ -717,15 +718,15 @@ exports[`CreateGame should render properly 1`] = `
     x
     -
     1
-    2
-    3
-    0
-    8
-    7
-    6
-    5
+    9
+    4
+    1
     1
     6
+    8
+    9
+    6
+    2
     {
     f
     o
