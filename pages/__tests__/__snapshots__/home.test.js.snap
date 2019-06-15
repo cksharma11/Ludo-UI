@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`home should render properly 1`] = `"<Home title=\\"Ludo\\" createGameLink=\\"/createGame\\" joinGameLink=\\"joinGame\\" />"`;

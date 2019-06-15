@@ -8,7 +8,8 @@ module.exports = {
   collectCoverageFrom: [
     'components/**/*.js',
     'pages/**/*.js',
-    '!**/*.style.js'
+    '!**/*.style.js',
+    '!pages/*.js'
   ],
   coverageThreshold: {
     global: {
