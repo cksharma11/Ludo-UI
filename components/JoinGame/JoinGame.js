@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Header from '../Header/Header';
+import JoinGameStyles from './JoinGame.style';
 
 const JoinGame = () => {
   return (
-    <form method="POST" action="joinGame">
-      <input type="text" name="name" placeholder="name" />
-      <input type="number" name="gameId" placeholder="gameId" />
-      <input type="submit" />
-    </form>
+    <Fragment>
+      <Header title="Ludo" />
+      <form method="POST" action="joinGame">
+        <div className="activity-header">Join Game</div>
+        <input type="text" name="name" placeholder="name" />
+        <input type="number" name="gameId" placeholder="gameId" />
+        <input type="submit" value="Join Game" />
+      </form>
+      <style jsx>{JoinGameStyles}</style>
+    </Fragment>
   );
 };
 

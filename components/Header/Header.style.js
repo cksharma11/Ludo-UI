@@ -1,11 +1,15 @@
 import css from 'styled-jsx/css';
+import colors from '../../config/styles/colors';
 
 const HeaderStyles = css`
   .header {
-    font-size: 20px;
+    font-family: fantasy;
+    font-size: 150px;
+    text-align: center;
     width: 100%;
     height: 200px;
-    background: gray;
+    background: ${colors.orange.shade1};
+    color: ${colors.gray.shade1};
   }
 `;
 

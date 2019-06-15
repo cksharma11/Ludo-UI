@@ -1,7 +1,7 @@
 import css from 'styled-jsx/css';
 import colors from '../../config/styles/colors';
 
-const CreateGameStyles = css`
+const JoinGameStyles = css`
   form {
     font-family: fantasy;
     display: flex;
@@ -33,4 +33,4 @@ const CreateGameStyles = css`
   }
 `;
 
-export default CreateGameStyles;
+export default JoinGameStyles;

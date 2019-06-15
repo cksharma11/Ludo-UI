@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header should render properly 1`] = `
-"<div className=\\"jsx-402481476 header\\">
+"<div className=\\"jsx-2363004200 header\\">
   title
-  <JSXStyle id=\\"402481476\\">
+  <JSXStyle id=\\"2363004200\\">
     .
     h
     e
@@ -16,16 +16,37 @@ exports[`Header should render properly 1`] = `
     s
     x
     -
-    4
-    0
     2
-    4
-    8
-    1
-    4
-    7
+    3
     6
+    3
+    0
+    0
+    4
+    2
+    0
+    0
     {
+    f
+    o
+    n
+    t
+    -
+    f
+    a
+    m
+    i
+    l
+    y
+    :
+    f
+    a
+    n
+    t
+    a
+    s
+    y
+    ;
     f
     o
     n
@@ -36,10 +57,29 @@ exports[`Header should render properly 1`] = `
     z
     e
     :
-    2
+    1
+    5
     0
     p
     x
+    ;
+    t
+    e
+    x
+    t
+    -
+    a
+    l
+    i
+    g
+    n
+    :
+    c
+    e
+    n
+    t
+    e
+    r
     ;
     w
     i
@@ -76,10 +116,27 @@ exports[`Header should render properly 1`] = `
     n
     d
     :
-    g
+    #
+    2
+    2
+    2
+    8
+    3
+    1
+    ;
+    c
+    o
+    l
+    o
     r
+    :
+    #
+    d
+    6
+    5
     a
-    y
+    3
+    1
     ;
     }
   </JSXStyle>

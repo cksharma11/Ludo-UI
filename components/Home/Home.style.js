@@ -1,8 +1,20 @@
 import css from 'styled-jsx/css';
 import colors from '../../config/styles/colors';
 
-const CreateGameStyles = css`
-  form {
+const HomeStyles = css`
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  .main-container {
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .options {
     font-family: fantasy;
     display: flex;
     flex-direction: column;
@@ -12,8 +24,8 @@ const CreateGameStyles = css`
     padding: 100px;
   }
 
-  form > input {
-    background: ${colors.gray.shade3};
+  a {
+    border-radius: 2px;
     font-family: fantasy;
     width: 200px;
     height: 30px;
@@ -24,13 +36,7 @@ const CreateGameStyles = css`
     text-decoration: none;
     padding: 5px;
     margin: 5px;
-    border-radius: 2px;
-  }
-
-  .activity-header {
-    font-family: fantasy;
-    font-size: 30px;
   }
 `;
 
-export default CreateGameStyles;
+export default HomeStyles;

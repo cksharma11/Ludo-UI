@@ -1,11 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CreateGame should render properly 1`] = `
-"<form method=\\"POST\\" action=\\"/createGame\\" className=\\"jsx-2851547167\\">
-  <input type=\\"text\\" name=\\"hostname\\" placeholder=\\"hostname\\" className=\\"jsx-2851547167\\" />
-  <input type=\\"number\\" name=\\"numberOfPlayers\\" placeholder=\\"number of players\\" className=\\"jsx-2851547167\\" />
-  <input type=\\"submit\\" className=\\"jsx-2851547167\\" />
-  <JSXStyle id=\\"2851547167\\">
+"<Fragment>
+  <Header title=\\"Ludo\\" />
+  <form method=\\"POST\\" action=\\"/createGame\\" className=\\"jsx-1230876516\\">
+    <div className=\\"jsx-1230876516 activity-header\\">
+      Host Game
+    </div>
+    <input type=\\"text\\" name=\\"hostname\\" placeholder=\\"hostname\\" className=\\"jsx-1230876516\\" />
+    <input type=\\"number\\" name=\\"numberOfPlayers\\" placeholder=\\"number of players\\" className=\\"jsx-1230876516\\" />
+    <input type=\\"submit\\" value=\\"Create Game\\" className=\\"jsx-1230876516\\" />
+  </form>
+  <JSXStyle id=\\"1230876516\\">
     f
     o
     r
@@ -15,17 +21,495 @@ exports[`CreateGame should render properly 1`] = `
     s
     x
     -
-    2
-    8
-    5
     1
-    5
-    4
+    2
+    3
+    0
+    8
     7
+    6
+    5
     1
     6
-    7
     {
+    f
+    o
+    n
+    t
+    -
+    f
+    a
+    m
+    i
+    l
+    y
+    :
+    f
+    a
+    n
+    t
+    a
+    s
+    y
+    ;
+    d
+    i
+    s
+    p
+    l
+    a
+    y
+    :
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    b
+    o
+    x
+    ;
+    d
+    i
+    s
+    p
+    l
+    a
+    y
+    :
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    f
+    l
+    e
+    x
+    ;
+    d
+    i
+    s
+    p
+    l
+    a
+    y
+    :
+    -
+    m
+    s
+    -
+    f
+    l
+    e
+    x
+    b
+    o
+    x
+    ;
+    d
+    i
+    s
+    p
+    l
+    a
+    y
+    :
+    f
+    l
+    e
+    x
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    f
+    l
+    e
+    x
+    -
+    d
+    i
+    r
+    e
+    c
+    t
+    i
+    o
+    n
+    :
+    c
+    o
+    l
+    u
+    m
+    n
+    ;
+    -
+    m
+    s
+    -
+    f
+    l
+    e
+    x
+    -
+    d
+    i
+    r
+    e
+    c
+    t
+    i
+    o
+    n
+    :
+    c
+    o
+    l
+    u
+    m
+    n
+    ;
+    f
+    l
+    e
+    x
+    -
+    d
+    i
+    r
+    e
+    c
+    t
+    i
+    o
+    n
+    :
+    c
+    o
+    l
+    u
+    m
+    n
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    b
+    o
+    x
+    -
+    p
+    a
+    c
+    k
+    :
+    c
+    e
+    n
+    t
+    e
+    r
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    j
+    u
+    s
+    t
+    i
+    f
+    y
+    -
+    c
+    o
+    n
+    t
+    e
+    n
+    t
+    :
+    c
+    e
+    n
+    t
+    e
+    r
+    ;
+    -
+    m
+    s
+    -
+    f
+    l
+    e
+    x
+    -
+    p
+    a
+    c
+    k
+    :
+    c
+    e
+    n
+    t
+    e
+    r
+    ;
+    j
+    u
+    s
+    t
+    i
+    f
+    y
+    -
+    c
+    o
+    n
+    t
+    e
+    n
+    t
+    :
+    c
+    e
+    n
+    t
+    e
+    r
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    a
+    l
+    i
+    g
+    n
+    -
+    i
+    t
+    e
+    m
+    s
+    :
+    c
+    e
+    n
+    t
+    e
+    r
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    b
+    o
+    x
+    -
+    a
+    l
+    i
+    g
+    n
+    :
+    c
+    e
+    n
+    t
+    e
+    r
+    ;
+    -
+    m
+    s
+    -
+    f
+    l
+    e
+    x
+    -
+    a
+    l
+    i
+    g
+    n
+    :
+    c
+    e
+    n
+    t
+    e
+    r
+    ;
+    a
+    l
+    i
+    g
+    n
+    -
+    i
+    t
+    e
+    m
+    s
+    :
+    c
+    e
+    n
+    t
+    e
+    r
+    ;
+    b
+    a
+    c
+    k
+    g
+    r
+    o
+    u
+    n
+    d
+    :
+    #
+    3
+    9
+    3
+    e
+    4
+    6
+    ;
+    p
+    a
+    d
+    d
+    i
+    n
+    g
+    :
+    1
+    0
+    0
+    p
+    x
+    ;
+    }
+    f
+    o
+    r
+    m
+    .
+    j
+    s
+    x
+    -
+    1
+    2
+    3
+    0
+    8
+    7
+    6
+    5
+    1
+    6
+    &gt;
+    i
+    n
+    p
+    u
+    t
+    .
+    j
+    s
+    x
+    -
+    1
+    2
+    3
+    0
+    8
+    7
+    6
+    5
+    1
+    6
+    {
+    b
+    a
+    c
+    k
+    g
+    r
+    o
+    u
+    n
+    d
+    :
+    #
+    e
+    e
+    e
+    e
+    e
+    e
+    ;
+    f
+    o
+    n
+    t
+    -
+    f
+    a
+    m
+    i
+    l
+    y
+    :
+    f
+    a
+    n
+    t
+    a
+    s
+    y
+    ;
     w
     i
     d
@@ -38,14 +522,87 @@ exports[`CreateGame should render properly 1`] = `
     p
     x
     ;
-    d
+    h
+    e
     i
-    s
+    g
+    h
+    t
+    :
+    3
+    0
     p
+    x
+    ;
+    b
+    o
+    r
+    d
+    e
+    r
+    :
+    1
+    p
+    x
+     
+    s
+    o
+    l
+    i
+    d
+     
+    b
     l
     a
-    y
+    c
+    k
+    ;
+    c
+    o
+    l
+    o
+    r
     :
+    #
+    d
+    6
+    5
+    a
+    3
+    1
+    ;
+    t
+    e
+    x
+    t
+    -
+    a
+    l
+    i
+    g
+    n
+    :
+    c
+    e
+    n
+    t
+    e
+    r
+    ;
+    l
+    i
+    n
+    e
+    -
+    h
+    e
+    i
+    g
+    h
+    t
+    :
+    2
+    ;
     -
     w
     e
@@ -54,184 +611,142 @@ exports[`CreateGame should render properly 1`] = `
     i
     t
     -
-    b
-    o
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    w
+    t
     e
-    b
-    k
-    i
+    x
     t
     -
-    f
-    l
-    e
-    x
-    ;
     d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    m
-    s
-    -
-    f
-    l
     e
-    x
-    b
+    c
     o
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    f
-    l
-    e
-    x
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    f
-    l
-    e
-    x
-    -
-    d
-    i
     r
-    e
-    c
+    a
     t
     i
     o
     n
     :
+    n
+    o
+    n
+    e
+    ;
+    t
+    e
+    x
+    t
+    -
+    d
+    e
     c
     o
-    l
-    u
-    m
+    r
+    a
+    t
+    i
+    o
     n
+    :
+    n
+    o
+    n
+    e
     ;
-    -
+    p
+    a
+    d
+    d
+    i
+    n
+    g
+    :
+    5
+    p
+    x
+    ;
     m
+    a
+    r
+    g
+    i
+    n
+    :
+    5
+    p
+    x
+    ;
+    b
+    o
+    r
+    d
+    e
+    r
+    -
+    r
+    a
+    d
+    i
+    u
     s
-    -
-    f
-    l
-    e
-    x
-    -
-    d
-    i
-    r
-    e
-    c
-    t
-    i
-    o
-    n
     :
-    c
-    o
-    l
-    u
-    m
-    n
-    ;
-    f
-    l
-    e
+    2
+    p
     x
-    -
-    d
-    i
-    r
-    e
-    c
-    t
-    i
-    o
-    n
-    :
-    c
-    o
-    l
-    u
-    m
-    n
     ;
     }
+    .
+    a
+    c
+    t
+    i
+    v
+    i
+    t
+    y
+    -
+    h
+    e
+    a
+    d
+    e
+    r
+    .
+    j
+    s
+    x
+    -
+    1
+    2
+    3
+    0
+    8
+    7
+    6
+    5
+    1
+    6
+    {
     f
     o
-    r
-    m
-    .
-    j
-    s
-    x
-    -
-    2
-    8
-    5
-    1
-    5
-    4
-    7
-    1
-    6
-    7
-    &gt;
-    i
     n
-    p
-    u
     t
-    .
-    j
-    s
-    x
     -
-    2
-    8
-    5
-    1
-    5
-    4
-    7
-    1
-    6
-    7
-    {
+    f
+    a
+    m
+    i
+    l
+    y
+    :
+    f
+    a
+    n
+    t
+    a
+    s
+    y
+    ;
     f
     o
     n
@@ -242,12 +757,12 @@ exports[`CreateGame should render properly 1`] = `
     z
     e
     :
-    2
+    3
     0
     p
     x
     ;
     }
   </JSXStyle>
-</form>"
+</Fragment>"
 `;

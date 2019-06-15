@@ -1,13 +1,17 @@
 import React from 'react';
 import PropType from 'prop-types';
 import Header from '../Header/Header';
+import HomeStyles from './Home.style';
 
 const Home = ({ title, createGameLink, joinGameLink }) => {
   return (
-    <div>
+    <div className="main-container">
       <Header title={title} />
-      <a href={createGameLink}>Create Game</a>
-      <a href={joinGameLink}>Join Game</a>
+      <div className="options">
+        <a href={createGameLink}>Create Game</a>
+        <a href={joinGameLink}>Join Game</a>
+      </div>
+      <style jsx>{HomeStyles}</style>
     </div>
   );
 };
