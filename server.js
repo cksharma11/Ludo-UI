@@ -1,8 +1,10 @@
 const Next = require('next');
 const fastify = require('fastify')({ logger: true });
+const fetch = require('isomorphic-unfetch');
 const routes = require('./routes/routes');
 
-const PORT = process.env.PORT || 3033;
+const { API_PORT = 8080 } = process.env;
+const PORT = process.env.UI_PORT || 3033;
 const dev = process.env.NODE_ENV !== 'production';
 
 fastify.register((plugin, options, next) => {
@@ -20,6 +22,23 @@ fastify.register((plugin, options, next) => {
       next();
     })
     .catch((err) => next(err));
+});
+
+fastify.post('/createGame', (req, res) => {
+  req.body = {
+    hostName: 'A',
+    numberOfPlayers: 2
+  };
+  const { hostname, numberOfPlayers } = req.body;
+  fetch(`http://127.0.0.1:${API_PORT}/createGame`, {
+    method: 'POST',
+    body: {
+      hostname,
+      numberOfPlayers
+    }
+  })
+    .then((fetchResponse) => fetchResponse.json())
+    .then((fetchResponse) => res.send(fetchResponse));
 });
 
 const start = () => {
