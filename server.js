@@ -1,8 +1,8 @@
 const Next = require('next');
 const fastify = require('fastify')({ logger: true });
 const fetch = require('isomorphic-unfetch');
+const fastifyCookie = require('fastify-cookie');
 const bodyParser = require('fastify-formbody');
-
 const routes = require('./routes/routes');
 
 const { API_PORT = 8080 } = process.env;
@@ -10,6 +10,7 @@ const PORT = process.env.UI_PORT || 3033;
 const dev = process.env.NODE_ENV !== 'production';
 
 fastify.register(bodyParser);
+fastify.register(fastifyCookie);
 fastify.register((plugin, options, next) => {
   const app = Next({ dev });
   const handler = routes.getRequestHandler(app);
@@ -26,10 +27,11 @@ fastify.register((plugin, options, next) => {
     })
     .catch((err) => next(err));
 });
-
+// deepu sharma 353@gmail.com
+// 62 27 .VEER
 fastify.post('/createGame', (req, res) => {
   const { hostName, numberOfPlayers } = req.body;
-  fetch(`http://127.0.0.1:${API_PORT}/createGame`, {
+  fetch(`http://localhost:8080/createGame`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -41,8 +43,9 @@ fastify.post('/createGame', (req, res) => {
   })
     .then((fetchedResponse) => fetchedResponse.json())
     .then((fetchedResponse) => {
-      res.cookie('gameId', fetchedResponse.gameId);
-      res.cookie('playerId', fetchedResponse.playerId);
+      const { gameId, playerId } = fetchedResponse;
+      res.setCookie('gameId', gameId);
+      res.setCookie('playerId', playerId);
       res.send(fetchedResponse);
     });
 });
@@ -59,10 +62,10 @@ fastify.post('/joinGame', (req, res) => {
       gameId
     })
       .then((fetchedResponse) => fetchedResponse.json())
-      .then((fetchedResponse) => {
-        if (fetchedResponse.hasJoined) {
-          res.cookie('gameId', gameId);
-          res.cookie('playerId', fetchedResponse.playerId);
+      .then(({ playerId, hasJoined }) => {
+        if (hasJoined) {
+          res.setCookie('gameId', gameId);
+          res.setCookie('playerId', playerId);
           res.send(JSON.stringify({ hasJoined: true }));
         }
         res.send(res.send(JSON.stringify({ hasJoined: false })));
