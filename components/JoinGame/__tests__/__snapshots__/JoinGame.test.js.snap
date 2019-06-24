@@ -7,7 +7,7 @@ exports[`JoinGame should render properly 1`] = `
     <div className=\\"jsx-1941168962 activity-header\\">
       Join Game
     </div>
-    <input type=\\"text\\" name=\\"name\\" placeholder=\\"name\\" className=\\"jsx-1941168962\\" />
+    <input type=\\"text\\" name=\\"playerName\\" placeholder=\\"name\\" className=\\"jsx-1941168962\\" />
     <input type=\\"number\\" name=\\"gameId\\" placeholder=\\"gameId\\" className=\\"jsx-1941168962\\" />
     <input type=\\"submit\\" value=\\"Join Game\\" className=\\"jsx-1941168962\\" />
   </form>

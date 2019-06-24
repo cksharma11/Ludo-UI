@@ -52,7 +52,7 @@ fastify.post('/createGame', (req, res) => {
 
 fastify.post('/joinGame', (req, res) => {
   const { playerName, gameId } = req.body;
-  fetch(`http://127.0.0.1:${API_PORT}/createGame`, {
+  fetch(`http://10.0.0.5:${API_PORT}/joinGame`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -61,16 +61,17 @@ fastify.post('/joinGame', (req, res) => {
       playerName,
       gameId
     })
-      .then((fetchedResponse) => fetchedResponse.json())
-      .then(({ playerId, hasJoined }) => {
-        if (hasJoined) {
-          res.setCookie('gameId', gameId);
-          res.setCookie('playerId', playerId);
-          res.send(JSON.stringify({ hasJoined: true }));
-        }
-        res.send(res.send(JSON.stringify({ hasJoined: false })));
-      })
-  });
+  })
+    .then((fetchedResponse) => fetchedResponse.json())
+    .then(({ hasJoined }) => {
+      res.send(hasJoined);
+      // if (hasJoined) {
+      //   res.setCookie('gameId', gameId);
+      //   res.setCookie('playerId', playerId);
+      //   res.send(JSON.stringify({ hasJoined: true }));
+      // }
+      // res.send(res.send(JSON.stringify({ hasJoined: false })));
+    });
 });
 
 const start = () => {
