@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WaitingArea should render properly 1`] = `
+"<div className=\\"jsx-2285421955 waiting-area\\">
+  <Header title=\\"Ludo\\" />
+  <Heading content={1} weight=\\"h1\\" />
+  <ul className=\\"jsx-2285421955 players-info\\">
+    <li className=\\"jsx-2285421955 player-name\\">
+      jhon
+       has joined
+    </li>
+  </ul>
+  <Loader />
+  <JSXStyle id=\\"2285421955\\" />
+</div>"
+`;
