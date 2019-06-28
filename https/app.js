@@ -1,5 +1,4 @@
 import fetch from 'isomorphic-unfetch';
-import regeneratorRuntime from 'regenerator-runtime';
 
 const makeCall = async (url, options) => {
   return fetch(url, options).then((res) => res);
