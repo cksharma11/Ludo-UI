@@ -10,11 +10,11 @@ import labels from '../../config/labels/labels';
 const WaitingArea = ({ gameId, players: initialPlayers }) => {
   const [players, setPlayers] = useState(initialPlayers);
 
-  const fetchPlayers = () => {
-    app
-      .get('/players')
-      .then((res) => res.json())
-      .then((joinedPlayers) => setPlayers(joinedPlayers));
+  const fetchPlayers = async () => {
+    const joinedPlayers = await app.post('http://localhost:4040/players', {
+      body: JSON.stringify({ gameId })
+    });
+    setPlayers(joinedPlayers);
   };
 
   setInterval(() => {
@@ -26,12 +26,13 @@ const WaitingArea = ({ gameId, players: initialPlayers }) => {
       <Header title={labels.GAME_TITLE} />
       <Heading content={gameId} weight="h1" />
       <ul className="players-info">
-        {players.map((player) => (
-          <li key={player.playerId} className="player-name">
-            {player.name}
-            {labels.HAS_JOINED_LABEL}
-          </li>
-        ))}
+        {players.length &&
+          players.map((player) => (
+            <li key={player.playerId} className="player-name">
+              {player.playerName}
+              {labels.HAS_JOINED_LABEL}
+            </li>
+          ))}
       </ul>
       <Loader />
       <style jsx>{WaitingAreaStyles}</style>
@@ -40,8 +41,12 @@ const WaitingArea = ({ gameId, players: initialPlayers }) => {
 };
 
 WaitingArea.propTypes = {
-  gameId: PropTypes.number.isRequired,
-  players: PropTypes.arrayOf(PropTypes.object).isRequired
+  gameId: PropTypes.number,
+  players: PropTypes.arrayOf(PropTypes.object)
 };
 
+WaitingArea.defaultProps = {
+  gameId: -1,
+  players: []
+};
 export default WaitingArea;

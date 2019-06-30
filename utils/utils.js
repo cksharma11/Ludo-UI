@@ -12,4 +12,11 @@ const parseCookie = (params) => {
   return cookies;
 };
 
-export { isWindow, parseCookie };
+const POST_CALL_CONFIG = {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  }
+};
+
+export { isWindow, parseCookie, POST_CALL_CONFIG };
