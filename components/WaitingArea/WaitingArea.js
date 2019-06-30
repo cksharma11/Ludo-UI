@@ -6,20 +6,24 @@ import Loader from '../ui/Loader/Loader';
 import Heading from '../ui/Heading/Heading';
 import WaitingAreaStyles from './WaitingArea.style';
 import labels from '../../config/labels/labels';
+import { API_URL } from '../../utils/utils';
 
 const WaitingArea = ({ gameId, players: initialPlayers }) => {
   const [players, setPlayers] = useState(initialPlayers);
 
   const fetchPlayers = async () => {
-    const joinedPlayers = await app.post('http://localhost:4040/players', {
+    const gameData = await app.post(`${API_URL}/players`, {
       body: JSON.stringify({ gameId })
     });
+    const { joinedPlayers, isStarted } = gameData;
+    console.log(gameData);
+    if (isStarted) {
+      window.location.href = '/game';
+    }
     setPlayers(joinedPlayers);
   };
 
-  setInterval(() => {
-    fetchPlayers();
-  }, 1000);
+  setTimeout(fetchPlayers, 1000);
 
   return (
     <div className="waiting-area">

@@ -9,6 +9,8 @@ const { API_PORT = 8080 } = process.env;
 const PORT = process.env.UI_PORT || 3033;
 const dev = process.env.NODE_ENV !== 'production';
 
+const API_URL = `http://localhost:${API_PORT}`;
+
 const POST_CALL_CONFIG = {
   method: 'POST',
   headers: {
@@ -37,7 +39,7 @@ fastify.register((plugin, options, next) => {
 
 fastify.post('/createGame', (req, res) => {
   const { hostName, numberOfPlayers } = req.body;
-  fetch(`http://localhost:${API_PORT}/createGame`, {
+  fetch(`${API_URL}/createGame`, {
     ...POST_CALL_CONFIG,
     body: JSON.stringify({
       hostName,
@@ -55,7 +57,7 @@ fastify.post('/createGame', (req, res) => {
 
 fastify.post('/joinGame', (req, res) => {
   const { playerName, gameId } = req.body;
-  fetch(`http://localhost:${API_PORT}/joinGame`, {
+  fetch(`${API_URL}/joinGame`, {
     ...POST_CALL_CONFIG,
     body: JSON.stringify({
       playerName,
@@ -64,7 +66,10 @@ fastify.post('/joinGame', (req, res) => {
   })
     .then((fetchedResponse) => fetchedResponse.json())
     .then(({ hasJoined }) => {
-      res.send(hasJoined);
+      if (hasJoined) {
+        return res.redirect('/waitingArea');
+      }
+      return res.redirect('/');
     });
 });
 
