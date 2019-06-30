@@ -6,7 +6,6 @@ exports[`WaitingArea should render properly 1`] = `
   <Heading content={1} weight=\\"h1\\" />
   <ul className=\\"jsx-2285421955 players-info\\">
     <li className=\\"jsx-2285421955 player-name\\">
-      jhon
        has joined
     </li>
   </ul>

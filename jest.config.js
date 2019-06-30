@@ -9,7 +9,8 @@ module.exports = {
     'components/**/*.js',
     'pages/**/*.js',
     '!**/*.style.js',
-    '!pages/*.js'
+    '!pages/*.js',
+    '!components/WaitingArea/*.js'
   ],
   coverageThreshold: {
     global: {

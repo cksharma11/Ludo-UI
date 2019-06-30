@@ -16,7 +16,6 @@ const WaitingArea = ({ gameId, players: initialPlayers }) => {
       body: JSON.stringify({ gameId })
     });
     const { joinedPlayers, isStarted } = gameData;
-    console.log(gameData);
     if (isStarted) {
       window.location.href = '/game';
     }

@@ -3,7 +3,7 @@
 exports[`JoinGame should render properly 1`] = `
 "<Fragment>
   <Header title=\\"Ludo\\" />
-  <form method=\\"POST\\" action=\\"joinGame\\" className=\\"jsx-1941168962\\">
+  <form method=\\"POST\\" action=\\"/joinGame\\" className=\\"jsx-1941168962\\">
     <div className=\\"jsx-1941168962 activity-header\\">
       Join Game
     </div>
