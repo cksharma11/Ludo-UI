@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Loader should render properly 1`] = `
-"<div className=\\"jsx-627297516 loader\\">
-  <JSXStyle id=\\"627297516\\">
+"<div className=\\"jsx-4019016705 loader\\">
+  <JSXStyle id=\\"4019016705\\">
     .
     l
     o
@@ -15,15 +15,16 @@ exports[`Loader should render properly 1`] = `
     s
     x
     -
-    6
-    2
-    7
-    2
+    4
+    0
+    1
     9
-    7
-    5
+    0
     1
     6
+    7
+    0
+    5
     {
     b
     o
@@ -33,7 +34,7 @@ exports[`Loader should render properly 1`] = `
     r
     :
     1
-    6
+    0
     p
     x
      
@@ -44,12 +45,12 @@ exports[`Loader should render properly 1`] = `
     d
      
     #
-    f
+    2
+    2
+    2
+    8
     3
-    f
-    3
-    f
-    3
+    1
     ;
     b
     o
@@ -81,7 +82,7 @@ exports[`Loader should render properly 1`] = `
     p
     :
     1
-    6
+    0
     p
     x
      
@@ -92,116 +93,115 @@ exports[`Loader should render properly 1`] = `
     d
      
     #
-    3
+    e
+    e
+    e
+    e
+    e
+    e
+    ;
+    w
+    i
+    d
+    t
+    h
+    :
+    5
+    0
+    p
+    x
+    ;
+    h
+    e
+    i
+    g
+    h
+    t
+    :
+    5
+    0
+    p
+    x
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    a
+    n
+    i
+    m
+    a
+    t
+    i
+    o
+    n
+    :
+    s
+    p
+    i
+    n
+     
+    2
+    s
+     
+    l
+    i
+    n
+    e
+    a
+    r
+     
+    i
+    n
+    f
+    i
+    n
+    i
+    t
+    e
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    a
+    n
+    i
+    m
+    a
+    t
+    i
+    o
+    n
+    :
+    s
+    p
+    i
+    n
+    -
+    j
+    s
+    x
+    -
     4
+    0
+    1
     9
-    8
-    d
-    b
-    ;
-    w
-    i
-    d
-    t
-    h
-    :
-    1
-    2
     0
-    p
-    x
-    ;
-    h
-    e
-    i
-    g
-    h
-    t
-    :
     1
-    2
-    0
-    p
-    x
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    a
-    n
-    i
-    m
-    a
-    t
-    i
-    o
-    n
-    :
-    s
-    p
-    i
-    n
-     
-    2
-    s
-     
-    l
-    i
-    n
-    e
-    a
-    r
-     
-    i
-    n
-    f
-    i
-    n
-    i
-    t
-    e
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    a
-    n
-    i
-    m
-    a
-    t
-    i
-    o
-    n
-    :
-    s
-    p
-    i
-    n
-    -
-    j
-    s
-    x
-    -
     6
-    2
     7
-    2
-    9
-    7
+    0
     5
-    1
-    6
      
     2
     s
@@ -241,15 +241,16 @@ exports[`Loader should render properly 1`] = `
     s
     x
     -
-    6
-    2
-    7
-    2
+    4
+    0
+    1
     9
-    7
-    5
+    0
     1
     6
+    7
+    0
+    5
      
     2
     s
@@ -299,15 +300,16 @@ exports[`Loader should render properly 1`] = `
     s
     x
     -
-    6
-    2
-    7
-    2
+    4
+    0
+    1
     9
-    7
-    5
+    0
     1
     6
+    7
+    0
+    5
     {
     0
     %
@@ -508,15 +510,16 @@ exports[`Loader should render properly 1`] = `
     s
     x
     -
-    6
-    2
-    7
-    2
+    4
+    0
+    1
     9
-    7
-    5
+    0
     1
     6
+    7
+    0
+    5
     {
     0
     %

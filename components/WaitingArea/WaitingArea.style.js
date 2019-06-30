@@ -1,13 +1,37 @@
 import css from 'styled-jsx/css';
+import colors from '../../config/styles/colors';
 
 const WaitingAreaStyles = css`
   .waiting-area {
+    display: flex;
+    flex-direction: column;
+    height: 720px;
+    width: 100%;
+    background: ${colors.palette1.shade2};
+    align-items: center;
+    padding: 20px;
+  }
+
+  .gameid {
+    font-size: 40px;
+    text-align: center;
+    color: black;
   }
 
   .player-info {
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
   }
 
-  .player-name {
+  ul {
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    width: 300px;
+    border-radius: 2px;
+    border: 1px solid black;
   }
 `;
 

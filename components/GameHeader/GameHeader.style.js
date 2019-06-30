@@ -1,4 +1,5 @@
 import css from 'styled-jsx/css';
+import colors from '../../config/styles/colors';
 
 const GameHeaderStyles = css`
   header {
@@ -6,8 +7,8 @@ const GameHeaderStyles = css`
     justify-content: space-between;
     padding: 20px;
     font-size: 20px;
-    background: #f3f3f3;
-    border-bottom: 1px solid black;
+    background: ${colors.palette1.shade1};
+    border-bottom: 1px solid white;
   }
 `;
 

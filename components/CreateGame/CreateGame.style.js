@@ -3,22 +3,24 @@ import colors from '../../config/styles/colors';
 
 const CreateGameStyles = css`
   form {
-    font-family: fantasy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
     display: flex;
-    height: 550px;
+    height: 660px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: ${colors.gray.shade2};
+    background: ${colors.palette1.shade2};
   }
 
   form > input {
     background: ${colors.gray.shade3};
-    font-family: fantasy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
     width: 200px;
     height: 30px;
     border: 1px solid ${colors.gray.shade1};
-    color: ${colors.orange.shade1};
+    color: black;
     text-align: center;
     line-height: 2;
     text-decoration: none;
@@ -28,7 +30,8 @@ const CreateGameStyles = css`
   }
 
   .activity-header {
-    font-family: fantasy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
   }
 `;

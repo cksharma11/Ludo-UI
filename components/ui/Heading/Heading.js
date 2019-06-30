@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import HeaderStyles from '../../Header/Header.style';
+import HeadingStyles from './Heading.style';
 
 const Heading = ({ content, weight }) => {
   return (
     <div className={weight}>
       {content}
-      <style jsx>{HeaderStyles}</style>
+      <style jsx>{HeadingStyles}</style>
     </div>
   );
 };

@@ -9,7 +9,8 @@ const HomeStyles = css`
   }
 
   .main-container {
-    font-family: fantasy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
     display: flex;
     height: 750px;
     border: 1px solid black;
@@ -17,23 +18,25 @@ const HomeStyles = css`
   }
 
   .options {
-    font-family: fantasy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
     display: flex;
-    height: 550px;
+    height: 660px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: ${colors.gray.shade2};
+    background: ${colors.palette1.shade2};
     padding: 100px;
   }
 
   a {
     border-radius: 2px;
-    font-family: fantasy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
     width: 200px;
     height: 30px;
     border: 1px solid ${colors.gray.shade1};
-    color: ${colors.orange.shade1};
+    color: black;
     text-align: center;
     line-height: 2;
     text-decoration: none;

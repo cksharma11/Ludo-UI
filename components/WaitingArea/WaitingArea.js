@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import app from '../../https/app';
 import Header from '../Header/Header';
 import Loader from '../ui/Loader/Loader';
-import Heading from '../ui/Heading/Heading';
 import WaitingAreaStyles from './WaitingArea.style';
 import labels from '../../config/labels/labels';
 import { API_URL } from '../../utils/utils';
@@ -25,21 +24,23 @@ const WaitingArea = ({ gameId, players: initialPlayers }) => {
   setTimeout(fetchPlayers, 1000);
 
   return (
-    <div className="waiting-area">
+    <Fragment>
       <Header title={labels.GAME_TITLE} />
-      <Heading content={gameId} weight="h1" />
-      <ul className="players-info">
-        {players.length &&
-          players.map((player) => (
-            <li key={player.playerId} className="player-name">
-              {player.playerName}
-              {labels.HAS_JOINED_LABEL}
-            </li>
-          ))}
-      </ul>
-      <Loader />
-      <style jsx>{WaitingAreaStyles}</style>
-    </div>
+      <div className="waiting-area">
+        <p className="gameid">{`Game Id : ${gameId}`}</p>
+        <ul className="players-info">
+          {players.length &&
+            players.map((player, index) => (
+              <li key={player.playerId}>
+                {index + 1}.{player.playerName}
+                {labels.HAS_JOINED_LABEL}
+              </li>
+            ))}
+        </ul>
+        <Loader />
+        <style jsx>{WaitingAreaStyles}</style>
+      </div>
+    </Fragment>
   );
 };
 

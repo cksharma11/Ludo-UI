@@ -1,4 +1,5 @@
 import css from 'styled-jsx/css';
+import colors from '../../config/styles/colors';
 
 const GameStyles = css`
   .body {
@@ -14,7 +15,7 @@ const GameStyles = css`
     display: flex;
     padding: 15px;
     align-items: center;
-    background: whitesmoke;
+    background: ${colors.palette1.shade2};
     flex-direction: column;
   }
 
@@ -27,38 +28,6 @@ const GameStyles = css`
     width: 630px;
     justify-content: space-between;
   }
-
-  ${'' /* .red {
-    background: rgb(231, 96, 96);
-  }
-
-  .green {
-    background: rgb(112, 236, 112);
-  }
-
-  .yellow {
-    background: rgb(230, 230, 91);
-  }
-
-  .blue {
-    background: rgb(84, 84, 235);
-  }
-
-  .dark_red {
-    background: red;
-  }
-
-  .dark_green {
-    background: green;
-  }
-
-  .dark_yellow {
-    background: yellow;
-  }
-
-  .dark_blue {
-    background: blue;
-  } */}
 
   .dice {
     width: 35px;

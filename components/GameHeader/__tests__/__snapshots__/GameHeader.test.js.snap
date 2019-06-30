@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`GameHeader should render properly 1`] = `
-"<header className=\\"jsx-3073511497\\">
-  <div id=\\"title\\" className=\\"jsx-3073511497\\" />
-  <div id=\\"player_name\\" className=\\"jsx-3073511497\\" />
-  <JSXStyle id=\\"3073511497\\">
+"<header className=\\"jsx-2734791176\\">
+  <div id=\\"title\\" className=\\"jsx-2734791176\\" />
+  <div id=\\"player_name\\" className=\\"jsx-2734791176\\" />
+  <JSXStyle id=\\"2734791176\\">
     h
     e
     a
@@ -16,16 +16,16 @@ exports[`GameHeader should render properly 1`] = `
     s
     x
     -
-    3
-    0
+    2
     7
     3
-    5
-    1
-    1
     4
-    9
     7
+    9
+    1
+    1
+    7
+    6
     {
     d
     i
@@ -257,7 +257,7 @@ exports[`GameHeader should render properly 1`] = `
     :
     #
     f
-    3
+    4
     f
     3
     f
@@ -287,11 +287,11 @@ exports[`GameHeader should render properly 1`] = `
     i
     d
      
-    b
-    l
-    a
-    c
-    k
+    w
+    h
+    i
+    t
+    e
     ;
     }
   </JSXStyle>

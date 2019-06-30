@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header should render properly 1`] = `
-"<div className=\\"jsx-4246811236 header\\">
+"<div className=\\"jsx-3909386657 header\\">
   title
-  <JSXStyle id=\\"4246811236\\">
+  <JSXStyle id=\\"3909386657\\">
     .
     h
     e
@@ -16,16 +16,16 @@ exports[`Header should render properly 1`] = `
     s
     x
     -
-    4
-    2
-    4
-    6
-    8
-    1
-    1
-    2
     3
+    9
+    0
+    9
+    3
+    8
     6
+    6
+    5
+    7
     {
     f
     o
@@ -39,13 +39,90 @@ exports[`Header should render properly 1`] = `
     l
     y
     :
-    f
+    &#39;
+    T
+    r
+    e
+    b
+    u
+    c
+    h
+    e
+    t
+     
+    M
+    S
+    &#39;
+    ,
+    &#39;
+    L
+    u
+    c
+    i
+    d
+    a
+     
+    S
     a
     n
-    t
-    a
     s
-    y
+     
+    U
+    n
+    i
+    c
+    o
+    d
+    e
+    &#39;
+    ,
+    &#39;
+    L
+    u
+    c
+    i
+    d
+    a
+     
+    G
+    r
+    a
+    n
+    d
+    e
+    &#39;
+    ,
+     
+    &#39;
+    L
+    u
+    c
+    i
+    d
+    a
+     
+    S
+    a
+    n
+    s
+    &#39;
+    ,
+    A
+    r
+    i
+    a
+    l
+    ,
+    s
+    a
+    n
+    s
+    -
+    s
+    e
+    r
+    i
+    f
     ;
     f
     o
@@ -57,7 +134,6 @@ exports[`Header should render properly 1`] = `
     z
     e
     :
-    1
     5
     0
     p
@@ -81,29 +157,48 @@ exports[`Header should render properly 1`] = `
     e
     r
     ;
-    w
-    i
+    p
+    a
     d
-    t
-    h
+    d
+    i
+    n
+    g
     :
     1
     0
-    0
-    %
-    ;
-    h
-    e
-    i
-    g
-    h
-    t
-    :
-    2
-    0
-    0
     p
     x
+    ;
+    b
+    o
+    r
+    d
+    e
+    r
+    -
+    b
+    o
+    t
+    t
+    o
+    m
+    :
+    1
+    p
+    x
+     
+    s
+    o
+    l
+    i
+    d
+     
+    w
+    h
+    i
+    t
+    e
     ;
     b
     a
@@ -117,12 +212,12 @@ exports[`Header should render properly 1`] = `
     d
     :
     #
-    2
-    2
-    2
-    8
+    f
+    4
+    f
     3
-    1
+    f
+    3
     ;
     c
     o
@@ -130,13 +225,11 @@ exports[`Header should render properly 1`] = `
     o
     r
     :
-    #
-    d
-    6
-    5
+    b
+    l
     a
-    3
-    1
+    c
+    k
     ;
     }
   </JSXStyle>

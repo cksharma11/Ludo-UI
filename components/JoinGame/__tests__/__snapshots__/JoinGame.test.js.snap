@@ -3,15 +3,15 @@
 exports[`JoinGame should render properly 1`] = `
 "<Fragment>
   <Header title=\\"Ludo\\" />
-  <form method=\\"POST\\" action=\\"/joinGame\\" className=\\"jsx-1941168962\\">
-    <div className=\\"jsx-1941168962 activity-header\\">
+  <form method=\\"POST\\" action=\\"/joinGame\\" className=\\"jsx-1016620996\\">
+    <div className=\\"jsx-1016620996 activity-header\\">
       Join Game
     </div>
-    <input type=\\"text\\" name=\\"playerName\\" placeholder=\\"name\\" className=\\"jsx-1941168962\\" />
-    <input type=\\"number\\" name=\\"gameId\\" placeholder=\\"gameId\\" className=\\"jsx-1941168962\\" />
-    <input type=\\"submit\\" value=\\"Join Game\\" className=\\"jsx-1941168962\\" />
+    <input type=\\"text\\" name=\\"playerName\\" placeholder=\\"name\\" className=\\"jsx-1016620996\\" />
+    <input type=\\"number\\" name=\\"gameId\\" placeholder=\\"gameId\\" className=\\"jsx-1016620996\\" />
+    <input type=\\"submit\\" value=\\"Join Game\\" className=\\"jsx-1016620996\\" />
   </form>
-  <JSXStyle id=\\"1941168962\\">
+  <JSXStyle id=\\"1016620996\\">
     f
     o
     r
@@ -22,15 +22,15 @@ exports[`JoinGame should render properly 1`] = `
     x
     -
     1
-    9
-    4
-    1
+    0
     1
     6
-    8
-    9
     6
     2
+    0
+    9
+    9
+    6
     {
     f
     o
@@ -44,13 +44,90 @@ exports[`JoinGame should render properly 1`] = `
     l
     y
     :
-    f
+    &#39;
+    T
+    r
+    e
+    b
+    u
+    c
+    h
+    e
+    t
+     
+    M
+    S
+    &#39;
+    ,
+    &#39;
+    L
+    u
+    c
+    i
+    d
+    a
+     
+    S
     a
     n
-    t
-    a
     s
-    y
+     
+    U
+    n
+    i
+    c
+    o
+    d
+    e
+    &#39;
+    ,
+    &#39;
+    L
+    u
+    c
+    i
+    d
+    a
+     
+    G
+    r
+    a
+    n
+    d
+    e
+    &#39;
+    ,
+     
+    &#39;
+    L
+    u
+    c
+    i
+    d
+    a
+     
+    S
+    a
+    n
+    s
+    &#39;
+    ,
+    A
+    r
+    i
+    a
+    l
+    ,
+    s
+    a
+    n
+    s
+    -
+    s
+    e
+    r
+    i
+    f
     ;
     d
     i
@@ -133,8 +210,8 @@ exports[`JoinGame should render properly 1`] = `
     h
     t
     :
-    5
-    5
+    6
+    6
     0
     p
     x
@@ -421,12 +498,12 @@ exports[`JoinGame should render properly 1`] = `
     d
     :
     #
-    3
-    9
-    3
-    e
-    4
-    6
+    d
+    f
+    d
+    f
+    d
+    f
     ;
     }
     f
@@ -439,15 +516,15 @@ exports[`JoinGame should render properly 1`] = `
     x
     -
     1
-    9
-    4
-    1
+    0
     1
     6
-    8
-    9
     6
     2
+    0
+    9
+    9
+    6
     &gt;
     i
     n
@@ -460,15 +537,15 @@ exports[`JoinGame should render properly 1`] = `
     x
     -
     1
-    9
-    4
-    1
+    0
     1
     6
-    8
-    9
     6
     2
+    0
+    9
+    9
+    6
     {
     b
     a
@@ -501,13 +578,90 @@ exports[`JoinGame should render properly 1`] = `
     l
     y
     :
-    f
+    &#39;
+    T
+    r
+    e
+    b
+    u
+    c
+    h
+    e
+    t
+     
+    M
+    S
+    &#39;
+    ,
+    &#39;
+    L
+    u
+    c
+    i
+    d
+    a
+     
+    S
     a
     n
-    t
-    a
     s
-    y
+     
+    U
+    n
+    i
+    c
+    o
+    d
+    e
+    &#39;
+    ,
+    &#39;
+    L
+    u
+    c
+    i
+    d
+    a
+     
+    G
+    r
+    a
+    n
+    d
+    e
+    &#39;
+    ,
+     
+    &#39;
+    L
+    u
+    c
+    i
+    d
+    a
+     
+    S
+    a
+    n
+    s
+    &#39;
+    ,
+    A
+    r
+    i
+    a
+    l
+    ,
+    s
+    a
+    n
+    s
+    -
+    s
+    e
+    r
+    i
+    f
     ;
     w
     i
@@ -564,13 +718,11 @@ exports[`JoinGame should render properly 1`] = `
     o
     r
     :
-    #
-    d
-    6
-    5
+    b
+    l
     a
-    3
-    1
+    c
+    k
     ;
     t
     e
@@ -718,15 +870,15 @@ exports[`JoinGame should render properly 1`] = `
     x
     -
     1
-    9
-    4
-    1
+    0
     1
     6
-    8
-    9
     6
     2
+    0
+    9
+    9
+    6
     {
     f
     o
@@ -740,13 +892,90 @@ exports[`JoinGame should render properly 1`] = `
     l
     y
     :
-    f
+    &#39;
+    T
+    r
+    e
+    b
+    u
+    c
+    h
+    e
+    t
+     
+    M
+    S
+    &#39;
+    ,
+    &#39;
+    L
+    u
+    c
+    i
+    d
+    a
+     
+    S
     a
     n
-    t
-    a
     s
-    y
+     
+    U
+    n
+    i
+    c
+    o
+    d
+    e
+    &#39;
+    ,
+    &#39;
+    L
+    u
+    c
+    i
+    d
+    a
+     
+    G
+    r
+    a
+    n
+    d
+    e
+    &#39;
+    ,
+     
+    &#39;
+    L
+    u
+    c
+    i
+    d
+    a
+     
+    S
+    a
+    n
+    s
+    &#39;
+    ,
+    A
+    r
+    i
+    a
+    l
+    ,
+    s
+    a
+    n
+    s
+    -
+    s
+    e
+    r
+    i
+    f
     ;
     f
     o
