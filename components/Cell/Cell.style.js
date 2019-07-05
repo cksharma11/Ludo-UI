@@ -40,6 +40,16 @@ const CellStyles = css`
   .dark_blue {
     background: blue;
   }
+
+  .safe-cell::before {
+    font-weight: bold;
+    color: navy;
+    font-size: 15px;
+    content: 'x';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export default CellStyles;

@@ -4,12 +4,12 @@ import CellRow from '../CellRow';
 
 describe('CellRow', () => {
   it('should render properly', () => {
-    const wrapper = shallow(<CellRow />);
+    const wrapper = shallow(<CellRow color="red" />);
     expect(wrapper.debug()).toMatchSnapshot();
   });
 
   it('should render properly with special id', () => {
-    const wrapper = shallow(<CellRow specialCells={[1]} id={1} />);
+    const wrapper = shallow(<CellRow color="red" />);
     expect(wrapper.debug()).toMatchSnapshot();
   });
 });

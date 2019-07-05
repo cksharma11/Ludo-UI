@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Cell should render properly 1`] = `
-"<div id={0} className=\\"jsx-1104580429 \\">
-  <JSXStyle id=\\"1104580429\\">
+"<div id={0} className=\\"jsx-613345661 \\">
+  <JSXStyle id=\\"613345661\\">
     .
     c
     e
@@ -13,16 +13,15 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
+    6
     1
-    1
-    0
+    3
+    3
     4
     5
-    8
-    0
-    4
-    2
-    9
+    6
+    6
+    1
     {
     d
     i
@@ -255,16 +254,15 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
+    6
     1
-    1
-    0
+    3
+    3
     4
     5
-    8
-    0
-    4
-    2
-    9
+    6
+    6
+    1
     {
     b
     a
@@ -304,16 +302,15 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
+    6
     1
-    1
-    0
+    3
+    3
     4
     5
-    8
-    0
-    4
-    2
-    9
+    6
+    6
+    1
     {
     b
     a
@@ -356,16 +353,15 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
+    6
     1
-    1
-    0
+    3
+    3
     4
     5
-    8
-    0
-    4
-    2
-    9
+    6
+    6
+    1
     {
     b
     a
@@ -405,16 +401,15 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
+    6
     1
-    1
-    0
+    3
+    3
     4
     5
-    8
-    0
-    4
-    2
-    9
+    6
+    6
+    1
     {
     b
     a
@@ -457,16 +452,15 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
+    6
     1
-    1
-    0
+    3
+    3
     4
     5
-    8
-    0
-    4
-    2
-    9
+    6
+    6
+    1
     {
     b
     a
@@ -500,16 +494,15 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
+    6
     1
-    1
-    0
+    3
+    3
     4
     5
-    8
-    0
-    4
-    2
-    9
+    6
+    6
+    1
     {
     b
     a
@@ -546,16 +539,15 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
+    6
     1
-    1
-    0
+    3
+    3
     4
     5
-    8
-    0
-    4
-    2
-    9
+    6
+    6
+    1
     {
     b
     a
@@ -591,16 +583,15 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
+    6
     1
-    1
-    0
+    3
+    3
     4
     5
-    8
-    0
-    4
-    2
-    9
+    6
+    6
+    1
     {
     b
     a
@@ -617,6 +608,361 @@ exports[`Cell should render properly 1`] = `
     l
     u
     e
+    ;
+    }
+    .
+    s
+    a
+    f
+    e
+    -
+    c
+    e
+    l
+    l
+    .
+    j
+    s
+    x
+    -
+    6
+    1
+    3
+    3
+    4
+    5
+    6
+    6
+    1
+    :
+    :
+    b
+    e
+    f
+    o
+    r
+    e
+    {
+    f
+    o
+    n
+    t
+    -
+    w
+    e
+    i
+    g
+    h
+    t
+    :
+    b
+    o
+    l
+    d
+    ;
+    c
+    o
+    l
+    o
+    r
+    :
+    n
+    a
+    v
+    y
+    ;
+    f
+    o
+    n
+    t
+    -
+    s
+    i
+    z
+    e
+    :
+    1
+    5
+    p
+    x
+    ;
+    c
+    o
+    n
+    t
+    e
+    n
+    t
+    :
+    &#39;
+    x
+    &#39;
+    ;
+    d
+    i
+    s
+    p
+    l
+    a
+    y
+    :
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    b
+    o
+    x
+    ;
+    d
+    i
+    s
+    p
+    l
+    a
+    y
+    :
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    f
+    l
+    e
+    x
+    ;
+    d
+    i
+    s
+    p
+    l
+    a
+    y
+    :
+    -
+    m
+    s
+    -
+    f
+    l
+    e
+    x
+    b
+    o
+    x
+    ;
+    d
+    i
+    s
+    p
+    l
+    a
+    y
+    :
+    f
+    l
+    e
+    x
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    b
+    o
+    x
+    -
+    p
+    a
+    c
+    k
+    :
+    c
+    e
+    n
+    t
+    e
+    r
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    j
+    u
+    s
+    t
+    i
+    f
+    y
+    -
+    c
+    o
+    n
+    t
+    e
+    n
+    t
+    :
+    c
+    e
+    n
+    t
+    e
+    r
+    ;
+    -
+    m
+    s
+    -
+    f
+    l
+    e
+    x
+    -
+    p
+    a
+    c
+    k
+    :
+    c
+    e
+    n
+    t
+    e
+    r
+    ;
+    j
+    u
+    s
+    t
+    i
+    f
+    y
+    -
+    c
+    o
+    n
+    t
+    e
+    n
+    t
+    :
+    c
+    e
+    n
+    t
+    e
+    r
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    a
+    l
+    i
+    g
+    n
+    -
+    i
+    t
+    e
+    m
+    s
+    :
+    c
+    e
+    n
+    t
+    e
+    r
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    b
+    o
+    x
+    -
+    a
+    l
+    i
+    g
+    n
+    :
+    c
+    e
+    n
+    t
+    e
+    r
+    ;
+    -
+    m
+    s
+    -
+    f
+    l
+    e
+    x
+    -
+    a
+    l
+    i
+    g
+    n
+    :
+    c
+    e
+    n
+    t
+    e
+    r
+    ;
+    a
+    l
+    i
+    g
+    n
+    -
+    i
+    t
+    e
+    m
+    s
+    :
+    c
+    e
+    n
+    t
+    e
+    r
     ;
     }
   </JSXStyle>

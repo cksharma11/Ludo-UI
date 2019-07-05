@@ -3,25 +3,25 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Cell from '../Cell/Cell';
 import CellRowStyles from './CellRow.style';
+import { safeCells, startingCells } from '../../config/data/cells-structure';
 
-const CellRow = ({
-  color,
-  specialCells,
-  className,
-  containerClass,
-  cellId
-}) => {
-  let cellIdentifire = cellId - 1;
+const CellRow = ({ color, className, containerClass }) => {
+  let cellIdentifire = startingCells[color] - 1;
+  const isSafeCell = (id) => safeCells[color].includes(id);
+  const isUniversalSafeCell = (id) => safeCells.universal.includes(id);
 
   const getClassName = (id) => {
-    return 'cell '.concat(specialCells.includes(id) ? color : '');
+    let cell = 'cell ';
+    if (isSafeCell(id)) cell += ` ${color}`;
+    if (isUniversalSafeCell(id)) cell += ` safe-cell`;
+    return cell;
   };
 
   return (
     <div className={containerClass}>
       {new Array(6).fill('').map(() => {
         return (
-          <div className={className}>
+          <div className={className} key={cellIdentifire}>
             <Cell
               id={++cellIdentifire}
               className={getClassName(cellIdentifire)}
@@ -44,18 +44,14 @@ const CellRow = ({
 
 CellRow.defaultProps = {
   color: '',
-  specialCells: [],
   className: '',
-  containerClass: '',
-  cellId: 0
+  containerClass: ''
 };
 
 CellRow.propTypes = {
   color: PropTypes.string,
-  specialCells: PropTypes.array,
   className: PropTypes.string,
-  containerClass: PropTypes.string,
-  cellId: PropTypes.number
+  containerClass: PropTypes.string
 };
 
 export default CellRow;

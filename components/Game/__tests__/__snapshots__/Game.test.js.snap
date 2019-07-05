@@ -6,19 +6,19 @@ exports[`Game should render properly 1`] = `
   <section className=\\"jsx-117880650 main_container\\">
     <section className=\\"jsx-117880650 player_row\\">
       <CoinContainer playerId=\\"player_1\\" color=\\"red\\" />
-      <CellRow className=\\"cell_row\\" cellId={1} color=\\"blue\\" containerClass=\\"\\" specialCells={{...}} />
+      <CellRow className=\\"cell_row\\" cellId={1} color=\\"blue\\" containerClass=\\"\\" />
       <CoinContainer playerId=\\"player_2\\" color=\\"blue\\" />
     </section>
     <div className=\\"jsx-117880650 board_middle_row\\">
-      <CellRow className=\\"cell_column\\" cellId={19} color=\\"red\\" containerClass=\\"cell_column_container\\" specialCells={{...}} />
+      <CellRow className=\\"cell_column\\" cellId={19} color=\\"red\\" containerClass=\\"cell_column_container\\" />
       <div className=\\"jsx-117880650 clear_coins_container\\">
         <div id=\\"dice\\" className=\\"jsx-117880650 dice\\" />
       </div>
-      <CellRow className=\\"cell_column\\" cellId={37} color=\\"yellow\\" containerClass=\\"cell_column_container\\" specialCells={{...}} />
+      <CellRow className=\\"cell_column\\" cellId={37} color=\\"yellow\\" containerClass=\\"cell_column_container\\" />
     </div>
     <section className=\\"jsx-117880650 player_row\\">
       <CoinContainer playerId=\\"player_3\\" color=\\"green\\" />
-      <CellRow className=\\"cell_row\\" cellId={55} color=\\"green\\" containerClass=\\"\\" specialCells={{...}} />
+      <CellRow className=\\"cell_row\\" cellId={55} color=\\"green\\" containerClass=\\"\\" />
       <CoinContainer playerId=\\"player_4\\" color=\\"yellow\\" />
     </section>
   </section>

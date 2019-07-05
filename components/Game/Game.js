@@ -16,7 +16,6 @@ const Game = () => {
             cellId={1}
             color="blue"
             containerClass=""
-            specialCells={[5, 6, 8, 11, 14, 17]}
           />
           <CoinContainer playerId="player_2" color="blue" />
         </section>
@@ -27,7 +26,6 @@ const Game = () => {
             cellId={19}
             color="red"
             containerClass="cell_column_container"
-            specialCells={[22, 23, 26, 29, 32, 35]}
           />
           <div className="clear_coins_container">
             <div id="dice" className="dice" />
@@ -37,7 +35,6 @@ const Game = () => {
             cellId={37}
             color="yellow"
             containerClass="cell_column_container"
-            specialCells={[38, 41, 44, 47, 50, 51]}
           />
         </div>
 
@@ -48,7 +45,6 @@ const Game = () => {
             cellId={55}
             color="green"
             containerClass=""
-            specialCells={[56, 59, 62, 65, 67, 68]}
           />
           <CoinContainer playerId="player_4" color="yellow" />
         </section>
