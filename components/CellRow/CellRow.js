@@ -19,36 +19,24 @@ const CellRow = ({
 
   return (
     <div className={containerClass}>
-      <div className={className}>
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-      </div>
-      <div className={className}>
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-      </div>
-      <div className={className}>
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-      </div>
-      <div className={className}>
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-      </div>
-      <div className={className}>
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-      </div>
-      <div className={className}>
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-        <Cell id={++cellIdentifire} className={getClassName(cellIdentifire)} />
-      </div>
+      {new Array(6).fill('').map(() => {
+        return (
+          <div className={className}>
+            <Cell
+              id={++cellIdentifire}
+              className={getClassName(cellIdentifire)}
+            />
+            <Cell
+              id={++cellIdentifire}
+              className={getClassName(cellIdentifire)}
+            />
+            <Cell
+              id={++cellIdentifire}
+              className={getClassName(cellIdentifire)}
+            />
+          </div>
+        );
+      })}
       <style jsx>{CellRowStyles}</style>
     </div>
   );
