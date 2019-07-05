@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CoinContainer should render properly 1`] = `
-"<div id={0} className=\\"jsx-572305444 coin_container\\">
-  <div className=\\"jsx-572305444 container-border\\">
-    <div className=\\"jsx-572305444 container_row\\">
-      <div id=\\"_coin_100\\" className=\\"jsx-572305444 coin \\" />
-      <div id=\\"_coin_200\\" className=\\"jsx-572305444 coin \\" />
+"<div id={0} className=\\"jsx-3994048068 coin_container\\">
+  <div className=\\"jsx-3994048068 container-border\\">
+    <div className=\\"jsx-3994048068 container_row\\">
+      <div id=\\"_coin_100\\" className=\\"jsx-3994048068 coin \\" />
+      <div id=\\"_coin_200\\" className=\\"jsx-3994048068 coin \\" />
     </div>
-    <div className=\\"jsx-572305444 container_row\\">
-      <div id=\\"_coin_300\\" className=\\"jsx-572305444 coin \\" />
-      <div id=\\"_coin_400\\" className=\\"jsx-572305444 coin \\" />
+    <div className=\\"jsx-3994048068 container_row\\">
+      <div id=\\"_coin_300\\" className=\\"jsx-3994048068 coin \\" />
+      <div id=\\"_coin_400\\" className=\\"jsx-3994048068 coin \\" />
     </div>
   </div>
-  <JSXStyle id=\\"572305444\\">
+  <JSXStyle id=\\"3994048068\\">
     .
     c
     o
@@ -33,15 +33,16 @@ exports[`CoinContainer should render properly 1`] = `
     s
     x
     -
-    5
-    7
-    2
     3
+    9
+    9
+    4
     0
-    5
     4
-    4
-    4
+    8
+    0
+    6
+    8
     {
     d
     i
@@ -399,15 +400,16 @@ exports[`CoinContainer should render properly 1`] = `
     s
     x
     -
-    5
-    7
-    2
     3
+    9
+    9
+    4
     0
-    5
     4
-    4
-    4
+    8
+    0
+    6
+    8
     {
     d
     i
@@ -524,15 +526,16 @@ exports[`CoinContainer should render properly 1`] = `
     s
     x
     -
-    5
-    7
-    2
     3
+    9
+    9
+    4
     0
-    5
     4
-    4
-    4
+    8
+    0
+    6
+    8
     {
     d
     i
@@ -792,15 +795,16 @@ exports[`CoinContainer should render properly 1`] = `
     s
     x
     -
-    5
-    7
-    2
     3
+    9
+    9
+    4
     0
-    5
     4
-    4
-    4
+    8
+    0
+    6
+    8
     {
     b
     a
@@ -840,15 +844,16 @@ exports[`CoinContainer should render properly 1`] = `
     s
     x
     -
-    5
-    7
-    2
     3
+    9
+    9
+    4
     0
-    5
     4
-    4
-    4
+    8
+    0
+    6
+    8
     {
     b
     a
@@ -891,15 +896,16 @@ exports[`CoinContainer should render properly 1`] = `
     s
     x
     -
-    5
-    7
-    2
     3
+    9
+    9
+    4
     0
-    5
     4
-    4
-    4
+    8
+    0
+    6
+    8
     {
     b
     a
@@ -939,15 +945,16 @@ exports[`CoinContainer should render properly 1`] = `
     s
     x
     -
-    5
-    7
-    2
     3
+    9
+    9
+    4
     0
-    5
     4
-    4
-    4
+    8
+    0
+    6
+    8
     {
     b
     a
@@ -990,15 +997,16 @@ exports[`CoinContainer should render properly 1`] = `
     s
     x
     -
-    5
-    7
-    2
     3
+    9
+    9
+    4
     0
-    5
     4
-    4
-    4
+    8
+    0
+    6
+    8
     {
     b
     a
@@ -1032,15 +1040,16 @@ exports[`CoinContainer should render properly 1`] = `
     s
     x
     -
-    5
-    7
-    2
     3
+    9
+    9
+    4
     0
-    5
     4
-    4
-    4
+    8
+    0
+    6
+    8
     {
     b
     a
@@ -1077,15 +1086,16 @@ exports[`CoinContainer should render properly 1`] = `
     s
     x
     -
-    5
-    7
-    2
     3
+    9
+    9
+    4
     0
-    5
     4
-    4
-    4
+    8
+    0
+    6
+    8
     {
     b
     a
@@ -1121,15 +1131,16 @@ exports[`CoinContainer should render properly 1`] = `
     s
     x
     -
-    5
-    7
-    2
     3
+    9
+    9
+    4
     0
-    5
     4
-    4
-    4
+    8
+    0
+    6
+    8
     {
     b
     a

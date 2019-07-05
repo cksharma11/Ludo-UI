@@ -48,8 +48,8 @@ const GameStyles = css`
   }
 
   .clear_coins_container {
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
     border-top: 63px solid rgb(84, 84, 235);
     border-bottom: 63px solid rgb(112, 236, 112);
     border-left: 63px solid rgb(231, 96, 96);

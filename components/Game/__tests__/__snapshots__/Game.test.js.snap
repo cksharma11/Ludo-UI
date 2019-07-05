@@ -1,28 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Game should render properly 1`] = `
-"<div className=\\"jsx-1386139080 body\\">
+"<div className=\\"jsx-117880650 body\\">
   <GameHeader title=\\"Ludo\\" playerName=\\"Chandan\\" />
-  <section className=\\"jsx-1386139080 main_container\\">
-    <section className=\\"jsx-1386139080 player_row\\">
+  <section className=\\"jsx-117880650 main_container\\">
+    <section className=\\"jsx-117880650 player_row\\">
       <CoinContainer playerId=\\"player_1\\" color=\\"red\\" />
       <CellRow className=\\"cell_row\\" cellId={1} color=\\"blue\\" containerClass=\\"\\" specialCells={{...}} />
       <CoinContainer playerId=\\"player_2\\" color=\\"blue\\" />
     </section>
-    <div className=\\"jsx-1386139080 board_middle_row\\">
+    <div className=\\"jsx-117880650 board_middle_row\\">
       <CellRow className=\\"cell_column\\" cellId={19} color=\\"red\\" containerClass=\\"cell_column_container\\" specialCells={{...}} />
-      <div className=\\"jsx-1386139080 clear_coins_container\\">
-        <div id=\\"dice\\" className=\\"jsx-1386139080 dice\\" />
+      <div className=\\"jsx-117880650 clear_coins_container\\">
+        <div id=\\"dice\\" className=\\"jsx-117880650 dice\\" />
       </div>
       <CellRow className=\\"cell_column\\" cellId={37} color=\\"yellow\\" containerClass=\\"cell_column_container\\" specialCells={{...}} />
     </div>
-    <section className=\\"jsx-1386139080 player_row\\">
+    <section className=\\"jsx-117880650 player_row\\">
       <CoinContainer playerId=\\"player_3\\" color=\\"green\\" />
       <CellRow className=\\"cell_row\\" cellId={55} color=\\"green\\" containerClass=\\"\\" specialCells={{...}} />
       <CoinContainer playerId=\\"player_4\\" color=\\"yellow\\" />
     </section>
   </section>
-  <JSXStyle id=\\"1386139080\\">
+  <JSXStyle id=\\"117880650\\">
     .
     b
     o
@@ -34,14 +34,13 @@ exports[`Game should render properly 1`] = `
     x
     -
     1
-    3
-    8
-    6
     1
-    3
-    9
-    0
+    7
     8
+    8
+    0
+    6
+    5
     0
     {
     w
@@ -205,14 +204,13 @@ exports[`Game should render properly 1`] = `
     x
     -
     1
-    3
-    8
-    6
     1
-    3
-    9
-    0
+    7
     8
+    8
+    0
+    6
+    5
     0
     {
     d
@@ -510,14 +508,13 @@ exports[`Game should render properly 1`] = `
     x
     -
     1
-    3
-    8
-    6
     1
-    3
-    9
-    0
+    7
     8
+    8
+    0
+    6
+    5
     0
     {
     d
@@ -618,14 +615,13 @@ exports[`Game should render properly 1`] = `
     x
     -
     1
-    3
-    8
-    6
     1
-    3
-    9
-    0
+    7
     8
+    8
+    0
+    6
+    5
     0
     {
     d
@@ -841,14 +837,13 @@ exports[`Game should render properly 1`] = `
     x
     -
     1
-    3
-    8
-    6
     1
-    3
-    9
-    0
+    7
     8
+    8
+    0
+    6
+    5
     0
     {
     w
@@ -1037,14 +1032,13 @@ exports[`Game should render properly 1`] = `
     x
     -
     1
-    3
-    8
-    6
     1
-    3
-    9
-    0
+    7
     8
+    8
+    0
+    6
+    5
     0
     {
     h
@@ -1213,14 +1207,13 @@ exports[`Game should render properly 1`] = `
     x
     -
     1
-    3
-    8
-    6
     1
-    3
-    9
-    0
+    7
     8
+    8
+    0
+    6
+    5
     0
     {
     w
@@ -1230,8 +1223,6 @@ exports[`Game should render properly 1`] = `
     h
     :
     0
-    p
-    x
     ;
     h
     e
@@ -1241,8 +1232,6 @@ exports[`Game should render properly 1`] = `
     t
     :
     0
-    p
-    x
     ;
     b
     o

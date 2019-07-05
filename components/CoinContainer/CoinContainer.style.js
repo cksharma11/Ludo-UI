@@ -9,7 +9,6 @@ const CoinContainerStyles = css`
     align-items: center;
     border: 1px solid black;
     background: #433e5d;
-    /* background: #3c4844; */
   }
 
   .container-border {
