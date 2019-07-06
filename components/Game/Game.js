@@ -30,9 +30,7 @@ const Game = () => {
             color="red"
             containerClass="cell_column_container"
           />
-          <div className="clear_coins_container">
-            <div id="dice" className="dice" />
-          </div>
+          <div className="clear_coins_container" />
           <CellRow
             className="cell_column"
             cellId={37}

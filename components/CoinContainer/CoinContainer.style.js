@@ -1,4 +1,5 @@
 import css from 'styled-jsx/css';
+import colors from '../../config/styles/colors';
 
 const CoinContainerStyles = css`
   .coin_container {
@@ -8,7 +9,7 @@ const CoinContainerStyles = css`
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-    background: #433e5d;
+    background: ${colors.gray.shade2};
   }
 
   .container-border {

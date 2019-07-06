@@ -1,32 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Game should render properly 1`] = `
-"<div className=\\"jsx-117880650 body\\">
+"<div className=\\"jsx-1772502628 body\\">
   <GameHeader title=\\"Ludo\\" playerName=\\"Chandan\\" />
-  <section className=\\"jsx-117880650 main_container\\">
-    <section className=\\"jsx-117880650 player_row\\">
+  <section className=\\"jsx-1772502628 main_container\\">
+    <section className=\\"jsx-1772502628 player_row\\">
       <Player name=\\"Arif\\" turn={true} coinData={{...}} />
-      <CoinContainer playerId=\\"player_1\\" color=\\"red\\" />
+      <CoinContainer playerId=\\"player_1\\" color=\\"red\\" deActiveCoins={{...}} />
       <CellRow className=\\"cell_row\\" cellId={1} color=\\"blue\\" containerClass=\\"\\" />
-      <CoinContainer playerId=\\"player_2\\" color=\\"blue\\" />
+      <CoinContainer playerId=\\"player_2\\" color=\\"blue\\" deActiveCoins={{...}} />
       <Player name=\\"Chandan\\" turn={false} coinData={{...}} />
     </section>
-    <div className=\\"jsx-117880650 board_middle_row\\">
+    <div className=\\"jsx-1772502628 board_middle_row\\">
       <CellRow className=\\"cell_column\\" cellId={19} color=\\"red\\" containerClass=\\"cell_column_container\\" />
-      <div className=\\"jsx-117880650 clear_coins_container\\">
-        <div id=\\"dice\\" className=\\"jsx-117880650 dice\\" />
-      </div>
+      <div className=\\"jsx-1772502628 clear_coins_container\\" />
       <CellRow className=\\"cell_column\\" cellId={37} color=\\"yellow\\" containerClass=\\"cell_column_container\\" />
     </div>
-    <section className=\\"jsx-117880650 player_row\\">
+    <section className=\\"jsx-1772502628 player_row\\">
       <Player name=\\"Goarav\\" turn={false} coinData={{...}} />
-      <CoinContainer playerId=\\"player_3\\" color=\\"green\\" />
+      <CoinContainer playerId=\\"player_3\\" color=\\"green\\" deActiveCoins={{...}} />
       <CellRow className=\\"cell_row\\" cellId={55} color=\\"green\\" containerClass=\\"\\" />
-      <CoinContainer playerId=\\"player_4\\" color=\\"yellow\\" />
+      <CoinContainer playerId=\\"player_4\\" color=\\"yellow\\" deActiveCoins={{...}} />
       <Player name=\\"Pankaj\\" turn={false} coinData={{...}} />
     </section>
   </section>
-  <JSXStyle id=\\"117880650\\">
+  <JSXStyle id=\\"1772502628\\">
     .
     b
     o
@@ -38,14 +36,15 @@ exports[`Game should render properly 1`] = `
     x
     -
     1
-    1
     7
-    8
-    8
-    0
-    6
+    7
+    2
     5
     0
+    2
+    6
+    2
+    8
     {
     w
     i
@@ -208,14 +207,15 @@ exports[`Game should render properly 1`] = `
     x
     -
     1
-    1
     7
-    8
-    8
-    0
-    6
+    7
+    2
     5
     0
+    2
+    6
+    2
+    8
     {
     d
     i
@@ -512,510 +512,324 @@ exports[`Game should render properly 1`] = `
     x
     -
     1
-    1
     7
-    8
-    8
-    0
-    6
-    5
-    0
-    {
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    b
-    o
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    f
-    l
-    e
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    b
-    o
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    f
-    l
-    e
-    x
-    ;
-    }
-    .
-    b
-    o
-    a
-    r
-    d
-    _
-    m
-    i
-    d
-    d
-    l
-    e
-    _
-    r
-    o
-    w
-    .
-    j
-    s
-    x
-    -
-    1
-    1
     7
-    8
-    8
-    0
-    6
-    5
-    0
-    {
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    b
-    o
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    f
-    l
-    e
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    b
-    o
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    f
-    l
-    e
-    x
-    ;
-    w
-    i
-    d
-    t
-    h
-    :
-    6
-    3
-    0
-    p
-    x
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    b
-    o
-    x
-    -
-    p
-    a
-    c
-    k
-    :
-    j
-    u
-    s
-    t
-    i
-    f
-    y
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    j
-    u
-    s
-    t
-    i
-    f
-    y
-    -
-    c
-    o
-    n
-    t
-    e
-    n
-    t
-    :
-    s
-    p
-    a
-    c
-    e
-    -
-    b
-    e
-    t
-    w
-    e
-    e
-    n
-    ;
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    -
-    p
-    a
-    c
-    k
-    :
-    j
-    u
-    s
-    t
-    i
-    f
-    y
-    ;
-    j
-    u
-    s
-    t
-    i
-    f
-    y
-    -
-    c
-    o
-    n
-    t
-    e
-    n
-    t
-    :
-    s
-    p
-    a
-    c
-    e
-    -
-    b
-    e
-    t
-    w
-    e
-    e
-    n
-    ;
-    }
-    .
-    d
-    i
-    c
-    e
-    .
-    j
-    s
-    x
-    -
-    1
-    1
-    7
-    8
-    8
-    0
-    6
-    5
-    0
-    {
-    w
-    i
-    d
-    t
-    h
-    :
-    3
-    5
-    p
-    x
-    ;
-    h
-    e
-    i
-    g
-    h
-    t
-    :
-    3
-    5
-    p
-    x
-    ;
-    m
-    a
-    r
-    g
-    i
-    n
-    :
-    -
-    1
-    8
-    p
-    x
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    a
-    l
-    i
-    g
-    n
-    -
-    s
-    e
-    l
-    f
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    -
-    i
-    t
-    e
-    m
-    -
-    a
-    l
-    i
-    g
-    n
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    a
-    l
-    i
-    g
-    n
-    -
-    s
-    e
-    l
-    f
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    b
-    o
-    r
-    d
-    e
-    r
-    :
-    1
-    p
-    x
-     
-    s
-    o
-    l
-    i
-    d
-     
-    b
-    l
-    a
-    c
-    k
-    ;
-    b
-    o
-    r
-    d
-    e
-    r
-    -
-    r
-    a
-    d
-    i
-    u
-    s
-    :
     2
+    5
+    0
+    2
+    6
+    2
+    8
+    {
+    d
+    i
+    s
+    p
+    l
+    a
+    y
+    :
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    b
+    o
+    x
+    ;
+    d
+    i
+    s
+    p
+    l
+    a
+    y
+    :
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    f
+    l
+    e
+    x
+    ;
+    d
+    i
+    s
+    p
+    l
+    a
+    y
+    :
+    -
+    m
+    s
+    -
+    f
+    l
+    e
+    x
+    b
+    o
+    x
+    ;
+    d
+    i
+    s
+    p
+    l
+    a
+    y
+    :
+    f
+    l
+    e
+    x
+    ;
+    }
+    .
+    b
+    o
+    a
+    r
+    d
+    _
+    m
+    i
+    d
+    d
+    l
+    e
+    _
+    r
+    o
+    w
+    .
+    j
+    s
+    x
+    -
+    1
+    7
+    7
+    2
+    5
+    0
+    2
+    6
+    2
+    8
+    {
+    d
+    i
+    s
+    p
+    l
+    a
+    y
+    :
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    b
+    o
+    x
+    ;
+    d
+    i
+    s
+    p
+    l
+    a
+    y
+    :
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    f
+    l
+    e
+    x
+    ;
+    d
+    i
+    s
+    p
+    l
+    a
+    y
+    :
+    -
+    m
+    s
+    -
+    f
+    l
+    e
+    x
+    b
+    o
+    x
+    ;
+    d
+    i
+    s
+    p
+    l
+    a
+    y
+    :
+    f
+    l
+    e
+    x
+    ;
+    w
+    i
+    d
+    t
+    h
+    :
+    6
+    3
+    0
     p
     x
     ;
+    -
+    w
+    e
     b
+    k
+    i
+    t
+    -
+    b
+    o
+    x
+    -
+    p
     a
     c
     k
-    g
-    r
-    o
-    u
-    n
-    d
     :
-    #
+    j
+    u
+    s
+    t
+    i
+    f
+    y
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    j
+    u
+    s
+    t
+    i
+    f
+    y
+    -
+    c
+    o
+    n
+    t
+    e
+    n
+    t
+    :
+    s
+    p
+    a
     c
     e
+    -
+    b
+    e
+    t
+    w
+    e
+    e
+    n
+    ;
+    -
+    m
+    s
+    -
     f
-    f
+    l
+    e
+    x
+    -
+    p
     a
-    2
+    c
+    k
+    :
+    j
+    u
+    s
+    t
+    i
+    f
+    y
+    ;
+    j
+    u
+    s
+    t
+    i
+    f
+    y
+    -
+    c
+    o
+    n
+    t
+    e
+    n
+    t
+    :
+    s
+    p
+    a
+    c
+    e
+    -
+    b
+    e
+    t
+    w
+    e
+    e
+    n
     ;
     }
     .
@@ -1036,14 +850,15 @@ exports[`Game should render properly 1`] = `
     x
     -
     1
-    1
     7
-    8
-    8
-    0
-    6
+    7
+    2
     5
     0
+    2
+    6
+    2
+    8
     {
     h
     e
@@ -1211,14 +1026,15 @@ exports[`Game should render properly 1`] = `
     x
     -
     1
-    1
     7
-    8
-    8
-    0
-    6
+    7
+    2
     5
     0
+    2
+    6
+    2
+    8
     {
     w
     i

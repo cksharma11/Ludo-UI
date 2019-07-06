@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Cell should render properly 1`] = `
-"<div id={0} className=\\"jsx-2464340296 \\">
-  <JSXStyle id=\\"2464340296\\">
+"<div id={0} className=\\"jsx-4256424520 \\">
+  <JSXStyle id=\\"4256424520\\">
     .
     c
     e
@@ -13,16 +13,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
     4
+    2
+    5
     6
     4
-    3
+    2
     4
+    5
+    2
     0
-    2
-    9
-    6
     {
     d
     i
@@ -219,6 +219,23 @@ exports[`Cell should render properly 1`] = `
     t
     e
     r
+    ;
+    b
+    a
+    c
+    k
+    g
+    r
+    o
+    u
+    n
+    d
+    :
+    w
+    h
+    i
+    t
+    e
     ;
     b
     o
@@ -238,12 +255,12 @@ exports[`Cell should render properly 1`] = `
     d
      
     #
-    4
     3
+    9
     3
     e
-    5
-    d
+    4
+    6
     ;
     }
     .
@@ -255,16 +272,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
     4
+    2
+    5
     6
     4
-    3
+    2
     4
+    5
+    2
     0
-    2
-    9
-    6
     {
     b
     a
@@ -304,16 +321,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
     4
+    2
+    5
     6
     4
-    3
+    2
     4
+    5
+    2
     0
-    2
-    9
-    6
     {
     b
     a
@@ -356,16 +373,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
     4
+    2
+    5
     6
     4
-    3
+    2
     4
+    5
+    2
     0
-    2
-    9
-    6
     {
     b
     a
@@ -405,16 +422,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
     4
+    2
+    5
     6
     4
-    3
+    2
     4
+    5
+    2
     0
-    2
-    9
-    6
     {
     b
     a
@@ -457,16 +474,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
     4
+    2
+    5
     6
     4
-    3
+    2
     4
+    5
+    2
     0
-    2
-    9
-    6
     {
     b
     a
@@ -500,16 +517,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
     4
+    2
+    5
     6
     4
-    3
+    2
     4
+    5
+    2
     0
-    2
-    9
-    6
     {
     b
     a
@@ -546,16 +563,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
     4
+    2
+    5
     6
     4
-    3
+    2
     4
+    5
+    2
     0
-    2
-    9
-    6
     {
     b
     a
@@ -591,16 +608,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
     4
+    2
+    5
     6
     4
-    3
+    2
     4
+    5
+    2
     0
-    2
-    9
-    6
     {
     b
     a
@@ -634,16 +651,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
     4
+    2
+    5
     6
     4
-    3
+    2
     4
+    5
+    2
     0
-    2
-    9
-    6
     {
     t
     o
@@ -680,16 +697,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
     4
+    2
+    5
     6
     4
-    3
+    2
     4
+    5
+    2
     0
-    2
-    9
-    6
     :
     b
     e
@@ -713,16 +730,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
     4
+    2
+    5
     6
     4
-    3
+    2
     4
+    5
+    2
     0
-    2
-    9
-    6
     :
     a
     f
@@ -790,16 +807,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
     4
+    2
+    5
     6
     4
-    3
+    2
     4
+    5
+    2
     0
-    2
-    9
-    6
     :
     b
     e
@@ -908,16 +925,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
     4
+    2
+    5
     6
     4
-    3
+    2
     4
+    5
+    2
     0
-    2
-    9
-    6
     :
     a
     f

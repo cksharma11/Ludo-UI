@@ -6,7 +6,7 @@ const bodyParser = require('fastify-formbody');
 const routes = require('./routes/routes');
 
 const { API_PORT = 8080 } = process.env;
-const PORT = process.env.UI_PORT || 3033;
+const PORT = process.env.UI_PORT || 3030;
 const dev = process.env.NODE_ENV !== 'production';
 
 const API_URL = `http://localhost:${API_PORT}`;
@@ -74,8 +74,10 @@ fastify.post('/joinGame', (req, res) => {
 });
 
 const start = () => {
-  // eslint-disable-next-line no-console
-  fastify.listen(PORT, () => console.log(`App Server is running on ${PORT}`));
+  fastify.listen(PORT, '0.0.0.0', () =>
+    // eslint-disable-next-line no-console
+    console.log(`App Server is running on ${PORT}`)
+  );
 };
 
 start();

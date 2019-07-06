@@ -29,16 +29,6 @@ const GameStyles = css`
     justify-content: space-between;
   }
 
-  .dice {
-    width: 35px;
-    height: 35px;
-    margin: -18px;
-    align-self: center;
-    border: 1px solid black;
-    border-radius: 2px;
-    background: #ceffa2;
-  }
-
   .coin_symbol {
     height: 50%;
     width: 50%;

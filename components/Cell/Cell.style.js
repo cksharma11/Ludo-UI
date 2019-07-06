@@ -1,4 +1,5 @@
 import css from 'styled-jsx/css';
+import colors from '../../config/styles/colors';
 
 const CellStyles = css`
   .cell {
@@ -6,7 +7,8 @@ const CellStyles = css`
     width: 40px;
     height: 40px;
     justify-content: center;
-    border: 1px solid #433e5d;
+    background: white;
+    border: 1px solid ${colors.gray.shade2};
   }
 
   .red {

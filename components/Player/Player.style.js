@@ -61,7 +61,7 @@ const PlayerStyles = css`
   }
 
   .active {
-    background: ${colors.gray.shade3};
+    background: white;
   }
 
   .clear {
