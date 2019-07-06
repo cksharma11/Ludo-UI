@@ -3,15 +3,19 @@ import PropTypes from 'prop-types';
 import Dice from '../Dice/Dice';
 import PlayerStyles from './Player.style';
 
-const Player = ({ name, turn, coinData }) => {
+const Player = ({ name, turn, coinData, alignment }) => {
   return (
-    <div className={turn ? 'container active' : 'container'}>
-      <div className="left">
+    <div
+      className={
+        turn ? `container ${alignment} active` : `container ${alignment}`
+      }
+    >
+      <div className="left-section">
         <div className="player-name">{name}</div>
         <div className="stat">0 coins cleared</div>
         {turn && <Dice />}
       </div>
-      <div className="right">
+      <div className="right-section">
         {coinData.map((coin) => {
           return (
             <div
@@ -50,13 +54,15 @@ Player.defaultProps = {
       color: 'red',
       isCleared: false
     }
-  ]
+  ],
+  alignment: 'right'
 };
 
 Player.propTypes = {
   name: PropTypes.string,
   turn: PropTypes.bool,
-  coinData: PropTypes.arrayOf(PropTypes.object)
+  coinData: PropTypes.arrayOf(PropTypes.object),
+  alignment: PropTypes.string
 };
 
 export default Player;

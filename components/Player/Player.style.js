@@ -36,8 +36,18 @@ const PlayerStyles = css`
     background: rgb(84, 84, 235);
   }
 
-  .left,
+  .left {
+    position: absolute;
+    left: 0;
+  }
+
   .right {
+    position: absolute;
+    right: 0;
+  }
+
+  .left-section,
+  .right-section {
     display: flex;
     flex-direction: column;
   }

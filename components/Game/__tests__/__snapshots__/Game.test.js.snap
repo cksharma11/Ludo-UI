@@ -2,14 +2,14 @@
 
 exports[`Game should render properly 1`] = `
 "<div className=\\"jsx-1772502628 body\\">
-  <GameHeader title=\\"Ludo\\" playerName=\\"Chandan\\" />
+  <GameHeader title=\\"Ludo\\" playerName=\\"test1\\" />
   <section className=\\"jsx-1772502628 main_container\\">
     <section className=\\"jsx-1772502628 player_row\\">
-      <Player name=\\"Arif\\" turn={true} coinData={{...}} />
+      <Player name=\\"test1\\" turn={true} alignment=\\"left\\" coinData={{...}} />
       <CoinContainer playerId=\\"player_1\\" color=\\"red\\" deActiveCoins={{...}} />
       <CellRow className=\\"cell_row\\" cellId={1} color=\\"blue\\" containerClass=\\"\\" />
       <CoinContainer playerId=\\"player_2\\" color=\\"blue\\" deActiveCoins={{...}} />
-      <Player name=\\"Chandan\\" turn={false} coinData={{...}} />
+      <Player name=\\"test2\\" turn={false} alignment=\\"right\\" coinData={{...}} />
     </section>
     <div className=\\"jsx-1772502628 board_middle_row\\">
       <CellRow className=\\"cell_column\\" cellId={19} color=\\"red\\" containerClass=\\"cell_column_container\\" />
@@ -17,11 +17,11 @@ exports[`Game should render properly 1`] = `
       <CellRow className=\\"cell_column\\" cellId={37} color=\\"yellow\\" containerClass=\\"cell_column_container\\" />
     </div>
     <section className=\\"jsx-1772502628 player_row\\">
-      <Player name=\\"Goarav\\" turn={false} coinData={{...}} />
+      <Player name=\\"test3\\" turn={false} alignment=\\"left\\" coinData={{...}} />
       <CoinContainer playerId=\\"player_3\\" color=\\"green\\" deActiveCoins={{...}} />
       <CellRow className=\\"cell_row\\" cellId={55} color=\\"green\\" containerClass=\\"\\" />
       <CoinContainer playerId=\\"player_4\\" color=\\"yellow\\" deActiveCoins={{...}} />
-      <Player name=\\"Pankaj\\" turn={false} coinData={{...}} />
+      <Player name=\\"test4\\" turn={false} alignment=\\"right\\" coinData={{...}} />
     </section>
   </section>
   <JSXStyle id=\\"1772502628\\">
