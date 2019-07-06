@@ -41,14 +41,21 @@ const CellStyles = css`
     background: blue;
   }
 
-  .safe-cell::before {
-    font-weight: bold;
-    color: navy;
-    font-size: 15px;
-    content: 'x';
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .safe-cell {
+    top: 32px;
+    opacity: 1;
+  }
+  .safe-cell:before,
+  .safe-cell:after {
+    content: ' ';
+    width: 2px;
+    background-color: #333;
+  }
+  .safe-cell:before {
+    transform: rotate(45deg);
+  }
+  .safe-cell:after {
+    transform: rotate(-45deg);
   }
 `;
 

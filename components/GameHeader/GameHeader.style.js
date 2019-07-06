@@ -8,7 +8,7 @@ const GameHeaderStyles = css`
     padding: 20px;
     font-size: 20px;
     background: ${colors.palette1.shade1};
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #ccc1c1;
   }
 `;
 

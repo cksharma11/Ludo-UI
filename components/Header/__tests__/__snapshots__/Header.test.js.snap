@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header should render properly 1`] = `
-"<div className=\\"jsx-3909386657 header\\">
+"<div className=\\"jsx-1281771699 header\\">
   title
-  <JSXStyle id=\\"3909386657\\">
+  <JSXStyle id=\\"1281771699\\">
     .
     h
     e
@@ -16,16 +16,16 @@ exports[`Header should render properly 1`] = `
     s
     x
     -
-    3
-    9
-    0
-    9
-    3
+    1
+    2
     8
-    6
-    6
-    5
+    1
     7
+    7
+    1
+    6
+    9
+    9
     {
     f
     o
@@ -194,11 +194,13 @@ exports[`Header should render properly 1`] = `
     i
     d
      
-    w
-    h
-    i
-    t
-    e
+    #
+    c
+    c
+    c
+    1
+    c
+    1
     ;
     b
     a

@@ -5,9 +5,11 @@ exports[`Game should render properly 1`] = `
   <GameHeader title=\\"Ludo\\" playerName=\\"Chandan\\" />
   <section className=\\"jsx-117880650 main_container\\">
     <section className=\\"jsx-117880650 player_row\\">
+      <Player name=\\"Arif\\" turn={true} coinData={{...}} />
       <CoinContainer playerId=\\"player_1\\" color=\\"red\\" />
       <CellRow className=\\"cell_row\\" cellId={1} color=\\"blue\\" containerClass=\\"\\" />
       <CoinContainer playerId=\\"player_2\\" color=\\"blue\\" />
+      <Player name=\\"Chandan\\" turn={false} coinData={{...}} />
     </section>
     <div className=\\"jsx-117880650 board_middle_row\\">
       <CellRow className=\\"cell_column\\" cellId={19} color=\\"red\\" containerClass=\\"cell_column_container\\" />
@@ -17,9 +19,11 @@ exports[`Game should render properly 1`] = `
       <CellRow className=\\"cell_column\\" cellId={37} color=\\"yellow\\" containerClass=\\"cell_column_container\\" />
     </div>
     <section className=\\"jsx-117880650 player_row\\">
+      <Player name=\\"Goarav\\" turn={false} coinData={{...}} />
       <CoinContainer playerId=\\"player_3\\" color=\\"green\\" />
       <CellRow className=\\"cell_row\\" cellId={55} color=\\"green\\" containerClass=\\"\\" />
       <CoinContainer playerId=\\"player_4\\" color=\\"yellow\\" />
+      <Player name=\\"Pankaj\\" turn={false} coinData={{...}} />
     </section>
   </section>
   <JSXStyle id=\\"117880650\\">

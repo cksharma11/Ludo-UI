@@ -8,7 +8,7 @@ const HeaderStyles = css`
     font-size: 50px;
     text-align: center;
     padding: 10px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #ccc1c1;
     background: ${colors.palette1.shade1};
     color: black;
   }

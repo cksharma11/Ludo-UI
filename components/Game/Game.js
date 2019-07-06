@@ -3,6 +3,7 @@ import CoinContainer from '../CoinContainer/CoinContainer';
 import GameHeader from '../GameHeader/GameHeader';
 import CellRow from '../CellRow/CellRow';
 import GameStyles from './Game.style';
+import Player from '../Player/Player';
 
 const Game = () => {
   return (
@@ -10,6 +11,7 @@ const Game = () => {
       <GameHeader title="Ludo" playerName="Chandan" />
       <section className="main_container">
         <section className="player_row">
+          <Player name="Arif" turn />
           <CoinContainer playerId="player_1" color="red" />
           <CellRow
             className="cell_row"
@@ -18,6 +20,7 @@ const Game = () => {
             containerClass=""
           />
           <CoinContainer playerId="player_2" color="blue" />
+          <Player name="Chandan" turn={false} />
         </section>
 
         <div className="board_middle_row">
@@ -37,8 +40,8 @@ const Game = () => {
             containerClass="cell_column_container"
           />
         </div>
-
         <section className="player_row">
+          <Player name="Goarav" turn={false} />
           <CoinContainer playerId="player_3" color="green" />
           <CellRow
             className="cell_row"
@@ -47,6 +50,7 @@ const Game = () => {
             containerClass=""
           />
           <CoinContainer playerId="player_4" color="yellow" />
+          <Player name="Pankaj" turn={false} />
         </section>
       </section>
       <style jsx>{GameStyles}</style>
