@@ -37,11 +37,13 @@ const PlayerStyles = css`
   }
 
   .left {
+    height: 190px;
     position: absolute;
     left: 0;
   }
 
   .right {
+    height: 190px;
     position: absolute;
     right: 0;
   }

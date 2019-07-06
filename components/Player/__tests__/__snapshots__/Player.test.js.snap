@@ -1,30 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Player should render properly when turn is false 1`] = `
-"<div className=\\"jsx-2303472552 container undefined\\">
-  <div className=\\"jsx-2303472552 left-section\\">
-    <div className=\\"jsx-2303472552 player-name\\">
+"<div className=\\"jsx-2629934184 container right\\">
+  <div className=\\"jsx-2629934184 left-section\\">
+    <div className=\\"jsx-2629934184 player-name\\">
       dummy
     </div>
-    <div className=\\"jsx-2303472552 stat\\">
+    <div className=\\"jsx-2629934184 stat\\">
       0 coins cleared
     </div>
   </div>
-  <div className=\\"jsx-2303472552 right-section\\">
-    <div className=\\"jsx-2303472552 coin-info\\">
-      <div className=\\"jsx-2303472552 box red\\" />
+  <div className=\\"jsx-2629934184 right-section\\">
+    <div className=\\"jsx-2629934184 coin-info\\">
+      <div className=\\"jsx-2629934184 box red\\" />
     </div>
-    <div className=\\"jsx-2303472552 coin-info\\">
-      <div className=\\"jsx-2303472552 box\\" />
+    <div className=\\"jsx-2629934184 coin-info\\">
+      <div className=\\"jsx-2629934184 box\\" />
     </div>
-    <div className=\\"jsx-2303472552 coin-info\\">
-      <div className=\\"jsx-2303472552 box\\" />
+    <div className=\\"jsx-2629934184 coin-info\\">
+      <div className=\\"jsx-2629934184 box\\" />
     </div>
-    <div className=\\"jsx-2303472552 coin-info\\">
-      <div className=\\"jsx-2303472552 box\\" />
+    <div className=\\"jsx-2629934184 coin-info\\">
+      <div className=\\"jsx-2629934184 box\\" />
     </div>
   </div>
-  <JSXStyle id=\\"2303472552\\">
+  <JSXStyle id=\\"2629934184\\">
     .
     c
     o
@@ -41,15 +41,15 @@ exports[`Player should render properly when turn is false 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     d
     i
@@ -344,15 +344,15 @@ exports[`Player should render properly when turn is false 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     f
     o
@@ -381,15 +381,15 @@ exports[`Player should render properly when turn is false 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     f
     o
@@ -417,15 +417,15 @@ exports[`Player should render properly when turn is false 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     b
     a
@@ -466,15 +466,15 @@ exports[`Player should render properly when turn is false 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     b
     a
@@ -518,15 +518,15 @@ exports[`Player should render properly when turn is false 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     b
     a
@@ -567,15 +567,15 @@ exports[`Player should render properly when turn is false 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     b
     a
@@ -615,16 +615,29 @@ exports[`Player should render properly when turn is false 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
+    h
+    e
+    i
+    g
+    h
+    t
+    :
+    1
+    9
+    0
+    p
+    x
+    ;
     p
     o
     s
@@ -663,16 +676,29 @@ exports[`Player should render properly when turn is false 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
+    h
+    e
+    i
+    g
+    h
+    t
+    :
+    1
+    9
+    0
+    p
+    x
+    ;
     p
     o
     s
@@ -719,15 +745,15 @@ exports[`Player should render properly when turn is false 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     ,
     .
     r
@@ -749,15 +775,15 @@ exports[`Player should render properly when turn is false 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     d
     i
@@ -922,15 +948,15 @@ exports[`Player should render properly when turn is false 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     w
     i
@@ -997,15 +1023,15 @@ exports[`Player should render properly when turn is false 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     d
     i
@@ -1327,15 +1353,15 @@ exports[`Player should render properly when turn is false 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     t
     e
@@ -1386,15 +1412,15 @@ exports[`Player should render properly when turn is false 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     b
     a
@@ -1426,15 +1452,15 @@ exports[`Player should render properly when turn is false 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     b
     a
@@ -1459,31 +1485,31 @@ exports[`Player should render properly when turn is false 1`] = `
 `;
 
 exports[`Player should render properly when turn is true 1`] = `
-"<div className=\\"jsx-2303472552 container undefined active\\">
-  <div className=\\"jsx-2303472552 left-section\\">
-    <div className=\\"jsx-2303472552 player-name\\">
+"<div className=\\"jsx-2629934184 container right active\\">
+  <div className=\\"jsx-2629934184 left-section\\">
+    <div className=\\"jsx-2629934184 player-name\\">
       dummy
     </div>
-    <div className=\\"jsx-2303472552 stat\\">
+    <div className=\\"jsx-2629934184 stat\\">
       0 coins cleared
     </div>
     <Dice diceValue={1} />
   </div>
-  <div className=\\"jsx-2303472552 right-section\\">
-    <div className=\\"jsx-2303472552 coin-info\\">
-      <div className=\\"jsx-2303472552 box red\\" />
+  <div className=\\"jsx-2629934184 right-section\\">
+    <div className=\\"jsx-2629934184 coin-info\\">
+      <div className=\\"jsx-2629934184 box red\\" />
     </div>
-    <div className=\\"jsx-2303472552 coin-info\\">
-      <div className=\\"jsx-2303472552 box\\" />
+    <div className=\\"jsx-2629934184 coin-info\\">
+      <div className=\\"jsx-2629934184 box\\" />
     </div>
-    <div className=\\"jsx-2303472552 coin-info\\">
-      <div className=\\"jsx-2303472552 box\\" />
+    <div className=\\"jsx-2629934184 coin-info\\">
+      <div className=\\"jsx-2629934184 box\\" />
     </div>
-    <div className=\\"jsx-2303472552 coin-info\\">
-      <div className=\\"jsx-2303472552 box\\" />
+    <div className=\\"jsx-2629934184 coin-info\\">
+      <div className=\\"jsx-2629934184 box\\" />
     </div>
   </div>
-  <JSXStyle id=\\"2303472552\\">
+  <JSXStyle id=\\"2629934184\\">
     .
     c
     o
@@ -1500,15 +1526,15 @@ exports[`Player should render properly when turn is true 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     d
     i
@@ -1803,15 +1829,15 @@ exports[`Player should render properly when turn is true 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     f
     o
@@ -1840,15 +1866,15 @@ exports[`Player should render properly when turn is true 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     f
     o
@@ -1876,15 +1902,15 @@ exports[`Player should render properly when turn is true 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     b
     a
@@ -1925,15 +1951,15 @@ exports[`Player should render properly when turn is true 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     b
     a
@@ -1977,15 +2003,15 @@ exports[`Player should render properly when turn is true 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     b
     a
@@ -2026,15 +2052,15 @@ exports[`Player should render properly when turn is true 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     b
     a
@@ -2074,16 +2100,29 @@ exports[`Player should render properly when turn is true 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
+    h
+    e
+    i
+    g
+    h
+    t
+    :
+    1
+    9
+    0
+    p
+    x
+    ;
     p
     o
     s
@@ -2122,16 +2161,29 @@ exports[`Player should render properly when turn is true 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
+    h
+    e
+    i
+    g
+    h
+    t
+    :
+    1
+    9
+    0
+    p
+    x
+    ;
     p
     o
     s
@@ -2178,15 +2230,15 @@ exports[`Player should render properly when turn is true 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     ,
     .
     r
@@ -2208,15 +2260,15 @@ exports[`Player should render properly when turn is true 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     d
     i
@@ -2381,15 +2433,15 @@ exports[`Player should render properly when turn is true 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     w
     i
@@ -2456,15 +2508,15 @@ exports[`Player should render properly when turn is true 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     d
     i
@@ -2786,15 +2838,15 @@ exports[`Player should render properly when turn is true 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     t
     e
@@ -2845,15 +2897,15 @@ exports[`Player should render properly when turn is true 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     b
     a
@@ -2885,15 +2937,15 @@ exports[`Player should render properly when turn is true 1`] = `
     x
     -
     2
-    3
-    0
+    6
+    2
+    9
+    9
     3
     4
-    7
-    2
-    5
-    5
-    2
+    1
+    8
+    4
     {
     b
     a
