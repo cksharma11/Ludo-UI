@@ -54,17 +54,14 @@ const PlayerStyles = css`
     flex-direction: column;
   }
 
+  .right-section {
+    justify-content: space-around;
+  }
+
   .box {
     width: 25px;
     height: 25px;
     border: 1px solid ${colors.gray.shade1};
-  }
-
-  .coin-info {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
   }
 
   .coin-position {

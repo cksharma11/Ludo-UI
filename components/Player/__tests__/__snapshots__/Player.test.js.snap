@@ -1,30 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Player should render properly when turn is false 1`] = `
-"<div className=\\"jsx-2629934184 container right\\">
-  <div className=\\"jsx-2629934184 left-section\\">
-    <div className=\\"jsx-2629934184 player-name\\">
+"<div className=\\"jsx-3876423128 container right\\">
+  <div className=\\"jsx-3876423128 left-section\\">
+    <div className=\\"jsx-3876423128 player-name\\">
       dummy
     </div>
-    <div className=\\"jsx-2629934184 stat\\">
+    <div className=\\"jsx-3876423128 stat\\">
       0 coins cleared
     </div>
   </div>
-  <div className=\\"jsx-2629934184 right-section\\">
-    <div className=\\"jsx-2629934184 coin-info\\">
-      <div className=\\"jsx-2629934184 box red\\" />
-    </div>
-    <div className=\\"jsx-2629934184 coin-info\\">
-      <div className=\\"jsx-2629934184 box\\" />
-    </div>
-    <div className=\\"jsx-2629934184 coin-info\\">
-      <div className=\\"jsx-2629934184 box\\" />
-    </div>
-    <div className=\\"jsx-2629934184 coin-info\\">
-      <div className=\\"jsx-2629934184 box\\" />
-    </div>
+  <div className=\\"jsx-3876423128 right-section\\">
+    <div className=\\"jsx-3876423128 box red\\" />
+    <div className=\\"jsx-3876423128 box\\" />
+    <div className=\\"jsx-3876423128 box\\" />
+    <div className=\\"jsx-3876423128 box\\" />
   </div>
-  <JSXStyle id=\\"2629934184\\">
+  <JSXStyle id=\\"3876423128\\">
     .
     c
     o
@@ -40,16 +32,16 @@ exports[`Player should render properly when turn is false 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     d
     i
@@ -343,16 +335,16 @@ exports[`Player should render properly when turn is false 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     f
     o
@@ -380,16 +372,16 @@ exports[`Player should render properly when turn is false 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     f
     o
@@ -416,16 +408,16 @@ exports[`Player should render properly when turn is false 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     b
     a
@@ -465,16 +457,16 @@ exports[`Player should render properly when turn is false 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     b
     a
@@ -517,16 +509,16 @@ exports[`Player should render properly when turn is false 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     b
     a
@@ -566,16 +558,16 @@ exports[`Player should render properly when turn is false 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     b
     a
@@ -614,16 +606,16 @@ exports[`Player should render properly when turn is false 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     h
     e
@@ -675,16 +667,16 @@ exports[`Player should render properly when turn is false 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     h
     e
@@ -744,16 +736,16 @@ exports[`Player should render properly when turn is false 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     ,
     .
     r
@@ -774,16 +766,16 @@ exports[`Player should render properly when turn is false 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     d
     i
@@ -939,6 +931,160 @@ exports[`Player should render properly when turn is false 1`] = `
     ;
     }
     .
+    r
+    i
+    g
+    h
+    t
+    -
+    s
+    e
+    c
+    t
+    i
+    o
+    n
+    .
+    j
+    s
+    x
+    -
+    3
+    8
+    7
+    6
+    4
+    2
+    3
+    1
+    2
+    8
+    {
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    b
+    o
+    x
+    -
+    p
+    a
+    c
+    k
+    :
+    s
+    p
+    a
+    c
+    e
+    -
+    a
+    r
+    o
+    u
+    n
+    d
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    j
+    u
+    s
+    t
+    i
+    f
+    y
+    -
+    c
+    o
+    n
+    t
+    e
+    n
+    t
+    :
+    s
+    p
+    a
+    c
+    e
+    -
+    a
+    r
+    o
+    u
+    n
+    d
+    ;
+    -
+    m
+    s
+    -
+    f
+    l
+    e
+    x
+    -
+    p
+    a
+    c
+    k
+    :
+    s
+    p
+    a
+    c
+    e
+    -
+    a
+    r
+    o
+    u
+    n
+    d
+    ;
+    j
+    u
+    s
+    t
+    i
+    f
+    y
+    -
+    c
+    o
+    n
+    t
+    e
+    n
+    t
+    :
+    s
+    p
+    a
+    c
+    e
+    -
+    a
+    r
+    o
+    u
+    n
+    d
+    ;
+    }
+    .
     b
     o
     x
@@ -947,16 +1093,16 @@ exports[`Player should render properly when turn is false 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     w
     i
@@ -1013,355 +1159,29 @@ exports[`Player should render properly when turn is false 1`] = `
     i
     n
     -
-    i
-    n
-    f
+    p
     o
+    s
+    i
+    t
+    i
+    o
+    n
     .
     j
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
-    4
-    {
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    b
-    o
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    f
-    l
-    e
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    b
-    o
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    f
-    l
-    e
-    x
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    f
-    l
-    e
-    x
-    :
-    1
-    ;
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    :
-    1
-    ;
-    f
-    l
-    e
-    x
-    :
-    1
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    b
-    o
-    x
-    -
-    p
-    a
-    c
-    k
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    j
-    u
-    s
-    t
-    i
-    f
-    y
-    -
-    c
-    o
-    n
-    t
-    e
-    n
-    t
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    -
-    p
-    a
-    c
-    k
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    j
-    u
-    s
-    t
-    i
-    f
-    y
-    -
-    c
-    o
-    n
-    t
-    e
-    n
-    t
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    a
-    l
-    i
-    g
-    n
-    -
-    i
-    t
-    e
-    m
-    s
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    b
-    o
-    x
-    -
-    a
-    l
-    i
-    g
-    n
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    -
-    a
-    l
-    i
-    g
-    n
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    a
-    l
-    i
-    g
-    n
-    -
-    i
-    t
-    e
-    m
-    s
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    }
-    .
-    c
-    o
-    i
-    n
-    -
-    p
-    o
-    s
-    i
-    t
-    i
-    o
-    n
-    .
-    j
-    s
-    x
-    -
-    2
+    7
     6
+    4
     2
-    9
-    9
     3
-    4
     1
+    2
     8
-    4
     {
     t
     e
@@ -1411,16 +1231,16 @@ exports[`Player should render properly when turn is false 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     b
     a
@@ -1451,16 +1271,16 @@ exports[`Player should render properly when turn is false 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     b
     a
@@ -1485,31 +1305,23 @@ exports[`Player should render properly when turn is false 1`] = `
 `;
 
 exports[`Player should render properly when turn is true 1`] = `
-"<div className=\\"jsx-2629934184 container right active\\">
-  <div className=\\"jsx-2629934184 left-section\\">
-    <div className=\\"jsx-2629934184 player-name\\">
+"<div className=\\"jsx-3876423128 container right active\\">
+  <div className=\\"jsx-3876423128 left-section\\">
+    <div className=\\"jsx-3876423128 player-name\\">
       dummy
     </div>
-    <div className=\\"jsx-2629934184 stat\\">
+    <div className=\\"jsx-3876423128 stat\\">
       0 coins cleared
     </div>
     <Dice diceValue={1} />
   </div>
-  <div className=\\"jsx-2629934184 right-section\\">
-    <div className=\\"jsx-2629934184 coin-info\\">
-      <div className=\\"jsx-2629934184 box red\\" />
-    </div>
-    <div className=\\"jsx-2629934184 coin-info\\">
-      <div className=\\"jsx-2629934184 box\\" />
-    </div>
-    <div className=\\"jsx-2629934184 coin-info\\">
-      <div className=\\"jsx-2629934184 box\\" />
-    </div>
-    <div className=\\"jsx-2629934184 coin-info\\">
-      <div className=\\"jsx-2629934184 box\\" />
-    </div>
+  <div className=\\"jsx-3876423128 right-section\\">
+    <div className=\\"jsx-3876423128 box red\\" />
+    <div className=\\"jsx-3876423128 box\\" />
+    <div className=\\"jsx-3876423128 box\\" />
+    <div className=\\"jsx-3876423128 box\\" />
   </div>
-  <JSXStyle id=\\"2629934184\\">
+  <JSXStyle id=\\"3876423128\\">
     .
     c
     o
@@ -1525,16 +1337,16 @@ exports[`Player should render properly when turn is true 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     d
     i
@@ -1828,16 +1640,16 @@ exports[`Player should render properly when turn is true 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     f
     o
@@ -1865,16 +1677,16 @@ exports[`Player should render properly when turn is true 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     f
     o
@@ -1901,16 +1713,16 @@ exports[`Player should render properly when turn is true 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     b
     a
@@ -1950,16 +1762,16 @@ exports[`Player should render properly when turn is true 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     b
     a
@@ -2002,16 +1814,16 @@ exports[`Player should render properly when turn is true 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     b
     a
@@ -2051,16 +1863,16 @@ exports[`Player should render properly when turn is true 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     b
     a
@@ -2099,16 +1911,16 @@ exports[`Player should render properly when turn is true 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     h
     e
@@ -2160,16 +1972,16 @@ exports[`Player should render properly when turn is true 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     h
     e
@@ -2229,16 +2041,16 @@ exports[`Player should render properly when turn is true 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     ,
     .
     r
@@ -2259,16 +2071,16 @@ exports[`Player should render properly when turn is true 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     d
     i
@@ -2424,6 +2236,160 @@ exports[`Player should render properly when turn is true 1`] = `
     ;
     }
     .
+    r
+    i
+    g
+    h
+    t
+    -
+    s
+    e
+    c
+    t
+    i
+    o
+    n
+    .
+    j
+    s
+    x
+    -
+    3
+    8
+    7
+    6
+    4
+    2
+    3
+    1
+    2
+    8
+    {
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    b
+    o
+    x
+    -
+    p
+    a
+    c
+    k
+    :
+    s
+    p
+    a
+    c
+    e
+    -
+    a
+    r
+    o
+    u
+    n
+    d
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    j
+    u
+    s
+    t
+    i
+    f
+    y
+    -
+    c
+    o
+    n
+    t
+    e
+    n
+    t
+    :
+    s
+    p
+    a
+    c
+    e
+    -
+    a
+    r
+    o
+    u
+    n
+    d
+    ;
+    -
+    m
+    s
+    -
+    f
+    l
+    e
+    x
+    -
+    p
+    a
+    c
+    k
+    :
+    s
+    p
+    a
+    c
+    e
+    -
+    a
+    r
+    o
+    u
+    n
+    d
+    ;
+    j
+    u
+    s
+    t
+    i
+    f
+    y
+    -
+    c
+    o
+    n
+    t
+    e
+    n
+    t
+    :
+    s
+    p
+    a
+    c
+    e
+    -
+    a
+    r
+    o
+    u
+    n
+    d
+    ;
+    }
+    .
     b
     o
     x
@@ -2432,16 +2398,16 @@ exports[`Player should render properly when turn is true 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     w
     i
@@ -2498,355 +2464,29 @@ exports[`Player should render properly when turn is true 1`] = `
     i
     n
     -
-    i
-    n
-    f
+    p
     o
+    s
+    i
+    t
+    i
+    o
+    n
     .
     j
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
-    4
-    {
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    b
-    o
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    f
-    l
-    e
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    b
-    o
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    f
-    l
-    e
-    x
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    f
-    l
-    e
-    x
-    :
-    1
-    ;
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    :
-    1
-    ;
-    f
-    l
-    e
-    x
-    :
-    1
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    b
-    o
-    x
-    -
-    p
-    a
-    c
-    k
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    j
-    u
-    s
-    t
-    i
-    f
-    y
-    -
-    c
-    o
-    n
-    t
-    e
-    n
-    t
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    -
-    p
-    a
-    c
-    k
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    j
-    u
-    s
-    t
-    i
-    f
-    y
-    -
-    c
-    o
-    n
-    t
-    e
-    n
-    t
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    a
-    l
-    i
-    g
-    n
-    -
-    i
-    t
-    e
-    m
-    s
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    b
-    o
-    x
-    -
-    a
-    l
-    i
-    g
-    n
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    -
-    a
-    l
-    i
-    g
-    n
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    a
-    l
-    i
-    g
-    n
-    -
-    i
-    t
-    e
-    m
-    s
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    }
-    .
-    c
-    o
-    i
-    n
-    -
-    p
-    o
-    s
-    i
-    t
-    i
-    o
-    n
-    .
-    j
-    s
-    x
-    -
-    2
+    7
     6
+    4
     2
-    9
-    9
     3
-    4
     1
+    2
     8
-    4
     {
     t
     e
@@ -2896,16 +2536,16 @@ exports[`Player should render properly when turn is true 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     b
     a
@@ -2936,16 +2576,16 @@ exports[`Player should render properly when turn is true 1`] = `
     s
     x
     -
-    2
-    6
-    2
-    9
-    9
     3
-    4
-    1
     8
+    7
+    6
     4
+    2
+    3
+    1
+    2
+    8
     {
     b
     a

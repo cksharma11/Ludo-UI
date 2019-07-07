@@ -19,13 +19,9 @@ const Player = ({ name, turn, coinData, alignment }) => {
         {coinData.map((coin) => {
           return (
             <div
-              className="coin-info"
               key={`${name}${turn}${coinData.isCleared}`}
-            >
-              <div
-                className={coin.isCleared ? `box ${coin.color}` : 'box'}
-              ></div>
-            </div>
+              className={coin.isCleared ? `box ${coin.color}` : 'box'}
+            ></div>
           );
         })}
       </div>
