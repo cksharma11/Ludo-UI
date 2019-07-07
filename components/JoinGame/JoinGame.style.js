@@ -2,15 +2,25 @@ import css from 'styled-jsx/css';
 import colors from '../../config/styles/colors';
 
 const JoinGameStyles = css`
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 660px;
+    background: ${colors.palette1.shade2};
+  }
+
   form {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
     display: flex;
-    height: 660px;
+    height: 550px;
+    width: 350px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: ${colors.palette1.shade2};
+    background: white;
+    border: 1px solid ${colors.gray.shade2};
   }
 
   form > input {
@@ -27,6 +37,10 @@ const JoinGameStyles = css`
     padding: 5px;
     margin: 5px;
     border-radius: 2px;
+  }
+
+  form > input:hover {
+    background: white;
   }
 
   .activity-header {

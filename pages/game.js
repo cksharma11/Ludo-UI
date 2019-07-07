@@ -8,7 +8,7 @@ import { parseCookie, API_URL } from '../utils/utils';
 import app from '../https/app';
 
 const GamePage = ({ gameData, playerId }) => {
-  return <Game {...gameData} />;
+  return <Game gameData={gameData} playerId={playerId} />;
 };
 
 GamePage.defaultProps = {
@@ -24,9 +24,10 @@ GamePage.propTypes = {
 GamePage.getInitialProps = async ({ req }) => {
   const cookies = parseCookie(req.headers.cookie);
   const { gameId, playerId } = cookies;
-  const gameData = await app.get(`${API_URL}/getGameData`, {
-    gameId
+  const gameData = await app.post(`${API_URL}/gameData`, {
+    body: JSON.stringify({ gameId })
   });
+  gameData.players = gameData.result;
   return { gameData, playerId };
 };
 

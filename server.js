@@ -1,5 +1,5 @@
 const Next = require('next');
-const fastify = require('fastify')({ logger: true });
+const fastify = require('fastify')();
 const fetch = require('isomorphic-unfetch');
 const fastifyCookie = require('fastify-cookie');
 const bodyParser = require('fastify-formbody');
@@ -18,8 +18,15 @@ const POST_CALL_CONFIG = {
   }
 };
 
+const logger = (req, res, next) => {
+  // eslint-disable-next-line no-console
+  console.log(req.method, req.url);
+  next();
+};
+
 fastify.register(bodyParser);
 fastify.register(fastifyCookie);
+fastify.use(logger);
 fastify.register((plugin, options, next) => {
   const app = Next({ dev });
   const handler = routes.getRequestHandler(app);

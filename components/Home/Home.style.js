@@ -43,6 +43,10 @@ const HomeStyles = css`
     padding: 5px;
     margin: 5px;
   }
+
+  a:hover {
+    background: white;
+  }
 `;
 
 export default HomeStyles;

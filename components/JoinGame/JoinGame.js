@@ -7,13 +7,15 @@ const JoinGame = () => {
   return (
     <Fragment>
       <Header title="Ludo" />
-      <form method="POST" action="/joinGame">
-        <div className="activity-header">{labels.JOIN_GAME}</div>
-        <input type="text" name="playerName" placeholder="name" />
-        <input type="number" name="gameId" placeholder="gameId" />
-        <input type="submit" value={labels.JOIN_GAME} />
-      </form>
-      <style jsx>{JoinGameStyles}</style>
+      <div className="form-container">
+        <form method="POST" action="/joinGame">
+          <div className="activity-header">{labels.JOIN_GAME}</div>
+          <input type="text" name="playerName" placeholder="name" />
+          <input type="number" name="gameId" placeholder="gameId" />
+          <input type="submit" value={labels.JOIN_GAME} />
+        </form>
+        <style jsx>{JoinGameStyles}</style>
+      </div>
     </Fragment>
   );
 };
