@@ -8,13 +8,13 @@ import Player from '../Player/Player';
 
 const Game = ({ gameData, playerId }) => {
   const { players } = gameData;
-  const windowPlayer = players.filter(
+  const sameScreenPlayer = players.filter(
     (player) => player.playerId === +playerId
   )[0];
 
   return (
     <div className="body">
-      <GameHeader title="Ludo" playerName={windowPlayer.name} />
+      <GameHeader title="Ludo" playerName={sameScreenPlayer.name} />
       <section className="main_container">
         <section className="player_row">
           {players[0] && (
@@ -24,14 +24,22 @@ const Game = ({ gameData, playerId }) => {
               alignment="left"
             />
           )}
-          <CoinContainer playerId="player_1" color="red" />
+          <CoinContainer
+            playerId="player_1"
+            color="red"
+            showCoins={players[0] !== undefined}
+          />
           <CellRow
             className="cell_row"
             cellId={1}
             color="blue"
             containerClass=""
           />
-          <CoinContainer playerId="player_2" color="blue" />
+          <CoinContainer
+            playerId="player_2"
+            color="blue"
+            showCoins={players[1] !== undefined}
+          />
           {players[1] && (
             <Player
               name={players[1].name}
@@ -64,14 +72,22 @@ const Game = ({ gameData, playerId }) => {
               alignment="left"
             />
           )}
-          <CoinContainer playerId="player_3" color="green" />
+          <CoinContainer
+            playerId="player_3"
+            color="green"
+            showCoins={players[2] !== undefined}
+          />
           <CellRow
             className="cell_row"
             cellId={55}
             color="green"
             containerClass=""
           />
-          <CoinContainer playerId="player_4" color="yellow" />
+          <CoinContainer
+            playerId="player_4"
+            color="yellow"
+            showCoins={players[3] !== undefined}
+          />
           {players[3] && (
             <Player
               name={players[3].name}

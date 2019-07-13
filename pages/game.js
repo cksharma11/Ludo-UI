@@ -27,7 +27,6 @@ GamePage.getInitialProps = async ({ req }) => {
   const gameData = await app.post(`${API_URL}/getGameData`, {
     body: JSON.stringify({ gameId })
   });
-  gameData.players = gameData.result;
   return { gameData, playerId };
 };
 

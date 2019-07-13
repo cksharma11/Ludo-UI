@@ -3,24 +3,24 @@ import PropTypes from 'prop-types';
 import CoinContainerStyles from './CoinContainer.style';
 import Coin from '../Coin/Coin';
 
-const CoinContainer = ({ playerId, color, deActiveCoins }) => {
+const CoinContainer = ({ playerId, color, nutralCoins, showCoins }) => {
   return (
     <div className="coin_container" id={playerId}>
       <div className="container-border">
         <div className="container_row">
-          <div id={`${color}_coin_100`} className={`coin ${color}`}>
-            {deActiveCoins[0] && <Coin color="red" />}
+          <div className={`coin ${color}`}>
+            {showCoins && nutralCoins[0] && <Coin color={color} />}
           </div>
-          <div id={`${color}_coin_200`} className={`coin ${color}`}>
-            {deActiveCoins[1] && <Coin color="red" />}
+          <div className={`coin ${color}`}>
+            {showCoins && nutralCoins[1] && <Coin color={color} />}
           </div>
         </div>
         <div className="container_row">
-          <div id={`${color}_coin_300`} className={`coin ${color}`}>
-            {deActiveCoins[2] && <Coin color="red" />}
+          <div className={`coin ${color}`}>
+            {showCoins && nutralCoins[2] && <Coin color={color} />}
           </div>
-          <div id={`${color}_coin_400`} className={`coin ${color}`}>
-            {deActiveCoins[3] && <Coin color="red" />}
+          <div className={`coin ${color}`}>
+            {showCoins && nutralCoins[3] && <Coin color={color} />}
           </div>
         </div>
       </div>
@@ -32,13 +32,15 @@ const CoinContainer = ({ playerId, color, deActiveCoins }) => {
 CoinContainer.defaultProps = {
   playerId: 0,
   color: '',
-  deActiveCoins: [1, 2, 3, 4]
+  nutralCoins: [1, 2, 3, 4],
+  showCoins: false
 };
 
 CoinContainer.propTypes = {
   playerId: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   color: PropTypes.string,
-  deActiveCoins: PropTypes.array
+  nutralCoins: PropTypes.array,
+  showCoins: PropTypes.bool
 };
 
 export default CoinContainer;
