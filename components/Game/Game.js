@@ -5,95 +5,74 @@ import GameHeader from '../GameHeader/GameHeader';
 import CellRow from '../CellRow/CellRow';
 import GameStyles from './Game.style';
 import Player from '../Player/Player';
+import { startingCells } from '../../config/data/cells-structure';
+
+const findElementFromObjectArray = (list, key, element) => {
+  return list.filter((e) => e[key] === element)[0];
+};
 
 const Game = ({ gameData, playerId }) => {
-  const { players } = gameData;
-  const sameScreenPlayer = players.filter(
-    (player) => player.playerId === +playerId
-  )[0];
+  const {
+    players: [player1, player2, player3, player4]
+  } = gameData;
+
+  const sameScreenPlayer = findElementFromObjectArray(
+    gameData.players,
+    'playerId',
+    +playerId
+  );
 
   return (
     <div className="body">
-      <GameHeader title="Ludo" playerName={sameScreenPlayer.name} />
+      <GameHeader title="Ludo" playerName={sameScreenPlayer.playerName} />
       <section className="main_container">
         <section className="player_row">
-          {players[0] && (
-            <Player
-              name={players[0].name}
-              turn={players[0].turn}
-              alignment="left"
-            />
+          {player1 && (
+            <Player name={player1.name} turn={player1.turn} alignment="left" />
           )}
-          <CoinContainer
-            playerId="player_1"
-            color="red"
-            showCoins={players[0] !== undefined}
-          />
+          <CoinContainer color="red" showCoins={player1 !== undefined} />
           <CellRow
             className="cell_row"
-            cellId={1}
+            cellId={startingCells[0]}
             color="blue"
             containerClass=""
           />
-          <CoinContainer
-            playerId="player_2"
-            color="blue"
-            showCoins={players[1] !== undefined}
-          />
-          {players[1] && (
-            <Player
-              name={players[1].name}
-              turn={players[1].turn}
-              alignment="right"
-            />
+          <CoinContainer color="blue" showCoins={player2 !== undefined} />
+          {player2 && (
+            <Player name={player2.name} turn={player2.turn} alignment="right" />
           )}
         </section>
 
         <div className="board_middle_row">
           <CellRow
             className="cell_column"
-            cellId={19}
+            cellId={startingCells[1]}
             color="red"
             containerClass="cell_column_container"
           />
           <div className="clear_coins_container" />
           <CellRow
             className="cell_column"
-            cellId={37}
+            cellId={startingCells[2]}
             color="yellow"
             containerClass="cell_column_container"
           />
         </div>
+
         <section className="player_row">
-          {players[2] && (
-            <Player
-              name={players[2].name}
-              turn={players[2].turn}
-              alignment="left"
-            />
+          {player3 && (
+            <Player name={player3.name} turn={player3.turn} alignment="left" />
           )}
-          <CoinContainer
-            playerId="player_3"
-            color="green"
-            showCoins={players[2] !== undefined}
-          />
+          <CoinContainer color="green" showCoins={player3 !== undefined} />
           <CellRow
             className="cell_row"
-            cellId={55}
+            cellId={startingCells[3]}
             color="green"
             containerClass=""
           />
-          <CoinContainer
-            playerId="player_4"
-            color="yellow"
-            showCoins={players[3] !== undefined}
-          />
-          {players[3] && (
-            <Player
-              name={players[3].name}
-              turn={players[3].turn}
-              alignment="right"
-            />
+          <CoinContainer color="yellow" showCoins={player4 !== undefined} />
+          {player4 && (
+            <Player name={player4.name} turn={player4.turn} alignment="right" />
           )}
         </section>
       </section>
