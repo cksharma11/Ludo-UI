@@ -6,12 +6,21 @@ import CellRow from '../CellRow/CellRow';
 import GameStyles from './Game.style';
 import Player from '../Player/Player';
 import { startingCells } from '../../config/data/cells-structure';
+import GameHook from './GameHook';
 
 const findElementFromObjectArray = (list, key, element) => {
   return list.filter((e) => e[key] === element)[0];
 };
 
 const Game = ({ gameData, playerId }) => {
+  const {
+    currentPlayerIndex,
+    updateCurrentPlayerIndex,
+    rollDice,
+    diceValue
+  } = GameHook({
+    gameData
+  });
   const {
     players: [player1, player2, player3, player4]
   } = gameData;
@@ -30,8 +39,10 @@ const Game = ({ gameData, playerId }) => {
           {player1 && (
             <Player
               name={player1.playerName}
-              turn={player1.turn}
+              turn={currentPlayerIndex === 0}
               alignment="left"
+              onRollDice={rollDice}
+              diceValue={diceValue}
             />
           )}
           <CoinContainer color="red" showCoins={player1 !== undefined} />
@@ -45,8 +56,10 @@ const Game = ({ gameData, playerId }) => {
           {player2 && (
             <Player
               name={player2.playerName}
-              turn={player2.turn}
+              turn={currentPlayerIndex === 1}
               alignment="right"
+              onRollDice={rollDice}
+              diceValue={diceValue}
             />
           )}
         </section>
@@ -71,8 +84,10 @@ const Game = ({ gameData, playerId }) => {
           {player3 && (
             <Player
               name={player3.playerName}
-              turn={player3.turn}
+              turn={currentPlayerIndex === 2}
               alignment="left"
+              onRollDice={rollDice}
+              diceValue={diceValue}
             />
           )}
           <CoinContainer color="green" showCoins={player3 !== undefined} />
@@ -86,8 +101,10 @@ const Game = ({ gameData, playerId }) => {
           {player4 && (
             <Player
               name={player4.playerName}
-              turn={player4.turn}
+              turn={currentPlayerIndex === 3}
               alignment="right"
+              onRollDice={rollDice}
+              diceValue={diceValue}
             />
           )}
         </section>
