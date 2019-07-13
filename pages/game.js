@@ -24,7 +24,7 @@ GamePage.propTypes = {
 GamePage.getInitialProps = async ({ req }) => {
   const cookies = parseCookie(req.headers.cookie);
   const { gameId, playerId } = cookies;
-  const gameData = await app.post(`${API_URL}/gameData`, {
+  const gameData = await app.post(`${API_URL}/getGameData`, {
     body: JSON.stringify({ gameId })
   });
   gameData.players = gameData.result;

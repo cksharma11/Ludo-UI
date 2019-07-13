@@ -72,8 +72,10 @@ fastify.post('/joinGame', (req, res) => {
     })
   })
     .then((fetchedResponse) => fetchedResponse.json())
-    .then(({ hasJoined }) => {
+    .then(({ hasJoined, playerId }) => {
       if (hasJoined) {
+        res.setCookie('gameId', gameId);
+        res.setCookie('playerId', playerId);
         return res.redirect('/waitingArea');
       }
       return res.redirect('/');

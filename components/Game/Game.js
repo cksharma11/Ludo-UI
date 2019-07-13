@@ -8,7 +8,9 @@ import Player from '../Player/Player';
 
 const Game = ({ gameData, playerId }) => {
   const { players } = gameData;
-  const windowPlayer = players.filter((player) => player.id === playerId)[0];
+  const windowPlayer = players.filter(
+    (player) => player.playerId === +playerId
+  )[0];
 
   return (
     <div className="body">
@@ -84,27 +86,9 @@ const Game = ({ gameData, playerId }) => {
   );
 };
 
-Game.defaultProps = {
-  gameData: {
-    players: [
-      {
-        name: 'test 1',
-        id: 1,
-        turn: true
-      },
-      {
-        name: 'test 1',
-        id: 2,
-        turn: false
-      }
-    ]
-  },
-  playerId: 1
-};
-
 Game.propTypes = {
-  gameData: PropTypes.object,
-  playerId: PropTypes.number
+  gameData: PropTypes.object.isRequired,
+  playerId: PropTypes.number.isRequired
 };
 
 export default Game;
