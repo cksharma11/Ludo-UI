@@ -28,7 +28,11 @@ const Game = ({ gameData, playerId }) => {
       <section className="main_container">
         <section className="player_row">
           {player1 && (
-            <Player name={player1.name} turn={player1.turn} alignment="left" />
+            <Player
+              name={player1.playerName}
+              turn={player1.turn}
+              alignment="left"
+            />
           )}
           <CoinContainer color="red" showCoins={player1 !== undefined} />
           <CellRow
@@ -39,7 +43,11 @@ const Game = ({ gameData, playerId }) => {
           />
           <CoinContainer color="blue" showCoins={player2 !== undefined} />
           {player2 && (
-            <Player name={player2.name} turn={player2.turn} alignment="right" />
+            <Player
+              name={player2.playerName}
+              turn={player2.turn}
+              alignment="right"
+            />
           )}
         </section>
 
@@ -61,7 +69,11 @@ const Game = ({ gameData, playerId }) => {
 
         <section className="player_row">
           {player3 && (
-            <Player name={player3.name} turn={player3.turn} alignment="left" />
+            <Player
+              name={player3.playerName}
+              turn={player3.turn}
+              alignment="left"
+            />
           )}
           <CoinContainer color="green" showCoins={player3 !== undefined} />
           <CellRow
@@ -72,7 +84,11 @@ const Game = ({ gameData, playerId }) => {
           />
           <CoinContainer color="yellow" showCoins={player4 !== undefined} />
           {player4 && (
-            <Player name={player4.name} turn={player4.turn} alignment="right" />
+            <Player
+              name={player4.playerName}
+              turn={player4.turn}
+              alignment="right"
+            />
           )}
         </section>
       </section>

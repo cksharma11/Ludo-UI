@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Dice from '../Dice/Dice';
 import PlayerStyles from './Player.style';
 
-const Player = ({ name, turn, coinData, alignment }) => {
+const Player = ({ name, turn, coins, alignment }) => {
   return (
     <div
       className={
@@ -16,10 +16,10 @@ const Player = ({ name, turn, coinData, alignment }) => {
         {turn && <Dice />}
       </div>
       <div className="right-section">
-        {coinData.map((coin) => {
+        {coins.map((coin) => {
           return (
             <div
-              key={`${name}${turn}${coinData.isCleared}`}
+              key={`${name}${turn}${coins.isCleared}`}
               className={coin.isCleared ? `box ${coin.color}` : 'box'}
             ></div>
           );
@@ -33,7 +33,7 @@ const Player = ({ name, turn, coinData, alignment }) => {
 Player.defaultProps = {
   name: 'dummy',
   turn: false,
-  coinData: [
+  coins: [
     {
       color: 'red',
       isCleared: true
@@ -57,7 +57,7 @@ Player.defaultProps = {
 Player.propTypes = {
   name: PropTypes.string,
   turn: PropTypes.bool,
-  coinData: PropTypes.arrayOf(PropTypes.object),
+  coins: PropTypes.arrayOf(PropTypes.object),
   alignment: PropTypes.string
 };
 
