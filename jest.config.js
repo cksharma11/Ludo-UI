@@ -10,7 +10,7 @@ module.exports = {
     'pages/**/*.js',
     '!**/*.style.js',
     '!pages/*.js',
-    '!components/WaitingArea/*.js'
+    '!components/Game/GameHook.js'
   ],
   coverageThreshold: {
     global: {

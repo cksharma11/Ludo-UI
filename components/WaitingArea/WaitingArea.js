@@ -16,7 +16,7 @@ const WaitingArea = ({ gameId, players: initialPlayers }) => {
     });
     const { joinedPlayers, isStarted } = gameData;
     if (isStarted) {
-      window.location.href = '/game';
+      window.location.assign('/game');
     }
     setPlayers(joinedPlayers);
   };

@@ -12,7 +12,7 @@ import { findElementFromObjectArray } from '../../utils/utils';
 const Game = ({ gameData, playerId }) => {
   const {
     currentPlayerIndex,
-    updateCurrentPlayerIndex,
+    // updateCurrentPlayerIndex,
     rollDice,
     diceValue
   } = GameHook({
