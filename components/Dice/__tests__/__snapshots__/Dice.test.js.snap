@@ -2,7 +2,7 @@
 
 exports[`Dice should render properly 1`] = `
 "<div className=\\"jsx-865041945\\">
-  <img src=\\"https://upload.wikimedia.org/wikipedia/commons/0/09/Dice-1.svg\\" alt=\\"dice\\" id=\\"dice\\" className=\\"jsx-865041945\\" />
+  <img src=\\"https://upload.wikimedia.org/wikipedia/commons/0/09/Dice-1.svg\\" alt=\\"dice\\" onClick={[Function: noop]} className=\\"jsx-865041945\\" />
   <JSXStyle id=\\"865041945\\">
     i
     m

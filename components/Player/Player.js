@@ -43,7 +43,7 @@ Player.defaultProps = {
 Player.propTypes = {
   name: PropTypes.string,
   turn: PropTypes.bool,
-  coins: PropTypes.arrayOf(PropTypes.object),
+  coins: PropTypes.object,
   alignment: PropTypes.string,
   onRollDice: PropTypes.func,
   diceValue: PropTypes.number

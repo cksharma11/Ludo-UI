@@ -11,7 +11,7 @@ exports[`Player should render properly when turn is false 1`] = `
     </div>
   </div>
   <div className=\\"jsx-3876423128 right-section\\">
-    <div className=\\"jsx-3876423128 box red\\" />
+    <div className=\\"jsx-3876423128 box\\" />
     <div className=\\"jsx-3876423128 box\\" />
     <div className=\\"jsx-3876423128 box\\" />
     <div className=\\"jsx-3876423128 box\\" />
@@ -1313,10 +1313,10 @@ exports[`Player should render properly when turn is true 1`] = `
     <div className=\\"jsx-3876423128 stat\\">
       0 coins cleared
     </div>
-    <Dice diceValue={1} />
+    <Dice onRollDice={[Function: noop]} diceValue={1} />
   </div>
   <div className=\\"jsx-3876423128 right-section\\">
-    <div className=\\"jsx-3876423128 box red\\" />
+    <div className=\\"jsx-3876423128 box\\" />
     <div className=\\"jsx-3876423128 box\\" />
     <div className=\\"jsx-3876423128 box\\" />
     <div className=\\"jsx-3876423128 box\\" />

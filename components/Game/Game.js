@@ -5,12 +5,9 @@ import GameHeader from '../GameHeader/GameHeader';
 import CellRow from '../CellRow/CellRow';
 import GameStyles from './Game.style';
 import Player from '../Player/Player';
-import { startingCells } from '../../config/data/cells-structure';
 import GameHook from './GameHook';
-
-const findElementFromObjectArray = (list, key, element) => {
-  return list.filter((e) => e[key] === element)[0];
-};
+import { startingCells } from '../../config/data/cells-structure';
+import { findElementFromObjectArray } from '../../utils/utils';
 
 const Game = ({ gameData, playerId }) => {
   const {
@@ -33,7 +30,7 @@ const Game = ({ gameData, playerId }) => {
 
   return (
     <div className="body">
-      <GameHeader title="Ludo" playerName={sameScreenPlayer.playerName} />
+      <GameHeader playerName={sameScreenPlayer.playerName} />
       <section className="main_container">
         <section className="player_row">
           {player1 && (

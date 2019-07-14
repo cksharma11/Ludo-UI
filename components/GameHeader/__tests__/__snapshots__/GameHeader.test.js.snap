@@ -2,8 +2,13 @@
 
 exports[`GameHeader should render properly 1`] = `
 "<header className=\\"jsx-186861727\\">
-  <div id=\\"title\\" className=\\"jsx-186861727\\" />
-  <div id=\\"player_name\\" className=\\"jsx-186861727\\" />
+  <div id=\\"title\\" className=\\"jsx-186861727\\">
+    Ludo
+  </div>
+  <div id=\\"player_name\\" className=\\"jsx-186861727\\">
+    Hi 
+    !
+  </div>
   <JSXStyle id=\\"186861727\\">
     h
     e

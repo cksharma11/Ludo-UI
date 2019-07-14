@@ -29,7 +29,7 @@ describe('Game', () => {
   };
 
   it('should render properly', () => {
-    const wrapper = shallow(<Game gameData={gameData} playerId="1" />);
+    const wrapper = shallow(<Game gameData={gameData} playerId={1} />);
     expect(wrapper.debug()).toMatchSnapshot();
   });
 });

@@ -4,6 +4,10 @@ const isWindow = () => {
   return process.browser;
 };
 
+const findElementFromObjectArray = (list, key, element) => {
+  return list.filter((e) => e[key] === element)[0];
+};
+
 const parseCookie = (params) => {
   const pairList = params.split(';');
   const cookies = {};
@@ -23,4 +27,10 @@ const POST_CALL_CONFIG = {
 
 const API_URL = `http://localhost:${API_PORT}`;
 
-export { isWindow, parseCookie, POST_CALL_CONFIG, API_URL };
+export {
+  isWindow,
+  parseCookie,
+  POST_CALL_CONFIG,
+  API_URL,
+  findElementFromObjectArray
+};
