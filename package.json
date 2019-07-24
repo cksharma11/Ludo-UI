@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next build && next start",
+    "next": "next build && next start",
+    "start": "export UI_PORT=3030 && export API_PORT=4040 && export DB_PORT=5050 && nodemon server.js",
     "open": "export UI_PORT=3030 && export API_PORT=4040 && export DB_PORT=5050 && nodemon server.js",
     "test": "jest --passWithNoTests",
     "test:update:snapshot": "npm test -- -u",
@@ -27,6 +28,7 @@
     "isomorphic-unfetch": "^3.0.0",
     "next": "^8.1.0",
     "next-routes": "^1.4.2",
+    "nodemon": "^1.19.1",
     "npm": "^6.9.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
