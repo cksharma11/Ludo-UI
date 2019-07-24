@@ -5,8 +5,8 @@ const fastifyCookie = require('fastify-cookie');
 const bodyParser = require('fastify-formbody');
 const routes = require('./routes/routes');
 
-const API_PORT = process.env.PORT || 8080;
-const PORT = process.env.UI_PORT || 3030;
+const { API_PORT = 8080 } = process.env;
+const PORT = process.env.PORT || process.env.UI_PORT || 3030;
 const dev = process.env.NODE_ENV !== 'production';
 
 const API_URL = `http://localhost:${API_PORT}`;
