@@ -10,12 +10,7 @@ import { startingCells } from '../../config/data/cells-structure';
 import { findElementFromObjectArray } from '../../utils/utils';
 
 const Game = ({ gameData, playerId }) => {
-  const {
-    currentPlayerIndex,
-    // updateCurrentPlayerIndex,
-    rollDice,
-    diceValue
-  } = GameHook({
+  const { currentPlayerIndex, rollDice, diceValue } = GameHook({
     gameData
   });
   const {

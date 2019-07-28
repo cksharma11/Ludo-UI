@@ -13,8 +13,13 @@ const GameHook = ({ gameData: initialGameData }) => {
     return Math.ceil(Math.random() * 6);
   };
 
+  const isDiceRolledSix = (value) => value === 6;
+
   const rollDice = () => {
     setDiceValue(getDiceValue());
+    if (!isDiceRolledSix(diceValue)) {
+      updateCurrentPlayerIndex();
+    }
   };
 
   return {
