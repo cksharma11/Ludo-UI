@@ -7,14 +7,14 @@ import WaitingAreaStyles from './WaitingArea.style';
 import labels from '../../config/labels/labels';
 import { API_URL } from '../../utils/utils';
 
-const WaitingArea = ({ gameId, players: initialPlayers }) => {
-  const [players, setPlayers] = useState(initialPlayers);
+const WaitingArea = ({ gameId }) => {
+  const [players, setPlayers] = useState([]);
 
   const fetchPlayers = async () => {
     const gameData = await app.post(`${API_URL}/players`, {
       body: JSON.stringify({ gameId })
     });
-    const { joinedPlayers, isStarted } = gameData;
+    const { players: joinedPlayers, isStarted } = gameData;
     if (isStarted) {
       window.location.assign('/game');
     }
@@ -32,7 +32,7 @@ const WaitingArea = ({ gameId, players: initialPlayers }) => {
           {players.length &&
             players.map((player, index) => (
               <li key={player.playerId}>
-                {index + 1}.{player.playerName}
+                {index + 1}.{player.name}
                 {labels.HAS_JOINED_LABEL}
               </li>
             ))}
@@ -45,12 +45,10 @@ const WaitingArea = ({ gameId, players: initialPlayers }) => {
 };
 
 WaitingArea.propTypes = {
-  gameId: PropTypes.number,
-  players: PropTypes.arrayOf(PropTypes.object)
+  gameId: PropTypes.number
 };
 
 WaitingArea.defaultProps = {
-  gameId: -1,
-  players: []
+  gameId: -1
 };
 export default WaitingArea;

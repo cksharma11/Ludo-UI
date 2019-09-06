@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import Game from '../Game';
 
 describe('Game', () => {
@@ -29,7 +29,7 @@ describe('Game', () => {
   };
 
   it('should render properly', () => {
-    const wrapper = shallow(<Game gameData={gameData} playerId={1} />);
+    const wrapper = mount(<Game gameData={gameData} playerId={1} />);
     expect(wrapper.debug()).toMatchSnapshot();
   });
 });

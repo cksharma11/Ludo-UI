@@ -17,7 +17,7 @@ describe('WaitingArea', () => {
   it('should render properly when game is not started', () => {
     app.post.mockImplementation(() =>
       Promise.resolve({
-        joinedPlayers: [
+        players: [
           {
             playerName: 'dummyName',
             playerId: 'dummyId',
@@ -41,7 +41,7 @@ describe('WaitingArea', () => {
     window.location.assign = jest.fn();
     app.post.mockImplementation(() =>
       Promise.resolve({
-        joinedPlayers: [
+        players: [
           {
             playerName: 'dummyName',
             playerId: 'dummyId',

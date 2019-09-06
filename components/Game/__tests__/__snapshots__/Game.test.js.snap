@@ -1,1216 +1,692 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Game should render properly 1`] = `
-"<div className=\\"jsx-1772502628 body\\">
-  <GameHeader playerName=\\"test1\\" />
-  <section className=\\"jsx-1772502628 main_container\\">
-    <section className=\\"jsx-1772502628 player_row\\">
-      <Player name=\\"test1\\" turn={true} alignment=\\"left\\" onRollDice={[Function: rollDice]} diceValue={1} coins={{...}} />
-      <CoinContainer color=\\"red\\" showCoins={true} nutralCoins={{...}} />
-      <CellRow className=\\"cell_row\\" cellId={[undefined]} color=\\"blue\\" containerClass=\\"\\" />
-      <CoinContainer color=\\"blue\\" showCoins={true} nutralCoins={{...}} />
-      <Player name=\\"test2\\" turn={false} alignment=\\"right\\" onRollDice={[Function: rollDice]} diceValue={1} coins={{...}} />
+"<Game gameData={{...}} playerId={1}>
+  <div className=\\"jsx-1772502628 body\\">
+    <GameHeader playerName=\\"\\">
+      <header className=\\"jsx-186861727\\">
+        <div id=\\"title\\" className=\\"jsx-186861727\\">
+          Ludo
+        </div>
+        <div id=\\"player_name\\" className=\\"jsx-186861727\\">
+          Hi 
+          !
+        </div>
+        <JSXStyle id=\\"186861727\\" />
+      </header>
+    </GameHeader>
+    <section className=\\"jsx-1772502628 main_container\\">
+      <section className=\\"jsx-1772502628 player_row\\">
+        <Player name=\\"dummy\\" turn={true} alignment=\\"left\\" onRollDice={[Function: rollDice]} diceValue={1} coins={{...}}>
+          <div className=\\"jsx-3876423128 container left active\\">
+            <div className=\\"jsx-3876423128 left-section\\">
+              <div className=\\"jsx-3876423128 player-name\\">
+                dummy
+              </div>
+              <div className=\\"jsx-3876423128 stat\\">
+                0 coins cleared
+              </div>
+              <Dice onRollDice={[Function: rollDice]} diceValue={1}>
+                <div className=\\"jsx-865041945\\">
+                  <img src=\\"https://upload.wikimedia.org/wikipedia/commons/0/09/Dice-1.svg\\" alt=\\"dice\\" onClick={[Function: rollDice]} className=\\"jsx-865041945\\" />
+                  <JSXStyle id=\\"865041945\\" />
+                </div>
+              </Dice>
+            </div>
+            <div className=\\"jsx-3876423128 right-section\\">
+              <div className=\\"jsx-3876423128 box\\" />
+              <div className=\\"jsx-3876423128 box\\" />
+              <div className=\\"jsx-3876423128 box\\" />
+              <div className=\\"jsx-3876423128 box\\" />
+            </div>
+            <JSXStyle id=\\"3876423128\\" />
+          </div>
+        </Player>
+        <CoinContainer color=\\"red\\" showCoins={true} nutralCoins={{...}}>
+          <div className=\\"jsx-3789763585 coin_container\\">
+            <div className=\\"jsx-3789763585 container-border\\">
+              <div className=\\"jsx-3789763585 container_row\\">
+                <div className=\\"jsx-3789763585 coin red\\">
+                  <Coin color=\\"red\\">
+                    <div className=\\"jsx-2045488686 coin dark_red\\">
+                      <JSXStyle id=\\"2045488686\\" />
+                    </div>
+                  </Coin>
+                  <JSXStyle id=\\"3789763585\\" />
+                </div>
+                <div className=\\"jsx-3789763585 coin red\\">
+                  <Coin color=\\"red\\">
+                    <div className=\\"jsx-2045488686 coin dark_red\\">
+                      <JSXStyle id=\\"2045488686\\" />
+                    </div>
+                  </Coin>
+                  <JSXStyle id=\\"3789763585\\" />
+                </div>
+              </div>
+              <div className=\\"jsx-3789763585 container_row\\">
+                <div className=\\"jsx-3789763585 coin red\\">
+                  <Coin color=\\"red\\">
+                    <div className=\\"jsx-2045488686 coin dark_red\\">
+                      <JSXStyle id=\\"2045488686\\" />
+                    </div>
+                  </Coin>
+                  <JSXStyle id=\\"3789763585\\" />
+                </div>
+                <div className=\\"jsx-3789763585 coin red\\">
+                  <JSXStyle id=\\"3789763585\\" />
+                </div>
+              </div>
+            </div>
+            <JSXStyle id=\\"3789763585\\" />
+          </div>
+        </CoinContainer>
+        <CellRow className=\\"cell_row\\" cellId={[undefined]} color=\\"blue\\" containerClass=\\"\\">
+          <div className=\\"jsx-2616575202 \\">
+            <div className=\\"jsx-2616575202 cell_row\\">
+              <Cell id={1} className=\\"cell \\">
+                <div id={1} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={2} className=\\"cell \\">
+                <div id={2} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={3} className=\\"cell \\">
+                <div id={3} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_row\\">
+              <Cell id={4} className=\\"cell \\">
+                <div id={4} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={5} className=\\"cell  blue\\">
+                <div id={5} className=\\"jsx-2833566901 cell  blue\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={6} className=\\"cell  blue safe-cell\\">
+                <div id={6} className=\\"jsx-2833566901 cell  blue safe-cell\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_row\\">
+              <Cell id={7} className=\\"cell  safe-cell\\">
+                <div id={7} className=\\"jsx-2833566901 cell  safe-cell\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={8} className=\\"cell  blue\\">
+                <div id={8} className=\\"jsx-2833566901 cell  blue\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={9} className=\\"cell \\">
+                <div id={9} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_row\\">
+              <Cell id={10} className=\\"cell \\">
+                <div id={10} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={11} className=\\"cell  blue\\">
+                <div id={11} className=\\"jsx-2833566901 cell  blue\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={12} className=\\"cell \\">
+                <div id={12} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_row\\">
+              <Cell id={13} className=\\"cell \\">
+                <div id={13} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={14} className=\\"cell  blue\\">
+                <div id={14} className=\\"jsx-2833566901 cell  blue\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={15} className=\\"cell \\">
+                <div id={15} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_row\\">
+              <Cell id={16} className=\\"cell \\">
+                <div id={16} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={17} className=\\"cell  blue\\">
+                <div id={17} className=\\"jsx-2833566901 cell  blue\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={18} className=\\"cell \\">
+                <div id={18} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <JSXStyle id=\\"2616575202\\" />
+          </div>
+        </CellRow>
+        <CoinContainer color=\\"blue\\" showCoins={true} nutralCoins={{...}}>
+          <div className=\\"jsx-3789763585 coin_container\\">
+            <div className=\\"jsx-3789763585 container-border\\">
+              <div className=\\"jsx-3789763585 container_row\\">
+                <div className=\\"jsx-3789763585 coin blue\\">
+                  <Coin color=\\"blue\\">
+                    <div className=\\"jsx-2045488686 coin dark_blue\\">
+                      <JSXStyle id=\\"2045488686\\" />
+                    </div>
+                  </Coin>
+                  <JSXStyle id=\\"3789763585\\" />
+                </div>
+                <div className=\\"jsx-3789763585 coin blue\\">
+                  <Coin color=\\"blue\\">
+                    <div className=\\"jsx-2045488686 coin dark_blue\\">
+                      <JSXStyle id=\\"2045488686\\" />
+                    </div>
+                  </Coin>
+                  <JSXStyle id=\\"3789763585\\" />
+                </div>
+              </div>
+              <div className=\\"jsx-3789763585 container_row\\">
+                <div className=\\"jsx-3789763585 coin blue\\">
+                  <Coin color=\\"blue\\">
+                    <div className=\\"jsx-2045488686 coin dark_blue\\">
+                      <JSXStyle id=\\"2045488686\\" />
+                    </div>
+                  </Coin>
+                  <JSXStyle id=\\"3789763585\\" />
+                </div>
+                <div className=\\"jsx-3789763585 coin blue\\">
+                  <JSXStyle id=\\"3789763585\\" />
+                </div>
+              </div>
+            </div>
+            <JSXStyle id=\\"3789763585\\" />
+          </div>
+        </CoinContainer>
+        <Player name=\\"dummy\\" turn={false} alignment=\\"right\\" onRollDice={[Function: rollDice]} diceValue={1} coins={{...}}>
+          <div className=\\"jsx-3876423128 container right\\">
+            <div className=\\"jsx-3876423128 left-section\\">
+              <div className=\\"jsx-3876423128 player-name\\">
+                dummy
+              </div>
+              <div className=\\"jsx-3876423128 stat\\">
+                0 coins cleared
+              </div>
+            </div>
+            <div className=\\"jsx-3876423128 right-section\\">
+              <div className=\\"jsx-3876423128 box\\" />
+              <div className=\\"jsx-3876423128 box\\" />
+              <div className=\\"jsx-3876423128 box\\" />
+              <div className=\\"jsx-3876423128 box\\" />
+            </div>
+            <JSXStyle id=\\"3876423128\\" />
+          </div>
+        </Player>
+      </section>
+      <div className=\\"jsx-1772502628 board_middle_row\\">
+        <CellRow className=\\"cell_column\\" cellId={[undefined]} color=\\"red\\" containerClass=\\"cell_column_container\\">
+          <div className=\\"jsx-2616575202 cell_column_container\\">
+            <div className=\\"jsx-2616575202 cell_column\\">
+              <Cell id={19} className=\\"cell \\">
+                <div id={19} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={20} className=\\"cell \\">
+                <div id={20} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={21} className=\\"cell \\">
+                <div id={21} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_column\\">
+              <Cell id={22} className=\\"cell  red safe-cell\\">
+                <div id={22} className=\\"jsx-2833566901 cell  red safe-cell\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={23} className=\\"cell  red\\">
+                <div id={23} className=\\"jsx-2833566901 cell  red\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={24} className=\\"cell \\">
+                <div id={24} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_column\\">
+              <Cell id={25} className=\\"cell \\">
+                <div id={25} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={26} className=\\"cell  red\\">
+                <div id={26} className=\\"jsx-2833566901 cell  red\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={27} className=\\"cell  safe-cell\\">
+                <div id={27} className=\\"jsx-2833566901 cell  safe-cell\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_column\\">
+              <Cell id={28} className=\\"cell \\">
+                <div id={28} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={29} className=\\"cell  red\\">
+                <div id={29} className=\\"jsx-2833566901 cell  red\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={30} className=\\"cell \\">
+                <div id={30} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_column\\">
+              <Cell id={31} className=\\"cell \\">
+                <div id={31} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={32} className=\\"cell  red\\">
+                <div id={32} className=\\"jsx-2833566901 cell  red\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={33} className=\\"cell \\">
+                <div id={33} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_column\\">
+              <Cell id={34} className=\\"cell \\">
+                <div id={34} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={35} className=\\"cell  red\\">
+                <div id={35} className=\\"jsx-2833566901 cell  red\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={36} className=\\"cell \\">
+                <div id={36} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <JSXStyle id=\\"2616575202\\" />
+          </div>
+        </CellRow>
+        <div className=\\"jsx-1772502628 clear_coins_container\\" />
+        <CellRow className=\\"cell_column\\" cellId={[undefined]} color=\\"yellow\\" containerClass=\\"cell_column_container\\">
+          <div className=\\"jsx-2616575202 cell_column_container\\">
+            <div className=\\"jsx-2616575202 cell_column\\">
+              <Cell id={37} className=\\"cell \\">
+                <div id={37} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={38} className=\\"cell  yellow\\">
+                <div id={38} className=\\"jsx-2833566901 cell  yellow\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={39} className=\\"cell \\">
+                <div id={39} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_column\\">
+              <Cell id={40} className=\\"cell \\">
+                <div id={40} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={41} className=\\"cell  yellow\\">
+                <div id={41} className=\\"jsx-2833566901 cell  yellow\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={42} className=\\"cell \\">
+                <div id={42} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_column\\">
+              <Cell id={43} className=\\"cell \\">
+                <div id={43} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={44} className=\\"cell  yellow\\">
+                <div id={44} className=\\"jsx-2833566901 cell  yellow\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={45} className=\\"cell \\">
+                <div id={45} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_column\\">
+              <Cell id={46} className=\\"cell  safe-cell\\">
+                <div id={46} className=\\"jsx-2833566901 cell  safe-cell\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={47} className=\\"cell  yellow\\">
+                <div id={47} className=\\"jsx-2833566901 cell  yellow\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={48} className=\\"cell \\">
+                <div id={48} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_column\\">
+              <Cell id={49} className=\\"cell \\">
+                <div id={49} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={50} className=\\"cell  yellow\\">
+                <div id={50} className=\\"jsx-2833566901 cell  yellow\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={51} className=\\"cell  yellow safe-cell\\">
+                <div id={51} className=\\"jsx-2833566901 cell  yellow safe-cell\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_column\\">
+              <Cell id={52} className=\\"cell \\">
+                <div id={52} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={53} className=\\"cell \\">
+                <div id={53} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={54} className=\\"cell \\">
+                <div id={54} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <JSXStyle id=\\"2616575202\\" />
+          </div>
+        </CellRow>
+      </div>
+      <section className=\\"jsx-1772502628 player_row\\">
+        <Player name=\\"dummy\\" turn={false} alignment=\\"left\\" onRollDice={[Function: rollDice]} diceValue={1} coins={{...}}>
+          <div className=\\"jsx-3876423128 container left\\">
+            <div className=\\"jsx-3876423128 left-section\\">
+              <div className=\\"jsx-3876423128 player-name\\">
+                dummy
+              </div>
+              <div className=\\"jsx-3876423128 stat\\">
+                0 coins cleared
+              </div>
+            </div>
+            <div className=\\"jsx-3876423128 right-section\\">
+              <div className=\\"jsx-3876423128 box\\" />
+              <div className=\\"jsx-3876423128 box\\" />
+              <div className=\\"jsx-3876423128 box\\" />
+              <div className=\\"jsx-3876423128 box\\" />
+            </div>
+            <JSXStyle id=\\"3876423128\\" />
+          </div>
+        </Player>
+        <CoinContainer color=\\"green\\" showCoins={true} nutralCoins={{...}}>
+          <div className=\\"jsx-3789763585 coin_container\\">
+            <div className=\\"jsx-3789763585 container-border\\">
+              <div className=\\"jsx-3789763585 container_row\\">
+                <div className=\\"jsx-3789763585 coin green\\">
+                  <Coin color=\\"green\\">
+                    <div className=\\"jsx-2045488686 coin dark_green\\">
+                      <JSXStyle id=\\"2045488686\\" />
+                    </div>
+                  </Coin>
+                  <JSXStyle id=\\"3789763585\\" />
+                </div>
+                <div className=\\"jsx-3789763585 coin green\\">
+                  <Coin color=\\"green\\">
+                    <div className=\\"jsx-2045488686 coin dark_green\\">
+                      <JSXStyle id=\\"2045488686\\" />
+                    </div>
+                  </Coin>
+                  <JSXStyle id=\\"3789763585\\" />
+                </div>
+              </div>
+              <div className=\\"jsx-3789763585 container_row\\">
+                <div className=\\"jsx-3789763585 coin green\\">
+                  <Coin color=\\"green\\">
+                    <div className=\\"jsx-2045488686 coin dark_green\\">
+                      <JSXStyle id=\\"2045488686\\" />
+                    </div>
+                  </Coin>
+                  <JSXStyle id=\\"3789763585\\" />
+                </div>
+                <div className=\\"jsx-3789763585 coin green\\">
+                  <JSXStyle id=\\"3789763585\\" />
+                </div>
+              </div>
+            </div>
+            <JSXStyle id=\\"3789763585\\" />
+          </div>
+        </CoinContainer>
+        <CellRow className=\\"cell_row\\" cellId={[undefined]} color=\\"green\\" containerClass=\\"\\">
+          <div className=\\"jsx-2616575202 \\">
+            <div className=\\"jsx-2616575202 cell_row\\">
+              <Cell id={55} className=\\"cell \\">
+                <div id={55} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={56} className=\\"cell  green\\">
+                <div id={56} className=\\"jsx-2833566901 cell  green\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={57} className=\\"cell \\">
+                <div id={57} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_row\\">
+              <Cell id={58} className=\\"cell \\">
+                <div id={58} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={59} className=\\"cell  green\\">
+                <div id={59} className=\\"jsx-2833566901 cell  green\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={60} className=\\"cell \\">
+                <div id={60} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_row\\">
+              <Cell id={61} className=\\"cell \\">
+                <div id={61} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={62} className=\\"cell  green\\">
+                <div id={62} className=\\"jsx-2833566901 cell  green\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={63} className=\\"cell \\">
+                <div id={63} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_row\\">
+              <Cell id={64} className=\\"cell \\">
+                <div id={64} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={65} className=\\"cell  green\\">
+                <div id={65} className=\\"jsx-2833566901 cell  green\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={66} className=\\"cell  safe-cell\\">
+                <div id={66} className=\\"jsx-2833566901 cell  safe-cell\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_row\\">
+              <Cell id={67} className=\\"cell  green safe-cell\\">
+                <div id={67} className=\\"jsx-2833566901 cell  green safe-cell\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={68} className=\\"cell  green\\">
+                <div id={68} className=\\"jsx-2833566901 cell  green\\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={69} className=\\"cell \\">
+                <div id={69} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <div className=\\"jsx-2616575202 cell_row\\">
+              <Cell id={70} className=\\"cell \\">
+                <div id={70} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={71} className=\\"cell \\">
+                <div id={71} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+              <Cell id={72} className=\\"cell \\">
+                <div id={72} className=\\"jsx-2833566901 cell \\">
+                  <JSXStyle id=\\"2833566901\\" />
+                </div>
+              </Cell>
+            </div>
+            <JSXStyle id=\\"2616575202\\" />
+          </div>
+        </CellRow>
+        <CoinContainer color=\\"yellow\\" showCoins={true} nutralCoins={{...}}>
+          <div className=\\"jsx-3789763585 coin_container\\">
+            <div className=\\"jsx-3789763585 container-border\\">
+              <div className=\\"jsx-3789763585 container_row\\">
+                <div className=\\"jsx-3789763585 coin yellow\\">
+                  <Coin color=\\"yellow\\">
+                    <div className=\\"jsx-2045488686 coin dark_yellow\\">
+                      <JSXStyle id=\\"2045488686\\" />
+                    </div>
+                  </Coin>
+                  <JSXStyle id=\\"3789763585\\" />
+                </div>
+                <div className=\\"jsx-3789763585 coin yellow\\">
+                  <Coin color=\\"yellow\\">
+                    <div className=\\"jsx-2045488686 coin dark_yellow\\">
+                      <JSXStyle id=\\"2045488686\\" />
+                    </div>
+                  </Coin>
+                  <JSXStyle id=\\"3789763585\\" />
+                </div>
+              </div>
+              <div className=\\"jsx-3789763585 container_row\\">
+                <div className=\\"jsx-3789763585 coin yellow\\">
+                  <Coin color=\\"yellow\\">
+                    <div className=\\"jsx-2045488686 coin dark_yellow\\">
+                      <JSXStyle id=\\"2045488686\\" />
+                    </div>
+                  </Coin>
+                  <JSXStyle id=\\"3789763585\\" />
+                </div>
+                <div className=\\"jsx-3789763585 coin yellow\\">
+                  <JSXStyle id=\\"3789763585\\" />
+                </div>
+              </div>
+            </div>
+            <JSXStyle id=\\"3789763585\\" />
+          </div>
+        </CoinContainer>
+        <Player name=\\"dummy\\" turn={false} alignment=\\"right\\" onRollDice={[Function: rollDice]} diceValue={1} coins={{...}}>
+          <div className=\\"jsx-3876423128 container right\\">
+            <div className=\\"jsx-3876423128 left-section\\">
+              <div className=\\"jsx-3876423128 player-name\\">
+                dummy
+              </div>
+              <div className=\\"jsx-3876423128 stat\\">
+                0 coins cleared
+              </div>
+            </div>
+            <div className=\\"jsx-3876423128 right-section\\">
+              <div className=\\"jsx-3876423128 box\\" />
+              <div className=\\"jsx-3876423128 box\\" />
+              <div className=\\"jsx-3876423128 box\\" />
+              <div className=\\"jsx-3876423128 box\\" />
+            </div>
+            <JSXStyle id=\\"3876423128\\" />
+          </div>
+        </Player>
+      </section>
     </section>
-    <div className=\\"jsx-1772502628 board_middle_row\\">
-      <CellRow className=\\"cell_column\\" cellId={[undefined]} color=\\"red\\" containerClass=\\"cell_column_container\\" />
-      <div className=\\"jsx-1772502628 clear_coins_container\\" />
-      <CellRow className=\\"cell_column\\" cellId={[undefined]} color=\\"yellow\\" containerClass=\\"cell_column_container\\" />
-    </div>
-    <section className=\\"jsx-1772502628 player_row\\">
-      <Player name=\\"test3\\" turn={false} alignment=\\"left\\" onRollDice={[Function: rollDice]} diceValue={1} coins={{...}} />
-      <CoinContainer color=\\"green\\" showCoins={true} nutralCoins={{...}} />
-      <CellRow className=\\"cell_row\\" cellId={[undefined]} color=\\"green\\" containerClass=\\"\\" />
-      <CoinContainer color=\\"yellow\\" showCoins={true} nutralCoins={{...}} />
-      <Player name=\\"test4\\" turn={false} alignment=\\"right\\" onRollDice={[Function: rollDice]} diceValue={1} coins={{...}} />
-    </section>
-  </section>
-  <JSXStyle id=\\"1772502628\\">
-    .
-    b
-    o
-    d
-    y
-    .
-    j
-    s
-    x
-    -
-    1
-    7
-    7
-    2
-    5
-    0
-    2
-    6
-    2
-    8
-    {
-    w
-    i
-    d
-    t
-    h
-    :
-    1
-    0
-    0
-    %
-    ;
-    h
-    e
-    i
-    g
-    h
-    t
-    :
-    1
-    0
-    0
-    %
-    ;
-    p
-    a
-    d
-    d
-    i
-    n
-    g
-    :
-    0
-    ;
-    m
-    a
-    r
-    g
-    i
-    n
-    :
-    0
-    ;
-    f
-    o
-    n
-    t
-    -
-    f
-    a
-    m
-    i
-    l
-    y
-    :
-    &#39;
-    T
-    r
-    e
-    b
-    u
-    c
-    h
-    e
-    t
-     
-    M
-    S
-    &#39;
-    ,
-    &#39;
-    L
-    u
-    c
-    i
-    d
-    a
-     
-    S
-    a
-    n
-    s
-     
-    U
-    n
-    i
-    c
-    o
-    d
-    e
-    &#39;
-    ,
-    &#39;
-    L
-    u
-    c
-    i
-    d
-    a
-     
-    G
-    r
-    a
-    n
-    d
-    e
-    &#39;
-    ,
-     
-    &#39;
-    L
-    u
-    c
-    i
-    d
-    a
-     
-    S
-    a
-    n
-    s
-    &#39;
-    ,
-    A
-    r
-    i
-    a
-    l
-    ,
-    s
-    a
-    n
-    s
-    -
-    s
-    e
-    r
-    i
-    f
-    ;
-    }
-    .
-    m
-    a
-    i
-    n
-    _
-    c
-    o
-    n
-    t
-    a
-    i
-    n
-    e
-    r
-    .
-    j
-    s
-    x
-    -
-    1
-    7
-    7
-    2
-    5
-    0
-    2
-    6
-    2
-    8
-    {
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    b
-    o
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    f
-    l
-    e
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    b
-    o
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    f
-    l
-    e
-    x
-    ;
-    p
-    a
-    d
-    d
-    i
-    n
-    g
-    :
-    1
-    5
-    p
-    x
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    a
-    l
-    i
-    g
-    n
-    -
-    i
-    t
-    e
-    m
-    s
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    b
-    o
-    x
-    -
-    a
-    l
-    i
-    g
-    n
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    -
-    a
-    l
-    i
-    g
-    n
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    a
-    l
-    i
-    g
-    n
-    -
-    i
-    t
-    e
-    m
-    s
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    b
-    a
-    c
-    k
-    g
-    r
-    o
-    u
-    n
-    d
-    :
-    #
-    d
-    f
-    d
-    f
-    d
-    f
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    f
-    l
-    e
-    x
-    -
-    d
-    i
-    r
-    e
-    c
-    t
-    i
-    o
-    n
-    :
-    c
-    o
-    l
-    u
-    m
-    n
-    ;
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    -
-    d
-    i
-    r
-    e
-    c
-    t
-    i
-    o
-    n
-    :
-    c
-    o
-    l
-    u
-    m
-    n
-    ;
-    f
-    l
-    e
-    x
-    -
-    d
-    i
-    r
-    e
-    c
-    t
-    i
-    o
-    n
-    :
-    c
-    o
-    l
-    u
-    m
-    n
-    ;
-    }
-    .
-    p
-    l
-    a
-    y
-    e
-    r
-    _
-    r
-    o
-    w
-    .
-    j
-    s
-    x
-    -
-    1
-    7
-    7
-    2
-    5
-    0
-    2
-    6
-    2
-    8
-    {
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    b
-    o
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    f
-    l
-    e
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    b
-    o
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    f
-    l
-    e
-    x
-    ;
-    }
-    .
-    b
-    o
-    a
-    r
-    d
-    _
-    m
-    i
-    d
-    d
-    l
-    e
-    _
-    r
-    o
-    w
-    .
-    j
-    s
-    x
-    -
-    1
-    7
-    7
-    2
-    5
-    0
-    2
-    6
-    2
-    8
-    {
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    b
-    o
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    f
-    l
-    e
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    b
-    o
-    x
-    ;
-    d
-    i
-    s
-    p
-    l
-    a
-    y
-    :
-    f
-    l
-    e
-    x
-    ;
-    w
-    i
-    d
-    t
-    h
-    :
-    6
-    3
-    0
-    p
-    x
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    b
-    o
-    x
-    -
-    p
-    a
-    c
-    k
-    :
-    j
-    u
-    s
-    t
-    i
-    f
-    y
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    j
-    u
-    s
-    t
-    i
-    f
-    y
-    -
-    c
-    o
-    n
-    t
-    e
-    n
-    t
-    :
-    s
-    p
-    a
-    c
-    e
-    -
-    b
-    e
-    t
-    w
-    e
-    e
-    n
-    ;
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    -
-    p
-    a
-    c
-    k
-    :
-    j
-    u
-    s
-    t
-    i
-    f
-    y
-    ;
-    j
-    u
-    s
-    t
-    i
-    f
-    y
-    -
-    c
-    o
-    n
-    t
-    e
-    n
-    t
-    :
-    s
-    p
-    a
-    c
-    e
-    -
-    b
-    e
-    t
-    w
-    e
-    e
-    n
-    ;
-    }
-    .
-    c
-    o
-    i
-    n
-    _
-    s
-    y
-    m
-    b
-    o
-    l
-    .
-    j
-    s
-    x
-    -
-    1
-    7
-    7
-    2
-    5
-    0
-    2
-    6
-    2
-    8
-    {
-    h
-    e
-    i
-    g
-    h
-    t
-    :
-    5
-    0
-    %
-    ;
-    w
-    i
-    d
-    t
-    h
-    :
-    5
-    0
-    %
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    a
-    l
-    i
-    g
-    n
-    -
-    s
-    e
-    l
-    f
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    -
-    i
-    t
-    e
-    m
-    -
-    a
-    l
-    i
-    g
-    n
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    a
-    l
-    i
-    g
-    n
-    -
-    s
-    e
-    l
-    f
-    :
-    c
-    e
-    n
-    t
-    e
-    r
-    ;
-    b
-    o
-    r
-    d
-    e
-    r
-    :
-    1
-    p
-    x
-     
-    s
-    o
-    l
-    i
-    d
-     
-    #
-    f
-    1
-    b
-    0
-    9
-    1
-    e
-    b
-    ;
-    b
-    o
-    r
-    d
-    e
-    r
-    -
-    r
-    a
-    d
-    i
-    u
-    s
-    :
-    5
-    0
-    %
-    ;
-    }
-    .
-    c
-    l
-    e
-    a
-    r
-    _
-    c
-    o
-    i
-    n
-    s
-    _
-    c
-    o
-    n
-    t
-    a
-    i
-    n
-    e
-    r
-    .
-    j
-    s
-    x
-    -
-    1
-    7
-    7
-    2
-    5
-    0
-    2
-    6
-    2
-    8
-    {
-    w
-    i
-    d
-    t
-    h
-    :
-    0
-    ;
-    h
-    e
-    i
-    g
-    h
-    t
-    :
-    0
-    ;
-    b
-    o
-    r
-    d
-    e
-    r
-    -
-    t
-    o
-    p
-    :
-    6
-    3
-    p
-    x
-     
-    s
-    o
-    l
-    i
-    d
-     
-    r
-    g
-    b
-    (
-    8
-    4
-    ,
-    8
-    4
-    ,
-    2
-    3
-    5
-    )
-    ;
-    b
-    o
-    r
-    d
-    e
-    r
-    -
-    b
-    o
-    t
-    t
-    o
-    m
-    :
-    6
-    3
-    p
-    x
-     
-    s
-    o
-    l
-    i
-    d
-     
-    r
-    g
-    b
-    (
-    1
-    1
-    2
-    ,
-    2
-    3
-    6
-    ,
-    1
-    1
-    2
-    )
-    ;
-    b
-    o
-    r
-    d
-    e
-    r
-    -
-    l
-    e
-    f
-    t
-    :
-    6
-    3
-    p
-    x
-     
-    s
-    o
-    l
-    i
-    d
-     
-    r
-    g
-    b
-    (
-    2
-    3
-    1
-    ,
-    9
-    6
-    ,
-    9
-    6
-    )
-    ;
-    b
-    o
-    r
-    d
-    e
-    r
-    -
-    r
-    i
-    g
-    h
-    t
-    :
-    6
-    3
-    p
-    x
-     
-    s
-    o
-    l
-    i
-    d
-     
-    r
-    g
-    b
-    (
-    2
-    3
-    0
-    ,
-    2
-    3
-    0
-    ,
-    9
-    1
-    )
-    ;
-    }
-  </JSXStyle>
-</div>"
+    <JSXStyle id=\\"1772502628\\" />
+  </div>
+</Game>"
 `;

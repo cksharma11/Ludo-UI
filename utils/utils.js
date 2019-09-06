@@ -4,8 +4,9 @@ const isWindow = () => {
   return process.browser;
 };
 
-const findElementFromObjectArray = (list, key, element) => {
-  return list.filter((e) => e[key] === element)[0];
+const findElementFromObjectArray = (list = [], key, element) => {
+  const elementList = list.filter((e) => e[key] === element);
+  return elementList.length ? elementList[0] : {};
 };
 
 const parseCookie = (params) => {

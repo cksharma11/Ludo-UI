@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import CoinContainer from '../CoinContainer/CoinContainer';
 import GameHeader from '../GameHeader/GameHeader';
@@ -7,30 +7,39 @@ import GameStyles from './Game.style';
 import Player from '../Player/Player';
 import GameHook from './GameHook';
 import { startingCells } from '../../config/data/cells-structure';
-import { findElementFromObjectArray } from '../../utils/utils';
+import { API_URL } from '../../utils/utils';
+import app from '../../https/app';
 
-const Game = ({ gameData, playerId }) => {
-  const { currentPlayerIndex, rollDice, diceValue } = GameHook({
-    gameData
+const POLLING_INTERVAL = 1000;
+
+const Game = ({ gameData: initialGameData, playerId, gameId }) => {
+  const [gameData, setGameData] = useState(initialGameData);
+
+  useEffect(() => {
+    setTimeout(async () => {
+      const res = await app.post(`${API_URL}/getGameData`, {
+        body: JSON.stringify({ gameId })
+      });
+      setGameData(res);
+    }, POLLING_INTERVAL);
+  }, [gameData]);
+
+  const { currentPlayerIndex, rollDice, diceValue, windowPlayer } = GameHook({
+    gameData,
+    playerId
   });
   const {
     players: [player1, player2, player3, player4]
   } = gameData;
 
-  const sameScreenPlayer = findElementFromObjectArray(
-    gameData.players,
-    'playerId',
-    +playerId
-  );
-
   return (
     <div className="body">
-      <GameHeader playerName={sameScreenPlayer.playerName} />
+      <GameHeader playerName={windowPlayer} />
       <section className="main_container">
         <section className="player_row">
           {player1 && (
             <Player
-              name={player1.playerName}
+              name={player1.name}
               turn={currentPlayerIndex === 0}
               alignment="left"
               onRollDice={rollDice}
@@ -47,7 +56,7 @@ const Game = ({ gameData, playerId }) => {
           <CoinContainer color="blue" showCoins={player2 !== undefined} />
           {player2 && (
             <Player
-              name={player2.playerName}
+              name={player2.name}
               turn={currentPlayerIndex === 1}
               alignment="right"
               onRollDice={rollDice}
@@ -75,7 +84,7 @@ const Game = ({ gameData, playerId }) => {
         <section className="player_row">
           {player3 && (
             <Player
-              name={player3.playerName}
+              name={player3.name}
               turn={currentPlayerIndex === 2}
               alignment="left"
               onRollDice={rollDice}
@@ -92,7 +101,7 @@ const Game = ({ gameData, playerId }) => {
           <CoinContainer color="yellow" showCoins={player4 !== undefined} />
           {player4 && (
             <Player
-              name={player4.playerName}
+              name={player4.name}
               turn={currentPlayerIndex === 3}
               alignment="right"
               onRollDice={rollDice}
@@ -108,7 +117,8 @@ const Game = ({ gameData, playerId }) => {
 
 Game.propTypes = {
   gameData: PropTypes.object.isRequired,
-  playerId: PropTypes.number.isRequired
+  playerId: PropTypes.number.isRequired,
+  gameId: PropTypes.string.isRequired
 };
 
 export default Game;

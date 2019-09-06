@@ -8,11 +8,7 @@ exports[`WaitingArea should render properly 1`] = `
       Game Id : 1
     </p>
     <ul className=\\"jsx-2871010629 players-info\\">
-      <li className=\\"jsx-2871010629\\">
-        1
-        .
-         has joined
-      </li>
+      0
     </ul>
     <Loader />
     <JSXStyle id=\\"2871010629\\">
@@ -630,11 +626,7 @@ exports[`WaitingArea should render properly when game is not started 1`] = `
       Game Id : 1
     </p>
     <ul className=\\"jsx-2871010629 players-info\\">
-      <li className=\\"jsx-2871010629\\">
-        1
-        .
-         has joined
-      </li>
+      0
     </ul>
     <Loader />
     <JSXStyle id=\\"2871010629\\">
@@ -1252,11 +1244,7 @@ exports[`WaitingArea should render properly when game is started 1`] = `
       Game Id : 1
     </p>
     <ul className=\\"jsx-2871010629 players-info\\">
-      <li className=\\"jsx-2871010629\\">
-        1
-        .
-         has joined
-      </li>
+      0
     </ul>
     <Loader />
     <JSXStyle id=\\"2871010629\\">

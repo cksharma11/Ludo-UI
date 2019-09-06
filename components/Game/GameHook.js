@@ -1,7 +1,9 @@
 import { useState } from 'react';
+import { findElementFromObjectArray } from '../../utils/utils';
 
-const GameHook = ({ gameData: initialGameData }) => {
-  const numberOfPlayer = initialGameData.players.length;
+const GameHook = ({ gameData = {}, playerId }) => {
+  const numberOfPlayer =
+    gameData && gameData.players && gameData.players.length;
   const [currentPlayerIndex, setCurrentPlayerIndex] = useState(0);
   const [diceValue, setDiceValue] = useState(1);
 
@@ -22,11 +24,18 @@ const GameHook = ({ gameData: initialGameData }) => {
     }
   };
 
+  const { name: windowPlayer } = findElementFromObjectArray(
+    gameData.players,
+    'id',
+    +playerId
+  );
+
   return {
     updateCurrentPlayerIndex,
     currentPlayerIndex,
     rollDice,
-    diceValue
+    diceValue,
+    windowPlayer
   };
 };
 
