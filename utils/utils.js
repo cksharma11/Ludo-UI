@@ -26,7 +26,7 @@ const POST_CALL_CONFIG = {
   }
 };
 
-const API_URL = `http://localhost:${API_PORT}`;
+const API_URL = process.env.API_HOST || `http://localhost:${API_PORT}`;
 
 export {
   isWindow,

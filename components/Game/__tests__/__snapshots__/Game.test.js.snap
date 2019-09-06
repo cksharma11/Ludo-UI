@@ -17,8 +17,8 @@ exports[`Game should render properly 1`] = `
     </GameHeader>
     <section className=\\"jsx-1772502628 main_container\\">
       <section className=\\"jsx-1772502628 player_row\\">
-        <Player name=\\"dummy\\" turn={true} alignment=\\"left\\" onRollDice={[Function: rollDice]} diceValue={1} coins={{...}}>
-          <div className=\\"jsx-3876423128 container left active\\">
+        <Player name=\\"dummy\\" turn={false} alignment=\\"left\\" onRollDice={[Function: rollDice]} diceValue={1} coins={{...}}>
+          <div className=\\"jsx-3876423128 container left\\">
             <div className=\\"jsx-3876423128 left-section\\">
               <div className=\\"jsx-3876423128 player-name\\">
                 dummy
@@ -26,12 +26,6 @@ exports[`Game should render properly 1`] = `
               <div className=\\"jsx-3876423128 stat\\">
                 0 coins cleared
               </div>
-              <Dice onRollDice={[Function: rollDice]} diceValue={1}>
-                <div className=\\"jsx-865041945\\">
-                  <img src=\\"https://upload.wikimedia.org/wikipedia/commons/0/09/Dice-1.svg\\" alt=\\"dice\\" onClick={[Function: rollDice]} className=\\"jsx-865041945\\" />
-                  <JSXStyle id=\\"865041945\\" />
-                </div>
-              </Dice>
             </div>
             <div className=\\"jsx-3876423128 right-section\\">
               <div className=\\"jsx-3876423128 box\\" />
