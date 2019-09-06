@@ -29,7 +29,7 @@ describe('Game', () => {
   };
 
   it('should render properly', () => {
-    const wrapper = mount(<Game gameData={gameData} playerId={1} />);
+    const wrapper = mount(<Game gameData={gameData} playerId={1} gameId={1} />);
     expect(wrapper.debug()).toMatchSnapshot();
   });
 });

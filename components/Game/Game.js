@@ -118,7 +118,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
 Game.propTypes = {
   gameData: PropTypes.object.isRequired,
   playerId: PropTypes.number.isRequired,
-  gameId: PropTypes.string.isRequired
+  gameId: PropTypes.number.isRequired
 };
 
 export default Game;

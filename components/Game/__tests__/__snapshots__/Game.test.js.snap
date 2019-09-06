@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Game should render properly 1`] = `
-"<Game gameData={{...}} playerId={1}>
+"<Game gameData={{...}} playerId={1} gameId={1}>
   <div className=\\"jsx-1772502628 body\\">
     <GameHeader playerName=\\"\\">
       <header className=\\"jsx-186861727\\">
