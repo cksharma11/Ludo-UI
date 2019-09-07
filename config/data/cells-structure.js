@@ -249,4 +249,4 @@ const routes = {
   safe: [22, 27, 7, 46, 51, 66]
 };
 
-export { safeCells, startingCells, routes };
+module.exports = { safeCells, startingCells, routes };
