@@ -10,6 +10,12 @@ const GameHook = ({ gameData = {}, playerId = 1702 }) => {
     });
   };
 
+  const getDeactivatedCoins = (coins) => {
+    return coins.filter((coin) => coin.position === 0);
+  };
+
+  const getCoins = (player) => (player ? player.coins : []);
+
   const { name: windowPlayer } = findElementFromObjectArray(
     gameData.players,
     'id',
@@ -20,7 +26,9 @@ const GameHook = ({ gameData = {}, playerId = 1702 }) => {
     currentPlayerIndex,
     rollDice,
     diceValue,
-    windowPlayer
+    windowPlayer,
+    getDeactivatedCoins,
+    getCoins
   };
 };
 

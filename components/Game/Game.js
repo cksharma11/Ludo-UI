@@ -24,7 +24,14 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
     }, POLLING_INTERVAL);
   }, [gameData]);
 
-  const { currentPlayerIndex, rollDice, diceValue, windowPlayer } = GameHook({
+  const {
+    currentPlayerIndex,
+    rollDice,
+    diceValue,
+    windowPlayer,
+    getDeactivatedCoins,
+    getCoins
+  } = GameHook({
     gameData,
     playerId
   });
@@ -46,14 +53,22 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
               diceValue={diceValue}
             />
           )}
-          <CoinContainer color="red" showCoins={player1 !== undefined} />
+          <CoinContainer
+            nutralCoins={getDeactivatedCoins(getCoins(player1))}
+            color="red"
+            showCoins={player1 !== undefined}
+          />
           <CellRow
             className="cell_row"
             cellId={startingCells[0]}
             color="blue"
             containerClass=""
           />
-          <CoinContainer color="blue" showCoins={player2 !== undefined} />
+          <CoinContainer
+            nutralCoins={getDeactivatedCoins(getCoins(player2))}
+            color="blue"
+            showCoins={player2 !== undefined}
+          />
           {player2 && (
             <Player
               name={player2.name}
@@ -91,14 +106,22 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
               diceValue={diceValue}
             />
           )}
-          <CoinContainer color="green" showCoins={player3 !== undefined} />
+          <CoinContainer
+            nutralCoins={getDeactivatedCoins(getCoins(player3))}
+            color="green"
+            showCoins={player3 !== undefined}
+          />
           <CellRow
             className="cell_row"
             cellId={startingCells[3]}
             color="green"
             containerClass=""
           />
-          <CoinContainer color="yellow" showCoins={player4 !== undefined} />
+          <CoinContainer
+            nutralCoins={getDeactivatedCoins(getCoins(player4))}
+            color="yellow"
+            showCoins={player4 !== undefined}
+          />
           {player4 && (
             <Player
               name={player4.name}

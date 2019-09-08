@@ -32,7 +32,7 @@ const CoinContainer = ({ color, nutralCoins, showCoins }) => {
 
 CoinContainer.defaultProps = {
   color: '',
-  nutralCoins: [1, 3, 4],
+  nutralCoins: [1, 2, 3, 4],
   showCoins: false
 };
 

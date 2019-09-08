@@ -9219,6 +9219,7 @@ exports[`CoinContainer should render properly without coin 1`] = `
         </JSXStyle>
       </div>
       <div className=\\"jsx-3789763585 coin \\">
+        <Coin color=\\"\\" />
         <JSXStyle id=\\"3789763585\\">
           .
           c

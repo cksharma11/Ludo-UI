@@ -36,7 +36,7 @@ exports[`Game should render properly 1`] = `
             <JSXStyle id=\\"3876423128\\" />
           </div>
         </Player>
-        <CoinContainer color=\\"red\\" showCoins={true} nutralCoins={{...}}>
+        <CoinContainer nutralCoins={{...}} color=\\"red\\" showCoins={true}>
           <div className=\\"jsx-3789763585 coin_container\\">
             <div className=\\"jsx-3789763585 container-border\\">
               <div className=\\"jsx-3789763585 container_row\\">
@@ -49,21 +49,11 @@ exports[`Game should render properly 1`] = `
                   <JSXStyle id=\\"3789763585\\" />
                 </div>
                 <div className=\\"jsx-3789763585 coin red\\">
-                  <Coin color=\\"red\\">
-                    <div className=\\"jsx-2045488686 coin dark_red\\">
-                      <JSXStyle id=\\"2045488686\\" />
-                    </div>
-                  </Coin>
                   <JSXStyle id=\\"3789763585\\" />
                 </div>
               </div>
               <div className=\\"jsx-3789763585 container_row\\">
                 <div className=\\"jsx-3789763585 coin red\\">
-                  <Coin color=\\"red\\">
-                    <div className=\\"jsx-2045488686 coin dark_red\\">
-                      <JSXStyle id=\\"2045488686\\" />
-                    </div>
-                  </Coin>
                   <JSXStyle id=\\"3789763585\\" />
                 </div>
                 <div className=\\"jsx-3789763585 coin red\\">
@@ -181,7 +171,7 @@ exports[`Game should render properly 1`] = `
             <JSXStyle id=\\"2616575202\\" />
           </div>
         </CellRow>
-        <CoinContainer color=\\"blue\\" showCoins={true} nutralCoins={{...}}>
+        <CoinContainer nutralCoins={{...}} color=\\"blue\\" showCoins={true}>
           <div className=\\"jsx-3789763585 coin_container\\">
             <div className=\\"jsx-3789763585 container-border\\">
               <div className=\\"jsx-3789763585 container_row\\">
@@ -194,21 +184,11 @@ exports[`Game should render properly 1`] = `
                   <JSXStyle id=\\"3789763585\\" />
                 </div>
                 <div className=\\"jsx-3789763585 coin blue\\">
-                  <Coin color=\\"blue\\">
-                    <div className=\\"jsx-2045488686 coin dark_blue\\">
-                      <JSXStyle id=\\"2045488686\\" />
-                    </div>
-                  </Coin>
                   <JSXStyle id=\\"3789763585\\" />
                 </div>
               </div>
               <div className=\\"jsx-3789763585 container_row\\">
                 <div className=\\"jsx-3789763585 coin blue\\">
-                  <Coin color=\\"blue\\">
-                    <div className=\\"jsx-2045488686 coin dark_blue\\">
-                      <JSXStyle id=\\"2045488686\\" />
-                    </div>
-                  </Coin>
                   <JSXStyle id=\\"3789763585\\" />
                 </div>
                 <div className=\\"jsx-3789763585 coin blue\\">
@@ -476,7 +456,7 @@ exports[`Game should render properly 1`] = `
             <JSXStyle id=\\"3876423128\\" />
           </div>
         </Player>
-        <CoinContainer color=\\"green\\" showCoins={true} nutralCoins={{...}}>
+        <CoinContainer nutralCoins={{...}} color=\\"green\\" showCoins={true}>
           <div className=\\"jsx-3789763585 coin_container\\">
             <div className=\\"jsx-3789763585 container-border\\">
               <div className=\\"jsx-3789763585 container_row\\">
@@ -489,21 +469,11 @@ exports[`Game should render properly 1`] = `
                   <JSXStyle id=\\"3789763585\\" />
                 </div>
                 <div className=\\"jsx-3789763585 coin green\\">
-                  <Coin color=\\"green\\">
-                    <div className=\\"jsx-2045488686 coin dark_green\\">
-                      <JSXStyle id=\\"2045488686\\" />
-                    </div>
-                  </Coin>
                   <JSXStyle id=\\"3789763585\\" />
                 </div>
               </div>
               <div className=\\"jsx-3789763585 container_row\\">
                 <div className=\\"jsx-3789763585 coin green\\">
-                  <Coin color=\\"green\\">
-                    <div className=\\"jsx-2045488686 coin dark_green\\">
-                      <JSXStyle id=\\"2045488686\\" />
-                    </div>
-                  </Coin>
                   <JSXStyle id=\\"3789763585\\" />
                 </div>
                 <div className=\\"jsx-3789763585 coin green\\">
@@ -621,7 +591,7 @@ exports[`Game should render properly 1`] = `
             <JSXStyle id=\\"2616575202\\" />
           </div>
         </CellRow>
-        <CoinContainer color=\\"yellow\\" showCoins={true} nutralCoins={{...}}>
+        <CoinContainer nutralCoins={{...}} color=\\"yellow\\" showCoins={true}>
           <div className=\\"jsx-3789763585 coin_container\\">
             <div className=\\"jsx-3789763585 container-border\\">
               <div className=\\"jsx-3789763585 container_row\\">
@@ -634,21 +604,11 @@ exports[`Game should render properly 1`] = `
                   <JSXStyle id=\\"3789763585\\" />
                 </div>
                 <div className=\\"jsx-3789763585 coin yellow\\">
-                  <Coin color=\\"yellow\\">
-                    <div className=\\"jsx-2045488686 coin dark_yellow\\">
-                      <JSXStyle id=\\"2045488686\\" />
-                    </div>
-                  </Coin>
                   <JSXStyle id=\\"3789763585\\" />
                 </div>
               </div>
               <div className=\\"jsx-3789763585 container_row\\">
                 <div className=\\"jsx-3789763585 coin yellow\\">
-                  <Coin color=\\"yellow\\">
-                    <div className=\\"jsx-2045488686 coin dark_yellow\\">
-                      <JSXStyle id=\\"2045488686\\" />
-                    </div>
-                  </Coin>
                   <JSXStyle id=\\"3789763585\\" />
                 </div>
                 <div className=\\"jsx-3789763585 coin yellow\\">
