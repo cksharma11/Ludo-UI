@@ -16,7 +16,10 @@ const GameHook = ({ gameData = {}, playerId = 1702 }) => {
 
   const getCoins = (player) => (player ? player.coins : []);
 
-  const { name: windowPlayer } = findElementFromObjectArray(
+  const isWindowPlayer = (player, windowPlayer) =>
+    player.id === windowPlayer.id;
+
+  const windowPlayer = findElementFromObjectArray(
     gameData.players,
     'id',
     +playerId
@@ -28,7 +31,8 @@ const GameHook = ({ gameData = {}, playerId = 1702 }) => {
     diceValue,
     windowPlayer,
     getDeactivatedCoins,
-    getCoins
+    getCoins,
+    isWindowPlayer
   };
 };
 

@@ -7,4 +7,9 @@ describe('Dice', () => {
     const wrapper = shallow(<Dice />);
     expect(wrapper.debug()).toMatchSnapshot();
   });
+
+  it('onRollDice should be onClick if windowPlayer has trun ', () => {
+    const wrapper = shallow(<Dice isWindowPlayer />);
+    expect(wrapper.debug()).toMatchSnapshot();
+  });
 });

@@ -9,8 +9,9 @@ import GameHook from './GameHook';
 import { startingCells } from '../../config/data/cells-structure';
 import { API_URL } from '../../utils/utils';
 import app from '../../https/app';
+import constants from '../../constants/contants';
 
-const POLLING_INTERVAL = 1000;
+const { POLLING_INTERVAL } = constants;
 
 const Game = ({ gameData: initialGameData, playerId, gameId }) => {
   const [gameData, setGameData] = useState(initialGameData);
@@ -30,7 +31,8 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
     diceValue,
     windowPlayer,
     getDeactivatedCoins,
-    getCoins
+    getCoins,
+    isWindowPlayer
   } = GameHook({
     gameData,
     playerId
@@ -41,7 +43,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
 
   return (
     <div className="body">
-      <GameHeader playerName={windowPlayer} />
+      <GameHeader playerName={windowPlayer.name} />
       <section className="main_container">
         <section className="player_row">
           {player1 && (
@@ -51,6 +53,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
               alignment="left"
               onRollDice={rollDice}
               diceValue={diceValue}
+              isWindowPlayer={isWindowPlayer(player1, windowPlayer)}
             />
           )}
           <CoinContainer
@@ -76,6 +79,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
               alignment="right"
               onRollDice={rollDice}
               diceValue={diceValue}
+              isWindowPlayer={isWindowPlayer(player2, windowPlayer)}
             />
           )}
         </section>
@@ -104,6 +108,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
               alignment="left"
               onRollDice={rollDice}
               diceValue={diceValue}
+              isWindowPlayer={isWindowPlayer(player3, windowPlayer)}
             />
           )}
           <CoinContainer
@@ -129,6 +134,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
               alignment="right"
               onRollDice={rollDice}
               diceValue={diceValue}
+              isWindowPlayer={isWindowPlayer(player4, windowPlayer)}
             />
           )}
         </section>

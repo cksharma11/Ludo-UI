@@ -6,10 +6,14 @@ import DiceStyles from './Dice.style';
 import diceImages from '../../config/images/dice-images';
 import noop from '../../config/utils/noop';
 
-const Dice = ({ diceValue, onRollDice }) => {
+const Dice = ({ diceValue, onRollDice, isWindowPlayer }) => {
   return (
     <div>
-      <img src={diceImages[diceValue]} alt="dice" onClick={onRollDice} />
+      <img
+        src={diceImages[diceValue]}
+        alt="dice"
+        onClick={isWindowPlayer ? onRollDice : noop}
+      />
       <style jsx>{DiceStyles}</style>
     </div>
   );
@@ -17,12 +21,14 @@ const Dice = ({ diceValue, onRollDice }) => {
 
 Dice.defaultProps = {
   diceValue: 1,
-  onRollDice: noop
+  onRollDice: noop,
+  isWindowPlayer: false
 };
 
 Dice.propTypes = {
   diceValue: PropTypes.number,
-  onRollDice: PropTypes.func
+  onRollDice: PropTypes.func,
+  isWindowPlayer: PropTypes.bool
 };
 
 export default Dice;

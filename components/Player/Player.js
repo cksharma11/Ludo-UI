@@ -4,17 +4,33 @@ import Dice from '../Dice/Dice';
 import PlayerStyles from './Player.style';
 import noop from '../../config/utils/noop';
 
-const Player = ({ name, turn, coins, alignment, onRollDice, diceValue }) => {
+const Player = ({
+  name,
+  turn,
+  coins,
+  alignment,
+  onRollDice,
+  diceValue,
+  isWindowPlayer
+}) => {
   return (
     <div
       className={
-        turn ? `container ${alignment} active` : `container ${alignment}`
+        turn && isWindowPlayer
+          ? `container ${alignment} active`
+          : `container ${alignment}`
       }
     >
       <div className="left-section">
         <div className="player-name">{name}</div>
         <div className="stat">0 coins cleared</div>
-        {turn && <Dice onRollDice={onRollDice} diceValue={diceValue} />}
+        {turn && (
+          <Dice
+            onRollDice={onRollDice}
+            diceValue={diceValue}
+            isWindowPlayer={isWindowPlayer}
+          />
+        )}
       </div>
       <div className="right-section" key="right-section">
         {Object.keys(coins).map((coin) => {
@@ -37,7 +53,8 @@ Player.defaultProps = {
   },
   alignment: 'right',
   onRollDice: noop,
-  diceValue: 1
+  diceValue: 1,
+  isWindowPlayer: false
 };
 
 Player.propTypes = {
@@ -46,7 +63,8 @@ Player.propTypes = {
   coins: PropTypes.object,
   alignment: PropTypes.string,
   onRollDice: PropTypes.func,
-  diceValue: PropTypes.number
+  diceValue: PropTypes.number,
+  isWindowPlayer: PropTypes.bool
 };
 
 export default Player;

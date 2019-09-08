@@ -1,5 +1,73 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Dice onRollDice should be onClick if windowPlayer has trun  1`] = `
+"<div className=\\"jsx-865041945\\">
+  <img src=\\"https://upload.wikimedia.org/wikipedia/commons/0/09/Dice-1.svg\\" alt=\\"dice\\" onClick={[Function: noop]} className=\\"jsx-865041945\\" />
+  <JSXStyle id=\\"865041945\\">
+    i
+    m
+    g
+    .
+    j
+    s
+    x
+    -
+    8
+    6
+    5
+    0
+    4
+    1
+    9
+    4
+    5
+    {
+    h
+    e
+    i
+    g
+    h
+    t
+    :
+    1
+    0
+    0
+    p
+    x
+    ;
+    w
+    i
+    d
+    t
+    h
+    :
+    1
+    0
+    0
+    p
+    x
+    ;
+    m
+    a
+    r
+    g
+    i
+    n
+    -
+    t
+    o
+    p
+    :
+    4
+    5
+    p
+    x
+    ;
+    }
+  </JSXStyle>
+</div>"
+`;
+
 exports[`Dice should render properly 1`] = `
 "<div className=\\"jsx-865041945\\">
   <img src=\\"https://upload.wikimedia.org/wikipedia/commons/0/09/Dice-1.svg\\" alt=\\"dice\\" onClick={[Function: noop]} className=\\"jsx-865041945\\" />

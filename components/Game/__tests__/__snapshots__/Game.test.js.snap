@@ -17,7 +17,7 @@ exports[`Game should render properly 1`] = `
     </GameHeader>
     <section className=\\"jsx-1772502628 main_container\\">
       <section className=\\"jsx-1772502628 player_row\\">
-        <Player name=\\"dummy\\" turn={false} alignment=\\"left\\" onRollDice={[Function: rollDice]} diceValue={1} coins={{...}}>
+        <Player name=\\"dummy\\" turn={false} alignment=\\"left\\" onRollDice={[Function: rollDice]} diceValue={1} isWindowPlayer={true} coins={{...}}>
           <div className=\\"jsx-3876423128 container left\\">
             <div className=\\"jsx-3876423128 left-section\\">
               <div className=\\"jsx-3876423128 player-name\\">
@@ -199,7 +199,7 @@ exports[`Game should render properly 1`] = `
             <JSXStyle id=\\"3789763585\\" />
           </div>
         </CoinContainer>
-        <Player name=\\"dummy\\" turn={false} alignment=\\"right\\" onRollDice={[Function: rollDice]} diceValue={1} coins={{...}}>
+        <Player name=\\"dummy\\" turn={false} alignment=\\"right\\" onRollDice={[Function: rollDice]} diceValue={1} isWindowPlayer={true} coins={{...}}>
           <div className=\\"jsx-3876423128 container right\\">
             <div className=\\"jsx-3876423128 left-section\\">
               <div className=\\"jsx-3876423128 player-name\\">
@@ -437,7 +437,7 @@ exports[`Game should render properly 1`] = `
         </CellRow>
       </div>
       <section className=\\"jsx-1772502628 player_row\\">
-        <Player name=\\"dummy\\" turn={false} alignment=\\"left\\" onRollDice={[Function: rollDice]} diceValue={1} coins={{...}}>
+        <Player name=\\"dummy\\" turn={false} alignment=\\"left\\" onRollDice={[Function: rollDice]} diceValue={1} isWindowPlayer={true} coins={{...}}>
           <div className=\\"jsx-3876423128 container left\\">
             <div className=\\"jsx-3876423128 left-section\\">
               <div className=\\"jsx-3876423128 player-name\\">
@@ -619,7 +619,7 @@ exports[`Game should render properly 1`] = `
             <JSXStyle id=\\"3789763585\\" />
           </div>
         </CoinContainer>
-        <Player name=\\"dummy\\" turn={false} alignment=\\"right\\" onRollDice={[Function: rollDice]} diceValue={1} coins={{...}}>
+        <Player name=\\"dummy\\" turn={false} alignment=\\"right\\" onRollDice={[Function: rollDice]} diceValue={1} isWindowPlayer={true} coins={{...}}>
           <div className=\\"jsx-3876423128 container right\\">
             <div className=\\"jsx-3876423128 left-section\\">
               <div className=\\"jsx-3876423128 player-name\\">
