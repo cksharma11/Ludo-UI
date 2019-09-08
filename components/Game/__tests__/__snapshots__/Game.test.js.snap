@@ -591,16 +591,11 @@ exports[`Game should render properly 1`] = `
             <JSXStyle id=\\"2616575202\\" />
           </div>
         </CellRow>
-        <CoinContainer nutralCoins={{...}} color=\\"yellow\\" showCoins={true}>
+        <CoinContainer nutralCoins={{...}} color=\\"yellow\\" showCoins={false}>
           <div className=\\"jsx-3789763585 coin_container\\">
             <div className=\\"jsx-3789763585 container-border\\">
               <div className=\\"jsx-3789763585 container_row\\">
                 <div className=\\"jsx-3789763585 coin yellow\\">
-                  <Coin color=\\"yellow\\">
-                    <div className=\\"jsx-2045488686 coin dark_yellow\\">
-                      <JSXStyle id=\\"2045488686\\" />
-                    </div>
-                  </Coin>
                   <JSXStyle id=\\"3789763585\\" />
                 </div>
                 <div className=\\"jsx-3789763585 coin yellow\\">
@@ -619,25 +614,6 @@ exports[`Game should render properly 1`] = `
             <JSXStyle id=\\"3789763585\\" />
           </div>
         </CoinContainer>
-        <Player name=\\"dummy\\" turn={false} alignment=\\"right\\" onRollDice={[Function: rollDice]} diceValue={1} isWindowPlayer={true} coins={{...}}>
-          <div className=\\"jsx-3876423128 container right\\">
-            <div className=\\"jsx-3876423128 left-section\\">
-              <div className=\\"jsx-3876423128 player-name\\">
-                dummy
-              </div>
-              <div className=\\"jsx-3876423128 stat\\">
-                0 coins cleared
-              </div>
-            </div>
-            <div className=\\"jsx-3876423128 right-section\\">
-              <div className=\\"jsx-3876423128 box\\" />
-              <div className=\\"jsx-3876423128 box\\" />
-              <div className=\\"jsx-3876423128 box\\" />
-              <div className=\\"jsx-3876423128 box\\" />
-            </div>
-            <JSXStyle id=\\"3876423128\\" />
-          </div>
-        </Player>
       </section>
     </section>
     <JSXStyle id=\\"1772502628\\" />

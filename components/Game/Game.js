@@ -32,7 +32,8 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
     windowPlayer,
     getDeactivatedCoins,
     getCoins,
-    isWindowPlayer
+    isWindowPlayer,
+    cellRowConfigs
   } = GameHook({
     gameData,
     playerId
@@ -41,102 +42,67 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
     players: [player1, player2, player3, player4]
   } = gameData;
 
+  const renderPlayer = (player, alignment) => {
+    return player ? (
+      <Player
+        name={player.name}
+        turn={currentPlayerIndex === 0}
+        alignment={alignment}
+        onRollDice={rollDice}
+        diceValue={diceValue}
+        isWindowPlayer={isWindowPlayer(player, windowPlayer)}
+      />
+    ) : null;
+  };
+
+  const renderCoinContainer = (player, color) => {
+    return (
+      <CoinContainer
+        nutralCoins={getDeactivatedCoins(getCoins(player))}
+        color={color}
+        showCoins={player !== undefined}
+      />
+    );
+  };
+
+  const renderCellRow = (index) => {
+    const { className, color, containerClass } = cellRowConfigs[index];
+    return (
+      <CellRow
+        className={className}
+        cellId={startingCells[index]}
+        color={color}
+        containerClass={containerClass}
+      >
+        <style jsx>{GameStyles}</style>
+      </CellRow>
+    );
+  };
+
   return (
     <div className="body">
       <GameHeader playerName={windowPlayer.name} />
       <section className="main_container">
         <section className="player_row">
-          {player1 && (
-            <Player
-              name={player1.name}
-              turn={currentPlayerIndex === 0}
-              alignment="left"
-              onRollDice={rollDice}
-              diceValue={diceValue}
-              isWindowPlayer={isWindowPlayer(player1, windowPlayer)}
-            />
-          )}
-          <CoinContainer
-            nutralCoins={getDeactivatedCoins(getCoins(player1))}
-            color="red"
-            showCoins={player1 !== undefined}
-          />
-          <CellRow
-            className="cell_row"
-            cellId={startingCells[0]}
-            color="blue"
-            containerClass=""
-          />
-          <CoinContainer
-            nutralCoins={getDeactivatedCoins(getCoins(player2))}
-            color="blue"
-            showCoins={player2 !== undefined}
-          />
-          {player2 && (
-            <Player
-              name={player2.name}
-              turn={currentPlayerIndex === 1}
-              alignment="right"
-              onRollDice={rollDice}
-              diceValue={diceValue}
-              isWindowPlayer={isWindowPlayer(player2, windowPlayer)}
-            />
-          )}
+          {renderPlayer(player1, 'left')}
+          {renderCoinContainer(player1, 'red')}
+          {renderCellRow(0)}
+          {renderCoinContainer(player2, 'blue')}
+          {renderPlayer(player2, 'right')}
         </section>
 
         <div className="board_middle_row">
-          <CellRow
-            className="cell_column"
-            cellId={startingCells[1]}
-            color="red"
-            containerClass="cell_column_container"
-          />
+          {renderCellRow(1)}
           <div className="clear_coins_container" />
-          <CellRow
-            className="cell_column"
-            cellId={startingCells[2]}
-            color="yellow"
-            containerClass="cell_column_container"
-          />
+          {renderCellRow(2)}
         </div>
 
         <section className="player_row">
-          {player3 && (
-            <Player
-              name={player3.name}
-              turn={currentPlayerIndex === 2}
-              alignment="left"
-              onRollDice={rollDice}
-              diceValue={diceValue}
-              isWindowPlayer={isWindowPlayer(player3, windowPlayer)}
-            />
-          )}
-          <CoinContainer
-            nutralCoins={getDeactivatedCoins(getCoins(player3))}
-            color="green"
-            showCoins={player3 !== undefined}
-          />
-          <CellRow
-            className="cell_row"
-            cellId={startingCells[3]}
-            color="green"
-            containerClass=""
-          />
-          <CoinContainer
-            nutralCoins={getDeactivatedCoins(getCoins(player4))}
-            color="yellow"
-            showCoins={player4 !== undefined}
-          />
-          {player4 && (
-            <Player
-              name={player4.name}
-              turn={currentPlayerIndex === 3}
-              alignment="right"
-              onRollDice={rollDice}
-              diceValue={diceValue}
-              isWindowPlayer={isWindowPlayer(player4, windowPlayer)}
-            />
-          )}
+          {renderPlayer(player3, 'left')}
+          {renderCoinContainer(player3, 'green')}
+          {renderCellRow(3)}
+          {renderCoinContainer(player4, 'yellow')}
+          {renderPlayer(player4, 'right')}
         </section>
       </section>
       <style jsx>{GameStyles}</style>

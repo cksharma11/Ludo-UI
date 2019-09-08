@@ -22,12 +22,6 @@ describe('Game', () => {
         turn: false,
         playerId: 3,
         coins: [{ color: 'red', position: 0 }]
-      },
-      {
-        playerName: 'test4',
-        turn: false,
-        playerId: 4,
-        coins: [{ color: 'red', position: 0 }]
       }
     ]
   };

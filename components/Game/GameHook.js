@@ -25,6 +25,29 @@ const GameHook = ({ gameData = {}, playerId }) => {
     value: +playerId
   });
 
+  const cellRowConfigs = {
+    0: {
+      className: 'cell_row',
+      color: 'blue',
+      containerClass: ''
+    },
+    1: {
+      className: 'cell_column',
+      color: 'red',
+      containerClass: 'cell_column_container'
+    },
+    2: {
+      className: 'cell_column',
+      color: 'yellow',
+      containerClass: 'cell_column_container'
+    },
+    3: {
+      className: 'cell_row',
+      color: 'green',
+      containerClass: ''
+    }
+  };
+
   return {
     currentPlayerIndex,
     rollDice,
@@ -32,7 +55,8 @@ const GameHook = ({ gameData = {}, playerId }) => {
     windowPlayer,
     getDeactivatedCoins,
     getCoins,
-    isWindowPlayer
+    isWindowPlayer,
+    cellRowConfigs
   };
 };
 
