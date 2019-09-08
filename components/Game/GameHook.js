@@ -1,7 +1,7 @@
 import { findElementFromObjectArray, API_URL } from '../../utils/utils';
 import app from '../../https/app';
 
-const GameHook = ({ gameData = {}, playerId = 1702 }) => {
+const GameHook = ({ gameData = {}, playerId }) => {
   const { id, diceValue, currentPlayerIndex } = gameData;
 
   const rollDice = async () => {
@@ -19,11 +19,11 @@ const GameHook = ({ gameData = {}, playerId = 1702 }) => {
   const isWindowPlayer = (player, windowPlayer) =>
     player.id === windowPlayer.id;
 
-  const windowPlayer = findElementFromObjectArray(
-    gameData.players,
-    'id',
-    +playerId
-  );
+  const windowPlayer = findElementFromObjectArray({
+    list: gameData.players,
+    key: 'id',
+    value: +playerId
+  });
 
   return {
     currentPlayerIndex,

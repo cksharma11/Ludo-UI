@@ -4,8 +4,8 @@ const isWindow = () => {
   return process.browser;
 };
 
-const findElementFromObjectArray = (list = [], key, element) => {
-  const elementList = list.filter((e) => e[key] === element);
+const findElementFromObjectArray = ({ list = [], key, value }) => {
+  const elementList = list.filter((e) => e[key] === value);
   return elementList.length ? elementList[0] : {};
 };
 
