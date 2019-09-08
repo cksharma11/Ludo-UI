@@ -28,9 +28,6 @@ const POST_CALL_CONFIG = {
 
 const API_URL = process.env.API_HOST || `http://localhost:${API_PORT}`;
 
-// eslint-disable-next-line no-console
-console.log('API_HOST - ', process.env.API_HOST);
-
 module.exports = {
   isWindow,
   parseCookie,

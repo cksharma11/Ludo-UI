@@ -10,7 +10,7 @@ const GameHook = ({ gameData = {}, playerId }) => {
     });
   };
 
-  const getDeactivatedCoins = (coins) => {
+  const getInactiveCoins = (coins) => {
     return coins.filter((coin) => coin.position === 0);
   };
 
@@ -53,7 +53,7 @@ const GameHook = ({ gameData = {}, playerId }) => {
     rollDice,
     diceValue,
     windowPlayer,
-    getDeactivatedCoins,
+    getInactiveCoins,
     getCoins,
     isWindowPlayer,
     cellRowConfigs

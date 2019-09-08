@@ -30,7 +30,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
     rollDice,
     diceValue,
     windowPlayer,
-    getDeactivatedCoins,
+    getInactiveCoins,
     getCoins,
     isWindowPlayer,
     cellRowConfigs
@@ -58,7 +58,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
   const renderCoinContainer = (player, color) => {
     return (
       <CoinContainer
-        nutralCoins={getDeactivatedCoins(getCoins(player))}
+        nutralCoins={getInactiveCoins(getCoins(player))}
         color={color}
         showCoins={player !== undefined}
       />
@@ -112,8 +112,9 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
 
 Game.propTypes = {
   gameData: PropTypes.object.isRequired,
-  playerId: PropTypes.number.isRequired,
-  gameId: PropTypes.number.isRequired
+  playerId: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
+    .isRequired,
+  gameId: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired
 };
 
 export default Game;

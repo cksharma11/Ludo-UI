@@ -4,18 +4,10 @@ const fetch = require('isomorphic-unfetch');
 const fastifyCookie = require('fastify-cookie');
 const bodyParser = require('fastify-formbody');
 const routes = require('./routes/routes');
-
-const { API_URL } = require('./utils/utils');
+const { API_URL, POST_CALL_CONFIG } = require('./utils/utils');
 
 const PORT = process.env.PORT || process.env.UI_PORT || 3030;
 const dev = process.env.NODE_ENV !== 'production';
-
-const POST_CALL_CONFIG = {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json'
-  }
-};
 
 const logger = (req, res, next) => {
   // eslint-disable-next-line no-console

@@ -19,8 +19,8 @@ GamePage.defaultProps = {
 
 GamePage.propTypes = {
   gameData: PropTypes.object,
-  playerId: PropTypes.number,
-  gameId: PropTypes.number
+  playerId: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  gameId: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
 GamePage.getInitialProps = async ({ req }) => {
