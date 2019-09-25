@@ -42,11 +42,11 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
     players: [player1, player2, player3, player4]
   } = gameData;
 
-  const renderPlayer = (player, alignment) => {
+  const renderPlayer = (player, alignment, playerIndex) => {
     return player ? (
       <Player
         name={player.name}
-        turn={currentPlayerIndex === 0}
+        turn={currentPlayerIndex === playerIndex}
         alignment={alignment}
         onRollDice={rollDice}
         diceValue={diceValue}
@@ -84,11 +84,11 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
       <GameHeader playerName={windowPlayer.name} />
       <section className="main_container">
         <section className="player_row">
-          {renderPlayer(player1, 'left')}
+          {renderPlayer(player1, 'left', 0)}
           {renderCoinContainer(player1, 'red')}
           {renderCellRow(0)}
           {renderCoinContainer(player2, 'blue')}
-          {renderPlayer(player2, 'right')}
+          {renderPlayer(player2, 'right', 1)}
         </section>
 
         <div className="board_middle_row">
@@ -98,11 +98,11 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
         </div>
 
         <section className="player_row">
-          {renderPlayer(player3, 'left')}
+          {renderPlayer(player3, 'left', 2)}
           {renderCoinContainer(player3, 'green')}
           {renderCellRow(3)}
           {renderCoinContainer(player4, 'yellow')}
-          {renderPlayer(player4, 'right')}
+          {renderPlayer(player4, 'right', 3)}
         </section>
       </section>
       <style jsx>{GameStyles}</style>
