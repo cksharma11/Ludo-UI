@@ -5,7 +5,7 @@ import GameHeader from '../GameHeader/GameHeader';
 import CellRow from '../CellRow/CellRow';
 import GameStyles from './Game.style';
 import Player from '../Player/Player';
-import GameHook from './GameHook';
+import useGameHook from './GameHook';
 import { startingCells } from '../../config/data/cells-structure';
 import { API_URL } from '../../utils/utils';
 import app from '../../https/app';
@@ -34,7 +34,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
     getCoins,
     isWindowPlayer,
     cellRowConfigs
-  } = GameHook({
+  } = useGameHook({
     gameData,
     playerId
   });
@@ -81,7 +81,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
 
   return (
     <div className="body">
-      <GameHeader playerName={windowPlayer.name} />
+      <GameHeader playerName={windowPlayer.name} gameId={gameData.id} />
       <section className="main_container">
         <section className="player_row">
           {renderPlayer(player1, 'left', 0)}

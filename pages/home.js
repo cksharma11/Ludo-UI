@@ -3,7 +3,12 @@ import Home from '../components/Home/Home';
 
 const home = () => {
   return (
-    <Home title="Ludo" createGameLink="/createGame" joinGameLink="joinGame" />
+    <Home
+      title="Ludo"
+      createGameLink="/createGame"
+      joinGameLink="joinGame"
+      loadGameLink="/loadGame"
+    />
   );
 };
 

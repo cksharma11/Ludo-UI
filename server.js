@@ -73,6 +73,26 @@ fastify.post('/joinGame', (req, res) => {
     });
 });
 
+fastify.post('/loadGame', (req, res) => {
+  const { playerId, gameId } = req.body;
+  fetch(`${API_URL}/loadGame`, {
+    ...POST_CALL_CONFIG,
+    body: JSON.stringify({
+      playerId,
+      gameId
+    })
+  })
+    .then((fetchedResponse) => fetchedResponse.json())
+    .then(({ isStarted }) => {
+      if (isStarted) {
+        res.setCookie('gameId', gameId);
+        res.setCookie('playerId', playerId);
+        return res.redirect('/game');
+      }
+      return res.redirect('/');
+    });
+});
+
 const start = () => {
   fastify.listen(PORT, '0.0.0.0', () =>
     // eslint-disable-next-line no-console

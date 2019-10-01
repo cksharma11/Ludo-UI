@@ -1,7 +1,7 @@
 import { findElementFromObjectArray, API_URL } from '../../utils/utils';
 import app from '../../https/app';
 
-const GameHook = ({ gameData = {}, playerId }) => {
+const useGameHook = ({ gameData = {}, playerId }) => {
   const { id, diceValue, currentPlayerIndex } = gameData;
 
   const rollDice = async () => {
@@ -60,4 +60,4 @@ const GameHook = ({ gameData = {}, playerId }) => {
   };
 };
 
-export default GameHook;
+export default useGameHook;
