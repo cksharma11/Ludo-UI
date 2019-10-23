@@ -5,7 +5,7 @@ import Cell from '../Cell/Cell';
 import CellRowStyles from './CellRow.style';
 import { safeCells, startingCells } from '../../config/data/cells-structure';
 
-const CellRow = ({ color, className, containerClass }) => {
+const CellRow = ({ color, className, containerClass, gameData }) => {
   let cellIdentifire = startingCells[color] - 1;
   const isSafeCell = (id) => safeCells[color].includes(id);
   const isUniversalSafeCell = (id) => safeCells.universal.includes(id);
@@ -25,14 +25,17 @@ const CellRow = ({ color, className, containerClass }) => {
             <Cell
               id={++cellIdentifire}
               className={getClassName(cellIdentifire)}
+              gameData={gameData}
             />
             <Cell
               id={++cellIdentifire}
               className={getClassName(cellIdentifire)}
+              gameData={gameData}
             />
             <Cell
               id={++cellIdentifire}
               className={getClassName(cellIdentifire)}
+              gameData={gameData}
             />
           </div>
         );

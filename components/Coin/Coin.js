@@ -1,12 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import CoinStyles from './Coin.style';
+import app from '../../https/app';
+import { API_URL } from '../../utils/utils';
 
-const Coin = ({ color }) => {
+const Coin = ({ color, id, gameData }) => {
+  const changeCoinPosition = () => {
+    app.post(`${API_URL}/changeCoinPosition`, {
+      body: JSON.stringify({ id, gameId: gameData.id })
+    });
+  };
   return (
-    <div className={`coin dark_${color}`}>
+    <button
+      type="button"
+      className={`coin dark_${color}`}
+      onClick={changeCoinPosition}
+    >
       <style jsx>{CoinStyles}</style>
-    </div>
+    </button>
   );
 };
 
@@ -15,7 +26,8 @@ Coin.defaultProps = {
 };
 
 Coin.propTypes = {
-  color: PropTypes.string
+  color: PropTypes.string,
+  id: PropTypes.number.isRequired
 };
 
 export default Coin;

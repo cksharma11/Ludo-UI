@@ -3,11 +3,13 @@ import PropTypes from 'prop-types';
 import CoinContainerStyles from './CoinContainer.style';
 import Coin from '../Coin/Coin';
 
-const CoinContainer = ({ color, nutralCoins, showCoins }) => {
-  const createCoin = (coin) => {
+const CoinContainer = ({ color, nutralCoins, showCoins, gameData }) => {
+  const createCoin = (coin, id) => {
     return (
       <div className={`coin ${color}`}>
-        {showCoins && coin && <Coin color={color} />}
+        {showCoins && coin && (
+          <Coin color={color} id={id} gameData={gameData} />
+        )}
         <style jsx>{CoinContainerStyles}</style>
       </div>
     );
@@ -17,12 +19,12 @@ const CoinContainer = ({ color, nutralCoins, showCoins }) => {
     <div className="coin_container">
       <div className="container-border">
         <div className="container_row">
-          {createCoin(nutralCoins[0])}
-          {createCoin(nutralCoins[1])}
+          {createCoin(nutralCoins[0], 0)}
+          {createCoin(nutralCoins[1], 1)}
         </div>
         <div className="container_row">
-          {createCoin(nutralCoins[2])}
-          {createCoin(nutralCoins[3])}
+          {createCoin(nutralCoins[2], 2)}
+          {createCoin(nutralCoins[3], 3)}
         </div>
       </div>
       <style jsx>{CoinContainerStyles}</style>

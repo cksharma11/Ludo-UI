@@ -83,13 +83,10 @@ fastify.post('/loadGame', (req, res) => {
     })
   })
     .then((fetchedResponse) => fetchedResponse.json())
-    .then(({ isStarted }) => {
-      if (isStarted) {
-        res.setCookie('gameId', gameId);
-        res.setCookie('playerId', playerId);
-        return res.redirect('/game');
-      }
-      return res.redirect('/');
+    .then(() => {
+      res.setCookie('gameId', gameId);
+      res.setCookie('playerId', playerId);
+      return res.redirect('/waitingArea');
     });
 });
 

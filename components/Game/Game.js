@@ -61,6 +61,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
         nutralCoins={getInactiveCoins(getCoins(player))}
         color={color}
         showCoins={player !== undefined}
+        gameData={gameData}
       />
     );
   };
@@ -73,6 +74,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
         cellId={startingCells[index]}
         color={color}
         containerClass={containerClass}
+        gameData={gameData}
       >
         <style jsx>{GameStyles}</style>
       </CellRow>

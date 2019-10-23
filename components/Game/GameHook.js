@@ -14,7 +14,7 @@ const useGameHook = ({ gameData = {}, playerId }) => {
     return coins.filter((coin) => coin.position === 0);
   };
 
-  const getCoins = (player) => (player ? player.coins : []);
+  const getCoins = (player) => (player ? player.coins.coins : []);
 
   const isWindowPlayer = (player, windowPlayer) =>
     player.id === windowPlayer.id;
