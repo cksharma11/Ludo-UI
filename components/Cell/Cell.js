@@ -1,27 +1,25 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import CellStyles from './Cell.style';
+import Coin from '../Coin/Coin';
 
 const Cell = ({ id, className, gameData }) => {
-  const [color, setColor] = useState('');
+  const [placedCoins, setPlacedCoins] = useState([]);
 
-  console.log(gameData.players[0].coins.coins[1], 'coins', id);
   useEffect(() => {
-    const coins = [];
-    gameData.players.forEach((player) => {
-      const playerCoins = player.coins.coins;
-      playerCoins.forEach((coin) => {
-        if (coin.position == id) {
-          coins.push(player.color);
-        }
-      });
-    });
-    const color11 = coins.length && 'green';
-    setColor(color11);
-  }, []);
+    const newPlacedCoins = gameData.coinsPosition.filter(
+      (coin) => coin.position === +id
+    );
+    setPlacedCoins(newPlacedCoins);
+  }, [gameData]);
 
   return (
-    <div id={id} className={`${className} ${color}`}>
+    <div id={id} className={className}>
+      {placedCoins.length
+        ? placedCoins.map((coin) => (
+            <Coin color={coin.color} id={coin.id} gameData={gameData} />
+          ))
+        : null}
       <style jsx>{CellStyles}</style>
     </div>
   );
@@ -34,7 +32,8 @@ Cell.defaultProps = {
 
 Cell.propTypes = {
   id: PropTypes.number,
-  className: PropTypes.string
+  className: PropTypes.string,
+  gameData: PropTypes.object.isRequired
 };
 
 export default Cell;

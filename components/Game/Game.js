@@ -62,6 +62,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
         color={color}
         showCoins={player !== undefined}
         gameData={gameData}
+        playerId={playerId}
       />
     );
   };

@@ -4,10 +4,10 @@ import CoinStyles from './Coin.style';
 import app from '../../https/app';
 import { API_URL } from '../../utils/utils';
 
-const Coin = ({ color, id, gameData }) => {
+const Coin = ({ color, id, gameData, playerId }) => {
   const changeCoinPosition = () => {
     app.post(`${API_URL}/changeCoinPosition`, {
-      body: JSON.stringify({ id, gameId: gameData.id })
+      body: JSON.stringify({ id, gameId: gameData.id, playerId })
     });
   };
   return (
