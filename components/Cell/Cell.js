@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import CellStyles from './Cell.style';
 import Coin from '../Coin/Coin';
 
-const Cell = ({ id, className, gameData }) => {
+const Cell = ({ id, className, gameData, playerId }) => {
   const [placedCoins, setPlacedCoins] = useState([]);
 
   useEffect(() => {
@@ -17,7 +17,12 @@ const Cell = ({ id, className, gameData }) => {
     <div id={id} className={className}>
       {placedCoins.length
         ? placedCoins.map((coin) => (
-            <Coin color={coin.color} id={coin.id} gameData={gameData} />
+            <Coin
+              color={coin.color}
+              id={coin.id}
+              gameData={gameData}
+              playerId={playerId}
+            />
           ))
         : null}
       <style jsx>{CellStyles}</style>
@@ -33,7 +38,8 @@ Cell.defaultProps = {
 Cell.propTypes = {
   id: PropTypes.number,
   className: PropTypes.string,
-  gameData: PropTypes.object.isRequired
+  gameData: PropTypes.object.isRequired,
+  playerId: PropTypes.number.isRequired
 };
 
 export default Cell;

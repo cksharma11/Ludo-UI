@@ -8,6 +8,7 @@ const CoinStyles = css`
     border-radius: 50%;
     margin: 10%;
     border: 1px solid ${colors.gray.shade3};
+    z-index: 1;
   }
 
   .dark_red {

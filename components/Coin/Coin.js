@@ -15,6 +15,7 @@ const Coin = ({ color, id, gameData, playerId }) => {
       type="button"
       className={`coin dark_${color}`}
       onClick={changeCoinPosition}
+      id={`${color}_${id}`}
     >
       <style jsx>{CoinStyles}</style>
     </button>
@@ -27,7 +28,9 @@ Coin.defaultProps = {
 
 Coin.propTypes = {
   color: PropTypes.string,
-  id: PropTypes.number.isRequired
+  id: PropTypes.number.isRequired,
+  gameData: PropTypes.object.isRequired,
+  playerId: PropTypes.number.isRequired
 };
 
 export default Coin;

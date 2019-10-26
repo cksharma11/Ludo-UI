@@ -76,6 +76,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
         color={color}
         containerClass={containerClass}
         gameData={gameData}
+        playerId={playerId}
       >
         <style jsx>{GameStyles}</style>
       </CellRow>
