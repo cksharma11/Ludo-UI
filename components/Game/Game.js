@@ -45,7 +45,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
   const renderPlayer = (player, alignment, playerIndex) => {
     return player ? (
       <Player
-        name={player.name}
+        player={player}
         turn={currentPlayerIndex === playerIndex}
         alignment={alignment}
         onRollDice={rollDice}

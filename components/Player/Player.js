@@ -3,16 +3,21 @@ import PropTypes from 'prop-types';
 import Dice from '../Dice/Dice';
 import PlayerStyles from './Player.style';
 import noop from '../../config/utils/noop';
+import Coin from '../Coin/Coin';
+import labels from '../../config/labels/labels';
 
 const Player = ({
-  name,
+  player,
   turn,
-  coins,
   alignment,
   onRollDice,
   diceValue,
   isWindowPlayer
 }) => {
+  const { coins } = player.coins;
+  const { name } = player;
+  const sortedCoins = coins.sort((a, b) => b.position - a.position);
+
   return (
     <div
       className={
@@ -33,8 +38,13 @@ const Player = ({
         )}
       </div>
       <div className="right-section" key="right-section">
-        {Object.keys(coins).map((coin) => {
-          return <div key={`${name}${turn}${coin}`} className="box"></div>;
+        {sortedCoins.map((coin) => {
+          const isClearedCoin = coin.position === labels.CLEAR_COIN_POSITION;
+          return (
+            <div key={`${name}${turn}${coin}`} className="box">
+              {isClearedCoin && <Coin color={player.color} />}
+            </div>
+          );
         })}
       </div>
       <style jsx>{PlayerStyles}</style>
@@ -43,14 +53,7 @@ const Player = ({
 };
 
 Player.defaultProps = {
-  name: 'dummy',
   turn: false,
-  coins: {
-    1: 0,
-    2: 0,
-    3: 0,
-    4: 0
-  },
   alignment: 'right',
   onRollDice: noop,
   diceValue: 1,
@@ -58,13 +61,12 @@ Player.defaultProps = {
 };
 
 Player.propTypes = {
-  name: PropTypes.string,
   turn: PropTypes.bool,
-  coins: PropTypes.object,
   alignment: PropTypes.string,
   onRollDice: PropTypes.func,
   diceValue: PropTypes.number,
-  isWindowPlayer: PropTypes.bool
+  isWindowPlayer: PropTypes.bool,
+  player: PropTypes.object.isRequired
 };
 
 export default Player;
