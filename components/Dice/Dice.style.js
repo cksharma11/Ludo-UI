@@ -4,7 +4,7 @@ const DiceStyles = css`
   img {
     height: 100px;
     width: 100px;
-    margin-top: 45px;
+    margin-top: 40px;
   }
 `;
 

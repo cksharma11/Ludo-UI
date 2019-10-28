@@ -15,6 +15,7 @@ const PlayerStyles = css`
 
   .player-name {
     font-size: 20px;
+    border-bottom: 1px solid;
   }
 
   .stat {
@@ -62,7 +63,7 @@ const PlayerStyles = css`
   .box {
     width: 40px;
     height: 40px;
-    border: 1px solid ${colors.gray.shade1};
+    border-bottom: 1px solid ${colors.gray.shade1};
     border-radius: 4px;
   }
 

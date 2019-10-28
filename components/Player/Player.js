@@ -17,6 +17,10 @@ const Player = ({
   const { coins } = player.coins;
   const { name } = player;
   const sortedCoins = coins.sort((a, b) => b.position - a.position);
+  const clearedCoins = coins.filter(
+    (coin) => coin.position === labels.CLEAR_COIN_POSITION
+  );
+  const coinsToWin = 4 - clearedCoins.length;
 
   return (
     <div
@@ -28,7 +32,7 @@ const Player = ({
     >
       <div className="left-section">
         <div className="player-name">{name}</div>
-        <div className="stat">0 coins cleared</div>
+        <div className="stat">{`${coinsToWin} coin(s) to win`}</div>
         {turn && (
           <Dice
             onRollDice={onRollDice}
