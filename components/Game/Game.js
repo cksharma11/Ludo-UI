@@ -10,6 +10,7 @@ import { startingCells } from '../../config/data/cells-structure';
 import { API_URL } from '../../utils/utils';
 import app from '../../https/app';
 import constants from '../../constants/contants';
+import CongratulationsPopup from '../CongratulationsPopup/CongratulationsPopup';
 
 const { POLLING_INTERVAL } = constants;
 
@@ -109,6 +110,9 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
           {renderPlayer(player4, 'right', 3)}
         </section>
       </section>
+      {gameData.winningPlayer && (
+        <CongratulationsPopup player={gameData.winningPlayer} />
+      )}
       <style jsx>{GameStyles}</style>
     </div>
   );

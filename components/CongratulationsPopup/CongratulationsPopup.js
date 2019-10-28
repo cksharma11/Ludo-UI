@@ -16,3 +16,5 @@ const CongratulationsPopup = ({ player }) => {
 CongratulationsPopup.propTypes = {
   player: PropTypes.object.isRequired
 };
+
+export default CongratulationsPopup;
