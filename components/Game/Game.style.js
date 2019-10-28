@@ -1,5 +1,4 @@
 import css from 'styled-jsx/css';
-import colors from '../../config/styles/colors';
 
 const GameStyles = css`
   .body {
@@ -15,8 +14,9 @@ const GameStyles = css`
     display: flex;
     padding: 15px;
     align-items: center;
-    background: ${colors.palette1.shade2};
     flex-direction: column;
+    justify-content: center;
+    height: 90vh;
   }
 
   .player_row {

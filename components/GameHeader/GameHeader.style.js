@@ -3,12 +3,21 @@ import colors from '../../config/styles/colors';
 
 const GameHeaderStyles = css`
   header {
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    font-size: 20px;
+    padding: 15px;
+    font-size: 25px;
     background: ${colors.palette1.shade1};
     border-bottom: 1px solid #ccc1c1;
+  }
+
+  .controls {
+    display: flex;
+  }
+
+  button {
+    margin-left: 5px;
   }
 `;
 

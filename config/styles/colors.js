@@ -11,8 +11,10 @@ const colors = {
     shade1: '#f4f3f3',
     shade2: '#dfdfdf',
     shade3: '#bfd8d5',
-    shade4: '#b1bed5'
-  }
+    shade4: '#b1bed5',
+    shade5: '#efefeffa'
+  },
+  coin: '#102c1fb5'
 };
 
 export default colors;

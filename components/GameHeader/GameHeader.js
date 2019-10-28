@@ -15,11 +15,16 @@ const GameHeader = ({ playerName, gameId }) => {
 
   return (
     <header>
-      <div id="title">Ludo</div>
       <div id="player_name">Hi {playerName}!</div>
-      <button type="button" onClick={saveGameHandler}>
-        Save Game
-      </button>
+      <div id="title">Ludo</div>
+      <div className="controls">
+        <button type="button" onClick={saveGameHandler}>
+          Save Game
+        </button>
+        <button type="button" onClick={saveGameHandler}>
+          Activity Log
+        </button>
+      </div>
       <style jsx>{GameHeaderStyles}</style>
     </header>
   );

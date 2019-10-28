@@ -47,7 +47,7 @@ const CellStyles = css`
     top: 32px;
     opacity: 1;
   }
-  .safe-cell::before,
+  /* .safe-cell::before,
   .safe-cell::after {
     content: ' ';
     width: 2px;
@@ -58,7 +58,7 @@ const CellStyles = css`
   }
   .safe-cell::after {
     transform: rotate(-45deg);
-  }
+  } */
 `;
 
 export default CellStyles;

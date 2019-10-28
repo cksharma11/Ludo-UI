@@ -3,11 +3,12 @@ import colors from '../../config/styles/colors';
 
 const CoinStyles = css`
   .coin {
+    font-family: 'Open Sans', sans-serif;
     width: 80%;
     height: 80%;
     border-radius: 50%;
     margin: 10%;
-    border: 1px solid ${colors.gray.shade3};
+    border: 2px solid ${colors.coin};
     z-index: 1;
   }
 

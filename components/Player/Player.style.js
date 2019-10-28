@@ -8,8 +8,9 @@ const PlayerStyles = css`
     margin: 10px 35px;
     width: 190px;
     border: 1px solid ${colors.gray.shade1};
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 20px;
+    font-family: 'Open Sans', sans-serif;
   }
 
   .player-name {
@@ -59,9 +60,10 @@ const PlayerStyles = css`
   }
 
   .box {
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     border: 1px solid ${colors.gray.shade1};
+    border-radius: 4px;
   }
 
   .coin-position {
