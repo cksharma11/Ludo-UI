@@ -59,8 +59,9 @@ const PlayerStyles = css`
   }
 
   .box {
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
     border: 1px solid ${colors.gray.shade1};
   }
 

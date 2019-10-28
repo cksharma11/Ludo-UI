@@ -11,6 +11,7 @@ const HeaderStyles = css`
     border-bottom: 1px solid #ccc1c1;
     background: ${colors.palette1.shade1};
     color: black;
+    height: 5vh;
   }
 `;
 

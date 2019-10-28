@@ -11,6 +11,7 @@ import { API_URL } from '../../utils/utils';
 import app from '../../https/app';
 import constants from '../../constants/contants';
 import CongratulationsPopup from '../CongratulationsPopup/CongratulationsPopup';
+import { withGameContext } from '../../context/withGameContext/withGameContext';
 
 const { POLLING_INTERVAL } = constants;
 
@@ -125,4 +126,5 @@ Game.propTypes = {
   gameId: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired
 };
 
-export default Game;
+export { Game };
+export default withGameContext(Game);
