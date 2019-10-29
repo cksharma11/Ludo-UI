@@ -16,7 +16,7 @@ const GameHeader = ({ playerName, gameId }) => {
   return (
     <header>
       <div id="player_name">Hi {playerName}!</div>
-      <div id="title">Ludo</div>
+      <div id="title">LUDO</div>
       <div className="controls">
         <button type="button" onClick={saveGameHandler}>
           Save Game

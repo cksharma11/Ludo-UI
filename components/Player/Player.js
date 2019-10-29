@@ -22,14 +22,12 @@ const Player = ({
   );
   const coinsToWin = 4 - clearedCoins.length;
 
+  const windowPlayerClass = isWindowPlayer ? 'window' : '';
+  const activePlayerClass = turn ? 'current-turn' : '';
+  const containerClass = `container ${alignment} ${windowPlayerClass} ${activePlayerClass}`;
+
   return (
-    <div
-      className={
-        turn && isWindowPlayer
-          ? `container ${alignment} active`
-          : `container ${alignment}`
-      }
-    >
+    <div className={containerClass}>
       <div className="left-section">
         <div className="player-name">{name}</div>
         <div className="stat">{`${coinsToWin} coin(s) to win`}</div>

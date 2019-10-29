@@ -3,7 +3,7 @@ import colors from '../../config/styles/colors';
 
 const CoinStyles = css`
   .coin {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     width: 80%;
     height: 80%;
     border-radius: 50%;

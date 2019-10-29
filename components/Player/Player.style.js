@@ -7,10 +7,23 @@ const PlayerStyles = css`
     justify-content: space-between;
     margin: 10px 35px;
     width: 190px;
-    border: 1px solid ${colors.gray.shade1};
-    border-radius: 2px;
     padding: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 40%;
+    background: radial-gradient(
+      ellipse at center,
+      rgb(99, 155, 155) 0%,
+      rgb(25, 41, 41) 99%,
+      rgb(69, 108, 108) 100%
+    );
+    &.current-turn {
+      opacity: 40%;
+      box-shadow: 0 0 50px black;
+    }
+    &.window {
+      font-weight: bold;
+      opacity: 100%;
+    }
   }
 
   .player-name {
@@ -70,10 +83,6 @@ const PlayerStyles = css`
   .coin-position {
     text-align: right;
     padding-left: 10px;
-  }
-
-  .active {
-    background: white;
   }
 
   .clear {

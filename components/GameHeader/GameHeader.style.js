@@ -1,15 +1,23 @@
 import css from 'styled-jsx/css';
-import colors from '../../config/styles/colors';
 
 const GameHeaderStyles = css`
   header {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     display: flex;
     justify-content: space-between;
     padding: 15px;
     font-size: 25px;
-    background: ${colors.palette1.shade1};
-    border-bottom: 1px solid #ccc1c1;
+    background: radial-gradient(
+      ellipse at center,
+      rgb(99, 155, 155) 0%,
+      rgb(25, 41, 41) 99%,
+      rgb(69, 108, 108) 100%
+    );
+
+    .title {
+      font-size: 35px;
+      font-weight: bold;
+    }
   }
 
   .controls {
@@ -17,6 +25,7 @@ const GameHeaderStyles = css`
   }
 
   button {
+    background: rgb(69, 108, 108);
     margin-left: 5px;
   }
 `;

@@ -7,7 +7,7 @@ const CreateGameStyles = css`
     justify-content: center;
     align-items: center;
     height: 660px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
   }
 
   form {
@@ -19,7 +19,7 @@ const CreateGameStyles = css`
     align-items: center;
     background: white;
     border: 1px solid ${colors.gray.shade2};
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
   }
 
   form > input {
@@ -34,7 +34,7 @@ const CreateGameStyles = css`
     padding: 5px;
     margin: 5px;
     border-radius: 2px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
   }
 
   form > input:hover {
