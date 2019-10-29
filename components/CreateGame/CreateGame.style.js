@@ -7,12 +7,10 @@ const CreateGameStyles = css`
     justify-content: center;
     align-items: center;
     height: 660px;
-    background: ${colors.palette1.shade2};
+    font-family: 'Open Sans', sans-serif;
   }
 
   form {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
     display: flex;
     height: 550px;
     width: 350px;
@@ -21,12 +19,11 @@ const CreateGameStyles = css`
     align-items: center;
     background: white;
     border: 1px solid ${colors.gray.shade2};
+    font-family: 'Open Sans', sans-serif;
   }
 
   form > input {
     background: ${colors.gray.shade3};
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
     width: 200px;
     height: 30px;
     border: 1px solid ${colors.gray.shade1};
@@ -37,6 +34,7 @@ const CreateGameStyles = css`
     padding: 5px;
     margin: 5px;
     border-radius: 2px;
+    font-family: 'Open Sans', sans-serif;
   }
 
   form > input:hover {
@@ -44,8 +42,6 @@ const CreateGameStyles = css`
   }
 
   .activity-header {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
   }
 `;

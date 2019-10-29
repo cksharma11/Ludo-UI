@@ -1,5 +1,4 @@
 import css from 'styled-jsx/css';
-import colors from '../../config/styles/colors';
 
 const WaitingAreaStyles = css`
   .waiting-area {
@@ -7,7 +6,6 @@ const WaitingAreaStyles = css`
     flex-direction: column;
     height: 720px;
     width: 100%;
-    background: ${colors.palette1.shade2};
     align-items: center;
     padding: 20px;
   }

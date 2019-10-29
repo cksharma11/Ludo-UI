@@ -1,11 +1,12 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Header from '../Header/Header';
 import JoinGameStyles from './JoinGame.style';
 import labels from '../../config/labels/labels';
+import globalStyles from '../globalStyle';
 
 const JoinGame = () => {
   return (
-    <Fragment>
+    <div className="container">
       <Header title="Ludo" />
       <div className="form-container">
         <form method="POST" action="/joinGame">
@@ -14,9 +15,10 @@ const JoinGame = () => {
           <input type="number" name="gameId" placeholder="gameId" />
           <input type="submit" value={labels.JOIN_GAME} />
         </form>
-        <style jsx>{JoinGameStyles}</style>
       </div>
-    </Fragment>
+      <style jsx>{JoinGameStyles}</style>
+      <style jsx>{globalStyles}</style>
+    </div>
   );
 };
 

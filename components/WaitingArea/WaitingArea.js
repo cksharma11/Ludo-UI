@@ -6,6 +6,7 @@ import Loader from '../ui/Loader/Loader';
 import WaitingAreaStyles from './WaitingArea.style';
 import labels from '../../config/labels/labels';
 import { API_URL } from '../../utils/utils';
+import globalStyles from '../globalStyle';
 
 const WaitingArea = ({ gameId }) => {
   const [players, setPlayers] = useState([]);
@@ -38,8 +39,9 @@ const WaitingArea = ({ gameId }) => {
             ))}
         </ul>
         <Loader />
-        <style jsx>{WaitingAreaStyles}</style>
       </div>
+      <style jsx>{WaitingAreaStyles}</style>
+      <style jsx>{globalStyles}</style>
     </div>
   );
 };

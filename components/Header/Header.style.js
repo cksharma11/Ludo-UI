@@ -3,8 +3,7 @@ import colors from '../../config/styles/colors';
 
 const HeaderStyles = css`
   .header {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     padding: 10px;
     border-bottom: 1px solid #ccc1c1;

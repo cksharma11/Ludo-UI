@@ -1,11 +1,12 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import CreateGameStyles from './CreateGame.style';
 import Header from '../Header/Header';
 import labels from '../../config/labels/labels';
+import globalStyles from '../globalStyle';
 
 const CreateGame = () => {
   return (
-    <Fragment>
+    <div>
       <Header title="Ludo" />
       <div className="form-container">
         <form method="POST" action="/createGame">
@@ -18,9 +19,10 @@ const CreateGame = () => {
           />
           <input type="submit" value={labels.CREATE_GAME} />
         </form>
-        <style jsx>{CreateGameStyles}</style>
       </div>
-    </Fragment>
+      <style jsx>{CreateGameStyles}</style>
+      <style jsx>{globalStyles}</style>
+    </div>
   );
 };
 
