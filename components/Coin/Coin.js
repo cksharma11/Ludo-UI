@@ -7,7 +7,7 @@ import { API_URL } from '../../utils/utils';
 const Coin = ({ color, id, gameData, playerId }) => {
   const changeCoinPosition = () => {
     app.post(`${API_URL}/changeCoinPosition`, {
-      body: JSON.stringify({ id, gameId: gameData.id, playerId })
+      body: JSON.stringify({ id, gameId: gameData.id, playerId, color })
     });
   };
   return (
@@ -30,7 +30,7 @@ Coin.propTypes = {
   color: PropTypes.string,
   id: PropTypes.number.isRequired,
   gameData: PropTypes.object.isRequired,
-  playerId: PropTypes.number.isRequired
+  playerId: PropTypes.oneOf([PropTypes.string, PropTypes.number]).isRequired
 };
 
 export default Coin;

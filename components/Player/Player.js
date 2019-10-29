@@ -45,7 +45,7 @@ const Player = ({
         {sortedCoins.map((coin) => {
           const isClearedCoin = coin.position === labels.CLEAR_COIN_POSITION;
           return (
-            <div key={`${name}${turn}${coin}`} className="box">
+            <div key={`${coin.number}`} className="box">
               {isClearedCoin && <Coin color={player.color} />}
             </div>
           );

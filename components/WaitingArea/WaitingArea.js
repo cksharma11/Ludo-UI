@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import app from '../../https/app';
 import Header from '../Header/Header';
@@ -24,7 +24,7 @@ const WaitingArea = ({ gameId }) => {
   setTimeout(fetchPlayers, 1000);
 
   return (
-    <Fragment>
+    <div className="container">
       <Header title={labels.GAME_TITLE} />
       <div className="waiting-area">
         <p className="gameid">{`Game Id : ${gameId}`}</p>
@@ -40,12 +40,12 @@ const WaitingArea = ({ gameId }) => {
         <Loader />
         <style jsx>{WaitingAreaStyles}</style>
       </div>
-    </Fragment>
+    </div>
   );
 };
 
 WaitingArea.propTypes = {
-  gameId: PropTypes.number
+  gameId: PropTypes.oneOf([PropTypes.string, PropTypes.number])
 };
 
 WaitingArea.defaultProps = {
