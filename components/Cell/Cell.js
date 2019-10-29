@@ -23,6 +23,7 @@ const Cell = ({ id, className, gameData, playerId }) => {
               gameData={gameData}
               playerId={playerId}
               key={coin.id}
+              isPlayable={coin.isPlayable}
             />
           ))
         : null}

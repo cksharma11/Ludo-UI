@@ -7,10 +7,10 @@ import { API_URL } from '../../utils/utils';
 
 const GameHeader = ({ playerName, gameId }) => {
   const saveGameHandler = async () => {
-    const response = await app.post(`${API_URL}/saveGame`, {
+    await app.post(`${API_URL}/saveGame`, {
       body: JSON.stringify({ gameId })
     });
-    alert(response);
+    alert('saved');
   };
 
   return (

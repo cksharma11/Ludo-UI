@@ -1,11 +1,12 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Header from '../Header/Header';
 import LoadGameStyles from './LoadGame.style';
 import labels from '../../config/labels/labels';
+import globalStyles from '../globalStyle';
 
 const LoadGame = () => {
   return (
-    <Fragment>
+    <div className="container">
       <Header title="Ludo" />
       <div className="form-container">
         <form method="POST" action="/loadGame">
@@ -15,8 +16,9 @@ const LoadGame = () => {
           <input type="submit" value={labels.LOAD_GAME} />
         </form>
         <style jsx>{LoadGameStyles}</style>
+        <style jsx>{globalStyles}</style>
       </div>
-    </Fragment>
+    </div>
   );
 };
 

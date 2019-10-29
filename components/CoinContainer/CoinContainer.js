@@ -17,6 +17,7 @@ const CoinContainer = ({ color, showCoins, gameData, playerId }) => {
             id={coin.id}
             gameData={gameData}
             playerId={playerId}
+            isPlayable={coin.isPlayable}
           />
         )}
         <style jsx>{CoinContainerStyles}</style>
@@ -49,7 +50,8 @@ CoinContainer.defaultProps = {
 CoinContainer.propTypes = {
   color: PropTypes.string,
   showCoins: PropTypes.bool,
-  gameData: PropTypes.object.isRequired
+  gameData: PropTypes.object.isRequired,
+  playerId: PropTypes.oneOf([PropTypes.number, PropTypes.string]).isRequired
 };
 
 export default CoinContainer;

@@ -27,7 +27,7 @@ const WaitingAreaStyles = css`
     font-size: 30px;
     text-align: center;
     color: black;
-    width: 300px;
+    width: 400px;
     border-radius: 2px;
     border: 1px solid black;
   }

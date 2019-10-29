@@ -11,7 +11,7 @@ import { API_URL } from '../../utils/utils';
 import app from '../../https/app';
 import constants from '../../constants/contants';
 import CongratulationsPopup from '../CongratulationsPopup/CongratulationsPopup';
-import colors from '../../config/styles/colors';
+import globalStyles from '../globalStyle';
 
 const { POLLING_INTERVAL } = constants;
 
@@ -114,20 +114,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
       {gameData.winningPlayer && (
         <CongratulationsPopup player={gameData.winningPlayer} />
       )}
-      <style jsx global>{`
-        body,
-        html {
-          @import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
-          padding: 0;
-          margin: 0;
-          background: ${colors.palette1.shade5};
-          font-family: 'Open Sans', sans-serif;
-        }
-        button {
-          font-family: 'Open Sans', sans-serif;
-          border-radius: 3px;
-        }
-      `}</style>
+      <style jsx>{globalStyles}</style>
       <style jsx>{GameStyles}</style>
     </div>
   );
