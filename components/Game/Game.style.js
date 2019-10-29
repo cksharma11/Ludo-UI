@@ -6,8 +6,6 @@ const GameStyles = css`
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
   }
 
   .main_container {
@@ -16,7 +14,7 @@ const GameStyles = css`
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 90vh;
+    height: 85vh;
   }
 
   .player_row {

@@ -16,6 +16,8 @@ const CreateGame = () => {
             type="number"
             name="numberOfPlayers"
             placeholder="number of players"
+            min="2"
+            max="4"
           />
           <input type="submit" value={labels.CREATE_GAME} />
         </form>

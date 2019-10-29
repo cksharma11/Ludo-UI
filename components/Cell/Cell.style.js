@@ -12,35 +12,35 @@ const CellStyles = css`
   }
 
   .red {
-    background: rgb(231, 96, 96);
+    background: rgb(223, 107, 107);
   }
 
   .green {
-    background: rgb(112, 236, 112);
+    background: rgb(108, 175, 118);
   }
 
   .yellow {
-    background: rgb(230, 230, 91);
+    background: rgb(253, 253, 151);
   }
 
   .blue {
-    background: rgb(84, 84, 235);
+    background: rgb(98, 119, 224);
   }
 
   .dark_red {
-    background: red;
+    background: rgb(235, 41, 41);
   }
 
   .dark_green {
-    background: green;
+    background: rgb(11, 157, 34);
   }
 
   .dark_yellow {
-    background: yellow;
+    background: rgb(255, 255, 0);
   }
 
   .dark_blue {
-    background: blue;
+    background: rgb(40, 71, 230);
   }
 
   .safe-cell {

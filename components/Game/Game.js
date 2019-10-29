@@ -12,11 +12,13 @@ import app from '../../https/app';
 import constants from '../../constants/contants';
 import CongratulationsPopup from '../CongratulationsPopup/CongratulationsPopup';
 import globalStyles from '../globalStyle';
+import Log from '../Log/Log';
 
 const { POLLING_INTERVAL } = constants;
 
 const Game = ({ gameData: initialGameData, playerId, gameId }) => {
   const [gameData, setGameData] = useState(initialGameData);
+  const lastLog = gameData.lastLog && gameData.lastLog.message;
 
   useEffect(() => {
     setTimeout(async () => {
@@ -88,6 +90,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
   return (
     <div className="body">
       <GameHeader playerName={windowPlayer.name} gameId={gameData.id} />
+      <Log log={lastLog} />
       <section className="main_container">
         <section className="player_row">
           {renderPlayer(player1, 'left', 0)}

@@ -1,15 +1,18 @@
 import css from 'styled-jsx/css';
-import colors from '../../config/styles/colors';
 
 const HeaderStyles = css`
   .header {
     font-size: 30px;
     text-align: center;
     padding: 10px;
-    border-bottom: 1px solid #ccc1c1;
-    background: ${colors.palette1.shade1};
     color: black;
     height: 5vh;
+    background: radial-gradient(
+      ellipse at center,
+      rgb(99, 155, 155) 0%,
+      rgb(25, 41, 41) 99%,
+      rgb(69, 108, 108) 100%
+    );
   }
 `;
 

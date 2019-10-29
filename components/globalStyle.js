@@ -1,5 +1,4 @@
 import css from 'styled-jsx/css';
-import colors from '../config/styles/colors';
 
 const globalStyles = css.global`
   body,

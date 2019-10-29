@@ -29,19 +29,19 @@ const CoinContainerStyles = css`
   }
 
   .red {
-    background: rgb(231, 96, 96);
+    background: rgb(223, 107, 107);
   }
 
   .green {
-    background: rgb(112, 236, 112);
+    background: rgb(108, 175, 118);
   }
 
   .yellow {
-    background: rgb(230, 230, 91);
+    background: rgb(253, 253, 151);
   }
 
   .blue {
-    background: rgb(84, 84, 235);
+    background: rgb(98, 119, 224);
   }
 
   .dark_red {
