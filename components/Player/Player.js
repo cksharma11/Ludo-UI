@@ -24,7 +24,7 @@ const Player = ({
 
   const windowPlayerClass = isWindowPlayer ? 'window' : '';
   const activePlayerClass = turn ? 'current-turn' : '';
-  const containerClass = `container ${alignment} ${windowPlayerClass} ${activePlayerClass}`;
+  const containerClass = `container ${alignment} ${windowPlayerClass} ${activePlayerClass} ${player.color}`;
 
   return (
     <div className={containerClass}>
