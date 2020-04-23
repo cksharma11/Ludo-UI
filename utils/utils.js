@@ -26,9 +26,14 @@ const POST_CALL_CONFIG = {
   }
 };
 
-const API_URL = process.env.API_URL || `http://localhost:${API_PORT}`;
+const API_URL = 'https://ludo-pc-api.herokuapp.com';
 // eslint-disable-next-line no-console
-console.log('DEBUGGING ON REMOTE : ', API_URL, process.env.API_URL);
+console.log(
+  'DEBUGGING ON REMOTE : WITH TEST VAR',
+  API_URL,
+  process.env.API_URL,
+  process.env.TEST_VAR
+);
 
 module.exports = {
   isWindow,
