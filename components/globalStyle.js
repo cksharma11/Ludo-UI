@@ -1,6 +1,6 @@
 import css from 'styled-jsx/css';
 
-const globalStyles = css.global`
+const GlobalStyles = css.global`
   body,
   html {
     @import url('https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap');
@@ -20,4 +20,4 @@ const globalStyles = css.global`
   }
 `;
 
-export default globalStyles;
+export default GlobalStyles;

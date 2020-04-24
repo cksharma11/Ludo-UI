@@ -3,7 +3,7 @@ import PropType from 'prop-types';
 import Header from '../Header/Header';
 import HomeStyles from './Home.style';
 import labels from '../../config/labels/labels';
-import globalStyles from '../globalStyle';
+import GlobalStyles from '../globalStyle';
 
 const Home = ({ title, createGameLink, joinGameLink, loadGameLink }) => {
   return (
@@ -15,7 +15,7 @@ const Home = ({ title, createGameLink, joinGameLink, loadGameLink }) => {
         <a href={loadGameLink}>{labels.LOAD_GAME}</a>
       </div>
       <style jsx>{HomeStyles}</style>
-      <style jsx>{globalStyles}</style>
+      <style jsx>{GlobalStyles}</style>
     </div>
   );
 };

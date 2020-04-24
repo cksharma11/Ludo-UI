@@ -2,7 +2,7 @@ import React from 'react';
 import CreateGameStyles from './CreateGame.style';
 import Header from '../Header/Header';
 import labels from '../../config/labels/labels';
-import globalStyles from '../globalStyle';
+import GlobalStyles from '../globalStyle';
 
 const CreateGame = () => {
   return (
@@ -23,7 +23,7 @@ const CreateGame = () => {
         </form>
       </div>
       <style jsx>{CreateGameStyles}</style>
-      <style jsx>{globalStyles}</style>
+      <style jsx>{GlobalStyles}</style>
     </div>
   );
 };

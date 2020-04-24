@@ -11,7 +11,7 @@ import { API_URL } from '../../utils/utils';
 import app from '../../https/app';
 import constants from '../../constants/contants';
 import CongratulationsPopup from '../CongratulationsPopup/CongratulationsPopup';
-import globalStyles from '../globalStyle';
+import GlobalStyles from '../globalStyle';
 import Log from '../Log/Log';
 
 const { POLLING_INTERVAL } = constants;
@@ -117,7 +117,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
       {gameData.winningPlayer && (
         <CongratulationsPopup player={gameData.winningPlayer} />
       )}
-      <style jsx>{globalStyles}</style>
+      <style jsx>{GlobalStyles}</style>
       <style jsx>{GameStyles}</style>
     </div>
   );
