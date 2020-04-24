@@ -26,7 +26,7 @@
     "fastify-formbody": "^3.1.0",
     "i": "^0.3.6",
     "isomorphic-unfetch": "^3.0.0",
-    "next": "^8.1.0",
+    "next": "^9.3.2",
     "next-routes": "^1.4.2",
     "nodemon": "^1.19.4",
     "npm": "^6.12.0",
