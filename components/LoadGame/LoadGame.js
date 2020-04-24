@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../Header/Header';
 import LoadGameStyles from './LoadGame.style';
 import labels from '../../config/labels/labels';
-import globalStyles from '../GlobalStyle';
+import globalStyles from '../globalStyle';
 
 const LoadGame = () => {
   return (

@@ -11,7 +11,7 @@ import { API_URL } from '../../utils/utils';
 import app from '../../https/app';
 import constants from '../../constants/contants';
 import CongratulationsPopup from '../CongratulationsPopup/CongratulationsPopup';
-import globalStyles from '../GlobalStyle';
+import globalStyles from '../globalStyle';
 import Log from '../Log/Log';
 
 const { POLLING_INTERVAL } = constants;

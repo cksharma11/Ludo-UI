@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "rm -rf .next && next build",
+    "build": "next build",
     "next": "next build && next start",
     "start": "node server.js",
     "open": "export UI_PORT=3030 && export API_PORT=4040 && export DB_PORT=5050 && nodemon server.js",
-    "test": "jest --watch",
+    "test": "jest --passWithNoTests",
     "test:update:snapshot": "npm test -- -u",
     "test:report": "node jest/testReporter.js",
     "lint:script": "eslint . -c .eslintrc.json --ext js,jsx --fix",
