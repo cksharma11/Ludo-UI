@@ -2,7 +2,6 @@ import React from 'react';
 import Header from '../Header/Header';
 import LoadGameStyles from './LoadGame.style';
 import labels from '../../config/labels/labels';
-import GlobalStyles from '../globalStyle';
 
 const LoadGame = () => {
   return (
@@ -16,7 +15,6 @@ const LoadGame = () => {
           <input type="submit" value={labels.LOAD_GAME} />
         </form>
         <style jsx>{LoadGameStyles}</style>
-        <style jsx>{GlobalStyles}</style>
       </div>
     </div>
   );

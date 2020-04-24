@@ -2,7 +2,6 @@ import React from 'react';
 import Header from '../Header/Header';
 import JoinGameStyles from './JoinGame.style';
 import labels from '../../config/labels/labels';
-import GlobalStyles from '../globalStyle';
 
 const JoinGame = () => {
   return (
@@ -17,7 +16,6 @@ const JoinGame = () => {
         </form>
       </div>
       <style jsx>{JoinGameStyles}</style>
-      <style jsx>{GlobalStyles}</style>
     </div>
   );
 };
