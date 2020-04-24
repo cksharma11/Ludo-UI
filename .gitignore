@@ -3,3 +3,4 @@ node_modules/
 coverage
 model
 .DS_Store
+out/

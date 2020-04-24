@@ -6,7 +6,7 @@ import Loader from '../ui/Loader/Loader';
 import WaitingAreaStyles from './WaitingArea.style';
 import labels from '../../config/labels/labels';
 import { API_URL } from '../../utils/utils';
-import globalStyles from '../globalStyle';
+import globalStyles from '../GlobalStyle';
 
 const WaitingArea = ({ gameId }) => {
   const [players, setPlayers] = useState([]);

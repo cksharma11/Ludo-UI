@@ -2,7 +2,7 @@ import React from 'react';
 import CreateGameStyles from './CreateGame.style';
 import Header from '../Header/Header';
 import labels from '../../config/labels/labels';
-import globalStyles from '../globalStyle';
+import globalStyles from '../GlobalStyle';
 
 const CreateGame = () => {
   return (

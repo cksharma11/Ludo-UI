@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../Header/Header';
 import JoinGameStyles from './JoinGame.style';
 import labels from '../../config/labels/labels';
-import globalStyles from '../globalStyle';
+import globalStyles from '../GlobalStyle';
 
 const JoinGame = () => {
   return (
