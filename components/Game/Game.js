@@ -87,7 +87,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
   };
 
   return (
-    <div className="body">
+    <div className="body container">
       <GameHeader playerName={windowPlayer.name} gameId={gameData.id} />
       <Log log={lastLog} />
       <section className="main_container">
