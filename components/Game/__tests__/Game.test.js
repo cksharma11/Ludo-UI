@@ -10,25 +10,25 @@ describe('Game', () => {
         playerName: 'test1',
         turn: true,
         playerId: 1,
-        coins: [{ color: 'red', position: 0 }]
+        coins: { coins: [{ color: 'red', position: 0 }] }
       },
       {
         playerName: 'test2',
         turn: false,
         playerId: 2,
-        coins: [{ color: 'red', position: 0 }]
+        coins: { coins: [{ color: 'red', position: 0 }] }
       },
       {
         playerName: 'test3',
         turn: false,
         playerId: 3,
-        coins: [{ color: 'red', position: 0 }]
+        coins: { coins: [{ color: 'red', position: 0 }] }
       },
       {
         playerName: 'test4',
         turn: false,
         playerId: 4,
-        coins: [{ color: 'red', position: 0 }]
+        coins: { coins: [{ color: 'red', position: 0 }] }
       }
     ]
   };

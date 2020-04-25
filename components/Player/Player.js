@@ -14,7 +14,7 @@ const Player = ({
   diceValue,
   isWindowPlayer
 }) => {
-  const { coins } = player;
+  const { coins } = player.coins;
   const { name } = player;
   const sortedCoins = coins.sort((a, b) => b.position - a.position);
   const clearedCoins = coins.filter(

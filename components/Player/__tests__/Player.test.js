@@ -8,24 +8,26 @@ describe('Player', () => {
     player = {
       name: 'dummy',
       turn: false,
-      coins: [
-        {
-          color: 'red',
-          isCleared: true
-        },
-        {
-          color: 'red',
-          isCleared: false
-        },
-        {
-          color: 'red',
-          isCleared: false
-        },
-        {
-          color: 'red',
-          isCleared: false
-        }
-      ]
+      coins: {
+        coins: [
+          {
+            color: 'red',
+            isCleared: true
+          },
+          {
+            color: 'red',
+            isCleared: false
+          },
+          {
+            color: 'red',
+            isCleared: false
+          },
+          {
+            color: 'red',
+            isCleared: false
+          }
+        ]
+      }
     };
   });
 
