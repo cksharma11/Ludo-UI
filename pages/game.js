@@ -1,14 +1,20 @@
 /* eslint-disable no-unused-vars */
-import React from 'react';
+import React, { Fragment } from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import regeneratorRuntime from 'regenerator-runtime';
 import PropTypes from 'prop-types';
 import Game from '../components/Game/Game';
 import { parseCookie, API_URL } from '../utils/utils';
 import app from '../https/app';
+import GlobalStyles from '../components/globalStyles';
 
 const GamePage = ({ gameData, playerId, gameId }) => {
-  return <Game gameData={gameData} playerId={playerId} gameId={gameId} />;
+  return (
+    <Fragment>
+      <Game gameData={gameData} playerId={playerId} gameId={gameId} />
+      <style jsx>{GlobalStyles}</style>
+    </Fragment>
+  );
 };
 
 GamePage.defaultProps = {

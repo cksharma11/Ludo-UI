@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Home from '../components/Home/Home';
+import GlobalStyles from '../components/globalStyles';
 
 const home = () => {
   return (
-    <Home
-      title="Ludo"
-      createGameLink="/createGame"
-      joinGameLink="joinGame"
-      loadGameLink="/loadGame"
-    />
+    <Fragment>
+      <Home
+        title="Ludo"
+        createGameLink="/createGame"
+        joinGameLink="joinGame"
+        loadGameLink="/loadGame"
+      />
+      <style jsx>{GlobalStyles}</style>
+    </Fragment>
   );
 };
 
