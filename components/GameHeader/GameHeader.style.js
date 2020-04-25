@@ -13,11 +13,11 @@ const GameHeaderStyles = css`
       rgb(25, 41, 41) 99%,
       rgb(69, 108, 108) 100%
     );
+  }
 
-    .title {
-      font-size: 35px;
-      font-weight: bold;
-    }
+  .title {
+    font-size: 35px;
+    font-weight: bold;
   }
 
   .controls {

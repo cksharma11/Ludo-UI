@@ -37,7 +37,7 @@ GameHeader.defaultProps = {
 
 GameHeader.propTypes = {
   playerName: PropTypes.string,
-  gameId: PropTypes.oneOf([PropTypes.string, PropTypes.number])
+  gameId: PropTypes.any
 };
 
 export default GameHeader;

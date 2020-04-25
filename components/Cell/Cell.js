@@ -34,14 +34,16 @@ const Cell = ({ id, className, gameData, playerId }) => {
 
 Cell.defaultProps = {
   id: 0,
-  className: ''
+  className: '',
+  playerId: -1,
+  gameData: {}
 };
 
 Cell.propTypes = {
-  id: PropTypes.oneOf([PropTypes.string, PropTypes.number]),
+  id: PropTypes.any,
   className: PropTypes.string,
-  gameData: PropTypes.object.isRequired,
-  playerId: PropTypes.oneOf([PropTypes.string, PropTypes.number]).isRequired
+  gameData: PropTypes.object,
+  playerId: PropTypes.any
 };
 
 export default Cell;

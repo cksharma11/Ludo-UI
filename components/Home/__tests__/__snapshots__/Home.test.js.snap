@@ -1,210 +1,51 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home should render properly 1`] = `
-"<div className=\\"jsx-1689599541 main-container\\">
+"<div className=\\"jsx-1535714850 main-container\\">
   <Header title=\\"title\\" />
-  <div className=\\"jsx-1689599541 options\\">
-    <a href=\\"#\\" className=\\"jsx-1689599541\\">
+  <div className=\\"jsx-1535714850 options\\">
+    <a href=\\"#\\" className=\\"jsx-1535714850\\">
       Create Game
     </a>
-    <a href=\\"#\\" className=\\"jsx-1689599541\\">
+    <a href=\\"#\\" className=\\"jsx-1535714850\\">
       Join Game
     </a>
+    <a href={[undefined]} className=\\"jsx-1535714850\\">
+      Load Game
+    </a>
   </div>
-  <JSXStyle id=\\"1689599541\\">
-    h
-    t
+  <JSXStyle id=\\"1535714850\\">
+    .
     m
-    l
-    .
-    j
-    s
-    x
+    a
+    i
+    n
     -
-    1
-    6
-    8
-    9
-    5
-    9
-    9
-    5
-    4
-    1
-    ,
-    b
+    c
     o
-    d
-    y
+    n
+    t
+    a
+    i
+    n
+    e
+    r
     .
     j
     s
     x
     -
     1
-    6
-    8
-    9
     5
-    9
-    9
+    3
     5
-    4
-    1
-    {
-    w
-    i
-    d
-    t
-    h
-    :
-    1
-    0
-    0
-    %
-    ;
-    h
-    e
-    i
-    g
-    h
-    t
-    :
     7
-    0
-    0
-    p
-    x
-    ;
-    }
-    .
-    m
-    a
-    i
-    n
-    -
-    c
-    o
-    n
-    t
-    a
-    i
-    n
-    e
-    r
-    .
-    j
-    s
-    x
-    -
     1
-    6
-    8
-    9
-    5
-    9
-    9
-    5
     4
-    1
+    8
+    5
+    0
     {
-    f
-    o
-    n
-    t
-    -
-    f
-    a
-    m
-    i
-    l
-    y
-    :
-    &#39;
-    T
-    r
-    e
-    b
-    u
-    c
-    h
-    e
-    t
-     
-    M
-    S
-    &#39;
-    ,
-    &#39;
-    L
-    u
-    c
-    i
-    d
-    a
-     
-    S
-    a
-    n
-    s
-     
-    U
-    n
-    i
-    c
-    o
-    d
-    e
-    &#39;
-    ,
-    &#39;
-    L
-    u
-    c
-    i
-    d
-    a
-     
-    G
-    r
-    a
-    n
-    d
-    e
-    &#39;
-    ,
-     
-    &#39;
-    L
-    u
-    c
-    i
-    d
-    a
-     
-    S
-    a
-    n
-    s
-    &#39;
-    ,
-    A
-    r
-    i
-    a
-    l
-    ,
-    s
-    a
-    n
-    s
-    -
-    s
-    e
-    r
-    i
-    f
-    ;
     d
     i
     s
@@ -286,235 +127,116 @@ exports[`Home should render properly 1`] = `
     h
     t
     :
+    8
+    5
+    v
+    h
+    p
+    x
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    f
+    l
+    e
+    x
+    -
+    d
+    i
+    r
+    e
+    c
+    t
+    i
+    o
+    n
+    :
+    c
+    o
+    l
+    u
+    m
+    n
+    ;
+    -
+    m
+    s
+    -
+    f
+    l
+    e
+    x
+    -
+    d
+    i
+    r
+    e
+    c
+    t
+    i
+    o
+    n
+    :
+    c
+    o
+    l
+    u
+    m
+    n
+    ;
+    f
+    l
+    e
+    x
+    -
+    d
+    i
+    r
+    e
+    c
+    t
+    i
+    o
+    n
+    :
+    c
+    o
+    l
+    u
+    m
+    n
+    ;
+    }
+    .
+    o
+    p
+    t
+    i
+    o
+    n
+    s
+    .
+    j
+    s
+    x
+    -
+    1
+    5
+    3
+    5
     7
+    1
+    4
+    8
     5
     0
-    p
-    x
-    ;
-    b
-    o
-    r
-    d
-    e
-    r
-    :
-    1
-    p
-    x
-     
-    s
-    o
-    l
-    i
-    d
-     
-    b
-    l
-    a
-    c
-    k
-    ;
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    f
-    l
-    e
-    x
-    -
-    d
-    i
-    r
-    e
-    c
-    t
-    i
-    o
-    n
-    :
-    c
-    o
-    l
-    u
-    m
-    n
-    ;
-    -
-    m
-    s
-    -
-    f
-    l
-    e
-    x
-    -
-    d
-    i
-    r
-    e
-    c
-    t
-    i
-    o
-    n
-    :
-    c
-    o
-    l
-    u
-    m
-    n
-    ;
-    f
-    l
-    e
-    x
-    -
-    d
-    i
-    r
-    e
-    c
-    t
-    i
-    o
-    n
-    :
-    c
-    o
-    l
-    u
-    m
-    n
-    ;
-    }
-    .
-    o
-    p
-    t
-    i
-    o
-    n
-    s
-    .
-    j
-    s
-    x
-    -
-    1
-    6
-    8
-    9
-    5
-    9
-    9
-    5
-    4
-    1
     {
-    f
-    o
-    n
-    t
-    -
-    f
-    a
-    m
-    i
-    l
-    y
-    :
-    &#39;
-    T
-    r
-    e
-    b
-    u
-    c
-    h
-    e
-    t
-     
-    M
-    S
-    &#39;
-    ,
-    &#39;
-    L
-    u
-    c
-    i
-    d
-    a
-     
-    S
-    a
-    n
-    s
-     
-    U
-    n
-    i
-    c
-    o
-    d
-    e
-    &#39;
-    ,
-    &#39;
-    L
-    u
-    c
-    i
-    d
-    a
-     
-    G
-    r
-    a
-    n
-    d
-    e
-    &#39;
-    ,
-     
-    &#39;
-    L
-    u
-    c
-    i
-    d
-    a
-     
-    S
-    a
-    n
-    s
-    &#39;
-    ,
-    A
-    r
-    i
-    a
-    l
-    ,
-    s
-    a
-    n
-    s
-    -
-    s
-    e
-    r
-    i
-    f
-    ;
     d
     i
     s
@@ -597,7 +319,7 @@ exports[`Home should render properly 1`] = `
     t
     :
     6
-    6
+    0
     0
     p
     x
@@ -872,25 +594,6 @@ exports[`Home should render properly 1`] = `
     e
     r
     ;
-    b
-    a
-    c
-    k
-    g
-    r
-    o
-    u
-    n
-    d
-    :
-    #
-    d
-    f
-    d
-    f
-    d
-    f
-    ;
     p
     a
     d
@@ -899,8 +602,7 @@ exports[`Home should render properly 1`] = `
     n
     g
     :
-    1
-    0
+    5
     0
     p
     x
@@ -913,15 +615,15 @@ exports[`Home should render properly 1`] = `
     x
     -
     1
-    6
-    8
-    9
     5
-    9
-    9
+    3
     5
-    4
+    7
     1
+    4
+    8
+    5
+    0
     {
     b
     o
@@ -940,103 +642,6 @@ exports[`Home should render properly 1`] = `
     2
     p
     x
-    ;
-    f
-    o
-    n
-    t
-    -
-    f
-    a
-    m
-    i
-    l
-    y
-    :
-    &#39;
-    T
-    r
-    e
-    b
-    u
-    c
-    h
-    e
-    t
-     
-    M
-    S
-    &#39;
-    ,
-    &#39;
-    L
-    u
-    c
-    i
-    d
-    a
-     
-    S
-    a
-    n
-    s
-     
-    U
-    n
-    i
-    c
-    o
-    d
-    e
-    &#39;
-    ,
-    &#39;
-    L
-    u
-    c
-    i
-    d
-    a
-     
-    G
-    r
-    a
-    n
-    d
-    e
-    &#39;
-    ,
-     
-    &#39;
-    L
-    u
-    c
-    i
-    d
-    a
-     
-    S
-    a
-    n
-    s
-    &#39;
-    ,
-    A
-    r
-    i
-    a
-    l
-    ,
-    s
-    a
-    n
-    s
-    -
-    s
-    e
-    r
-    i
-    f
     ;
     w
     i
@@ -1212,15 +817,15 @@ exports[`Home should render properly 1`] = `
     x
     -
     1
-    6
-    8
-    9
     5
-    9
-    9
+    3
     5
-    4
+    7
     1
+    4
+    8
+    5
+    0
     :
     h
     o

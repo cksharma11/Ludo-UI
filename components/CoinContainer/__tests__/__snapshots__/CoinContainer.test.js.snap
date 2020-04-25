@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CoinContainer should render properly with coin 1`] = `
-"<div className=\\"jsx-3789763585 coin_container\\">
-  <div className=\\"jsx-3789763585 container-border\\">
-    <div className=\\"jsx-3789763585 container_row\\">
-      <div className=\\"jsx-3789763585 coin \\">
-        <JSXStyle id=\\"3789763585\\">
+"<div className=\\"jsx-2350788877 coin_container\\">
+  <div className=\\"jsx-2350788877 container-border\\">
+    <div className=\\"jsx-2350788877 container_row\\">
+      <div className=\\"jsx-2350788877 coin \\">
+        <JSXStyle id=\\"2350788877\\">
           .
           c
           o
@@ -26,16 +26,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -393,16 +393,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -519,16 +519,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -788,166 +788,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
-          5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
           2
           3
-          1
-          ,
-          9
-          6
-          ,
-          9
-          6
-          )
-          ;
-          }
-          .
-          g
-          r
-          e
-          e
-          n
-          .
-          j
-          s
-          x
-          -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
           5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
-          1
-          1
-          2
-          ,
-          2
-          3
-          6
-          ,
-          1
-          1
-          2
-          )
-          ;
-          }
-          .
-          y
-          e
-          l
-          l
-          o
-          w
-          .
-          j
-          s
-          x
-          -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
-          5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
-          2
-          3
           0
-          ,
-          2
-          3
-          0
-          ,
-          9
-          1
-          )
-          ;
-          }
-          .
-          b
-          l
-          u
-          e
-          .
-          j
-          s
-          x
-          -
-          3
           7
           8
-          9
-          7
-          6
-          3
-          5
           8
-          5
+          8
+          7
+          7
           {
           b
           a
@@ -964,15 +814,169 @@ exports[`CoinContainer should render properly with coin 1`] = `
           g
           b
           (
-          8
-          4
+          2
+          2
+          3
           ,
-          8
-          4
+          1
+          0
+          7
           ,
+          1
+          0
+          7
+          )
+          ;
+          }
+          .
+          g
+          r
+          e
+          e
+          n
+          .
+          j
+          s
+          x
+          -
           2
           3
           5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          1
+          0
+          8
+          ,
+          1
+          7
+          5
+          ,
+          1
+          1
+          8
+          )
+          ;
+          }
+          .
+          y
+          e
+          l
+          l
+          o
+          w
+          .
+          j
+          s
+          x
+          -
+          2
+          3
+          5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          2
+          5
+          3
+          ,
+          2
+          5
+          3
+          ,
+          1
+          5
+          1
+          )
+          ;
+          }
+          .
+          b
+          l
+          u
+          e
+          .
+          j
+          s
+          x
+          -
+          2
+          3
+          5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          9
+          8
+          ,
+          1
+          1
+          9
+          ,
+          2
+          2
+          4
           )
           ;
           }
@@ -990,16 +994,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -1033,16 +1037,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -1079,16 +1083,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -1124,16 +1128,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -1154,8 +1158,8 @@ exports[`CoinContainer should render properly with coin 1`] = `
           }
         </JSXStyle>
       </div>
-      <div className=\\"jsx-3789763585 coin \\">
-        <JSXStyle id=\\"3789763585\\">
+      <div className=\\"jsx-2350788877 coin \\">
+        <JSXStyle id=\\"2350788877\\">
           .
           c
           o
@@ -1176,16 +1180,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -1543,16 +1547,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -1669,16 +1673,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -1938,166 +1942,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
-          5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
           2
           3
-          1
-          ,
-          9
-          6
-          ,
-          9
-          6
-          )
-          ;
-          }
-          .
-          g
-          r
-          e
-          e
-          n
-          .
-          j
-          s
-          x
-          -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
           5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
-          1
-          1
-          2
-          ,
-          2
-          3
-          6
-          ,
-          1
-          1
-          2
-          )
-          ;
-          }
-          .
-          y
-          e
-          l
-          l
-          o
-          w
-          .
-          j
-          s
-          x
-          -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
-          5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
-          2
-          3
           0
-          ,
-          2
-          3
-          0
-          ,
-          9
-          1
-          )
-          ;
-          }
-          .
-          b
-          l
-          u
-          e
-          .
-          j
-          s
-          x
-          -
-          3
           7
           8
-          9
-          7
-          6
-          3
-          5
           8
-          5
+          8
+          7
+          7
           {
           b
           a
@@ -2114,15 +1968,169 @@ exports[`CoinContainer should render properly with coin 1`] = `
           g
           b
           (
-          8
-          4
+          2
+          2
+          3
           ,
-          8
-          4
+          1
+          0
+          7
           ,
+          1
+          0
+          7
+          )
+          ;
+          }
+          .
+          g
+          r
+          e
+          e
+          n
+          .
+          j
+          s
+          x
+          -
           2
           3
           5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          1
+          0
+          8
+          ,
+          1
+          7
+          5
+          ,
+          1
+          1
+          8
+          )
+          ;
+          }
+          .
+          y
+          e
+          l
+          l
+          o
+          w
+          .
+          j
+          s
+          x
+          -
+          2
+          3
+          5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          2
+          5
+          3
+          ,
+          2
+          5
+          3
+          ,
+          1
+          5
+          1
+          )
+          ;
+          }
+          .
+          b
+          l
+          u
+          e
+          .
+          j
+          s
+          x
+          -
+          2
+          3
+          5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          9
+          8
+          ,
+          1
+          1
+          9
+          ,
+          2
+          2
+          4
           )
           ;
           }
@@ -2140,16 +2148,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -2183,16 +2191,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -2229,16 +2237,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -2274,16 +2282,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -2305,9 +2313,9 @@ exports[`CoinContainer should render properly with coin 1`] = `
         </JSXStyle>
       </div>
     </div>
-    <div className=\\"jsx-3789763585 container_row\\">
-      <div className=\\"jsx-3789763585 coin \\">
-        <JSXStyle id=\\"3789763585\\">
+    <div className=\\"jsx-2350788877 container_row\\">
+      <div className=\\"jsx-2350788877 coin \\">
+        <JSXStyle id=\\"2350788877\\">
           .
           c
           o
@@ -2328,16 +2336,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -2695,16 +2703,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -2821,16 +2829,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -3090,166 +3098,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
-          5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
           2
           3
-          1
-          ,
-          9
-          6
-          ,
-          9
-          6
-          )
-          ;
-          }
-          .
-          g
-          r
-          e
-          e
-          n
-          .
-          j
-          s
-          x
-          -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
           5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
-          1
-          1
-          2
-          ,
-          2
-          3
-          6
-          ,
-          1
-          1
-          2
-          )
-          ;
-          }
-          .
-          y
-          e
-          l
-          l
-          o
-          w
-          .
-          j
-          s
-          x
-          -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
-          5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
-          2
-          3
           0
-          ,
-          2
-          3
-          0
-          ,
-          9
-          1
-          )
-          ;
-          }
-          .
-          b
-          l
-          u
-          e
-          .
-          j
-          s
-          x
-          -
-          3
           7
           8
-          9
-          7
-          6
-          3
-          5
           8
-          5
+          8
+          7
+          7
           {
           b
           a
@@ -3266,15 +3124,169 @@ exports[`CoinContainer should render properly with coin 1`] = `
           g
           b
           (
-          8
-          4
+          2
+          2
+          3
           ,
-          8
-          4
+          1
+          0
+          7
           ,
+          1
+          0
+          7
+          )
+          ;
+          }
+          .
+          g
+          r
+          e
+          e
+          n
+          .
+          j
+          s
+          x
+          -
           2
           3
           5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          1
+          0
+          8
+          ,
+          1
+          7
+          5
+          ,
+          1
+          1
+          8
+          )
+          ;
+          }
+          .
+          y
+          e
+          l
+          l
+          o
+          w
+          .
+          j
+          s
+          x
+          -
+          2
+          3
+          5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          2
+          5
+          3
+          ,
+          2
+          5
+          3
+          ,
+          1
+          5
+          1
+          )
+          ;
+          }
+          .
+          b
+          l
+          u
+          e
+          .
+          j
+          s
+          x
+          -
+          2
+          3
+          5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          9
+          8
+          ,
+          1
+          1
+          9
+          ,
+          2
+          2
+          4
           )
           ;
           }
@@ -3292,16 +3304,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -3335,16 +3347,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -3381,16 +3393,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -3426,16 +3438,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -3456,8 +3468,8 @@ exports[`CoinContainer should render properly with coin 1`] = `
           }
         </JSXStyle>
       </div>
-      <div className=\\"jsx-3789763585 coin \\">
-        <JSXStyle id=\\"3789763585\\">
+      <div className=\\"jsx-2350788877 coin \\">
+        <JSXStyle id=\\"2350788877\\">
           .
           c
           o
@@ -3478,16 +3490,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -3845,16 +3857,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -3971,16 +3983,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -4240,166 +4252,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
-          5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
           2
           3
-          1
-          ,
-          9
-          6
-          ,
-          9
-          6
-          )
-          ;
-          }
-          .
-          g
-          r
-          e
-          e
-          n
-          .
-          j
-          s
-          x
-          -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
           5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
-          1
-          1
-          2
-          ,
-          2
-          3
-          6
-          ,
-          1
-          1
-          2
-          )
-          ;
-          }
-          .
-          y
-          e
-          l
-          l
-          o
-          w
-          .
-          j
-          s
-          x
-          -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
-          5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
-          2
-          3
           0
-          ,
-          2
-          3
-          0
-          ,
-          9
-          1
-          )
-          ;
-          }
-          .
-          b
-          l
-          u
-          e
-          .
-          j
-          s
-          x
-          -
-          3
           7
           8
-          9
-          7
-          6
-          3
-          5
           8
-          5
+          8
+          7
+          7
           {
           b
           a
@@ -4416,15 +4278,169 @@ exports[`CoinContainer should render properly with coin 1`] = `
           g
           b
           (
-          8
-          4
+          2
+          2
+          3
           ,
-          8
-          4
+          1
+          0
+          7
           ,
+          1
+          0
+          7
+          )
+          ;
+          }
+          .
+          g
+          r
+          e
+          e
+          n
+          .
+          j
+          s
+          x
+          -
           2
           3
           5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          1
+          0
+          8
+          ,
+          1
+          7
+          5
+          ,
+          1
+          1
+          8
+          )
+          ;
+          }
+          .
+          y
+          e
+          l
+          l
+          o
+          w
+          .
+          j
+          s
+          x
+          -
+          2
+          3
+          5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          2
+          5
+          3
+          ,
+          2
+          5
+          3
+          ,
+          1
+          5
+          1
+          )
+          ;
+          }
+          .
+          b
+          l
+          u
+          e
+          .
+          j
+          s
+          x
+          -
+          2
+          3
+          5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          9
+          8
+          ,
+          1
+          1
+          9
+          ,
+          2
+          2
+          4
           )
           ;
           }
@@ -4442,16 +4458,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -4485,16 +4501,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -4531,16 +4547,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -4576,16 +4592,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -4608,7 +4624,7 @@ exports[`CoinContainer should render properly with coin 1`] = `
       </div>
     </div>
   </div>
-  <JSXStyle id=\\"3789763585\\">
+  <JSXStyle id=\\"2350788877\\">
     .
     c
     o
@@ -4629,16 +4645,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
     s
     x
     -
-    3
-    7
-    8
-    9
-    7
-    6
+    2
     3
     5
+    0
+    7
     8
-    5
+    8
+    8
+    7
+    7
     {
     d
     i
@@ -4996,16 +5012,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
     s
     x
     -
-    3
-    7
-    8
-    9
-    7
-    6
+    2
     3
     5
+    0
+    7
     8
-    5
+    8
+    8
+    7
+    7
     {
     d
     i
@@ -5122,16 +5138,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
     s
     x
     -
-    3
-    7
-    8
-    9
-    7
-    6
+    2
     3
     5
+    0
+    7
     8
-    5
+    8
+    8
+    7
+    7
     {
     d
     i
@@ -5391,166 +5407,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
     s
     x
     -
-    3
-    7
-    8
-    9
-    7
-    6
-    3
-    5
-    8
-    5
-    {
-    b
-    a
-    c
-    k
-    g
-    r
-    o
-    u
-    n
-    d
-    :
-    r
-    g
-    b
-    (
     2
     3
-    1
-    ,
-    9
-    6
-    ,
-    9
-    6
-    )
-    ;
-    }
-    .
-    g
-    r
-    e
-    e
-    n
-    .
-    j
-    s
-    x
-    -
-    3
-    7
-    8
-    9
-    7
-    6
-    3
     5
-    8
-    5
-    {
-    b
-    a
-    c
-    k
-    g
-    r
-    o
-    u
-    n
-    d
-    :
-    r
-    g
-    b
-    (
-    1
-    1
-    2
-    ,
-    2
-    3
-    6
-    ,
-    1
-    1
-    2
-    )
-    ;
-    }
-    .
-    y
-    e
-    l
-    l
-    o
-    w
-    .
-    j
-    s
-    x
-    -
-    3
-    7
-    8
-    9
-    7
-    6
-    3
-    5
-    8
-    5
-    {
-    b
-    a
-    c
-    k
-    g
-    r
-    o
-    u
-    n
-    d
-    :
-    r
-    g
-    b
-    (
-    2
-    3
     0
-    ,
-    2
-    3
-    0
-    ,
-    9
-    1
-    )
-    ;
-    }
-    .
-    b
-    l
-    u
-    e
-    .
-    j
-    s
-    x
-    -
-    3
     7
     8
-    9
-    7
-    6
-    3
-    5
     8
-    5
+    8
+    7
+    7
     {
     b
     a
@@ -5567,15 +5433,169 @@ exports[`CoinContainer should render properly with coin 1`] = `
     g
     b
     (
-    8
-    4
+    2
+    2
+    3
     ,
-    8
-    4
+    1
+    0
+    7
     ,
+    1
+    0
+    7
+    )
+    ;
+    }
+    .
+    g
+    r
+    e
+    e
+    n
+    .
+    j
+    s
+    x
+    -
     2
     3
     5
+    0
+    7
+    8
+    8
+    8
+    7
+    7
+    {
+    b
+    a
+    c
+    k
+    g
+    r
+    o
+    u
+    n
+    d
+    :
+    r
+    g
+    b
+    (
+    1
+    0
+    8
+    ,
+    1
+    7
+    5
+    ,
+    1
+    1
+    8
+    )
+    ;
+    }
+    .
+    y
+    e
+    l
+    l
+    o
+    w
+    .
+    j
+    s
+    x
+    -
+    2
+    3
+    5
+    0
+    7
+    8
+    8
+    8
+    7
+    7
+    {
+    b
+    a
+    c
+    k
+    g
+    r
+    o
+    u
+    n
+    d
+    :
+    r
+    g
+    b
+    (
+    2
+    5
+    3
+    ,
+    2
+    5
+    3
+    ,
+    1
+    5
+    1
+    )
+    ;
+    }
+    .
+    b
+    l
+    u
+    e
+    .
+    j
+    s
+    x
+    -
+    2
+    3
+    5
+    0
+    7
+    8
+    8
+    8
+    7
+    7
+    {
+    b
+    a
+    c
+    k
+    g
+    r
+    o
+    u
+    n
+    d
+    :
+    r
+    g
+    b
+    (
+    9
+    8
+    ,
+    1
+    1
+    9
+    ,
+    2
+    2
+    4
     )
     ;
     }
@@ -5593,16 +5613,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
     s
     x
     -
-    3
-    7
-    8
-    9
-    7
-    6
+    2
     3
     5
+    0
+    7
     8
-    5
+    8
+    8
+    7
+    7
     {
     b
     a
@@ -5636,16 +5656,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
     s
     x
     -
-    3
-    7
-    8
-    9
-    7
-    6
+    2
     3
     5
+    0
+    7
     8
-    5
+    8
+    8
+    7
+    7
     {
     b
     a
@@ -5682,16 +5702,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
     s
     x
     -
-    3
-    7
-    8
-    9
-    7
-    6
+    2
     3
     5
+    0
+    7
     8
-    5
+    8
+    8
+    7
+    7
     {
     b
     a
@@ -5727,16 +5747,16 @@ exports[`CoinContainer should render properly with coin 1`] = `
     s
     x
     -
-    3
-    7
-    8
-    9
-    7
-    6
+    2
     3
     5
+    0
+    7
     8
-    5
+    8
+    8
+    7
+    7
     {
     b
     a
@@ -5760,12 +5780,11 @@ exports[`CoinContainer should render properly with coin 1`] = `
 `;
 
 exports[`CoinContainer should render properly without coin 1`] = `
-"<div className=\\"jsx-3789763585 coin_container\\">
-  <div className=\\"jsx-3789763585 container-border\\">
-    <div className=\\"jsx-3789763585 container_row\\">
-      <div className=\\"jsx-3789763585 coin \\">
-        <Coin color=\\"\\" />
-        <JSXStyle id=\\"3789763585\\">
+"<div className=\\"jsx-2350788877 coin_container\\">
+  <div className=\\"jsx-2350788877 container-border\\">
+    <div className=\\"jsx-2350788877 container_row\\">
+      <div className=\\"jsx-2350788877 coin \\">
+        <JSXStyle id=\\"2350788877\\">
           .
           c
           o
@@ -5786,16 +5805,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -6153,16 +6172,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -6279,16 +6298,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -6548,166 +6567,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
-          5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
           2
           3
-          1
-          ,
-          9
-          6
-          ,
-          9
-          6
-          )
-          ;
-          }
-          .
-          g
-          r
-          e
-          e
-          n
-          .
-          j
-          s
-          x
-          -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
           5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
-          1
-          1
-          2
-          ,
-          2
-          3
-          6
-          ,
-          1
-          1
-          2
-          )
-          ;
-          }
-          .
-          y
-          e
-          l
-          l
-          o
-          w
-          .
-          j
-          s
-          x
-          -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
-          5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
-          2
-          3
           0
-          ,
-          2
-          3
-          0
-          ,
-          9
-          1
-          )
-          ;
-          }
-          .
-          b
-          l
-          u
-          e
-          .
-          j
-          s
-          x
-          -
-          3
           7
           8
-          9
-          7
-          6
-          3
-          5
           8
-          5
+          8
+          7
+          7
           {
           b
           a
@@ -6724,15 +6593,169 @@ exports[`CoinContainer should render properly without coin 1`] = `
           g
           b
           (
-          8
-          4
+          2
+          2
+          3
           ,
-          8
-          4
+          1
+          0
+          7
           ,
+          1
+          0
+          7
+          )
+          ;
+          }
+          .
+          g
+          r
+          e
+          e
+          n
+          .
+          j
+          s
+          x
+          -
           2
           3
           5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          1
+          0
+          8
+          ,
+          1
+          7
+          5
+          ,
+          1
+          1
+          8
+          )
+          ;
+          }
+          .
+          y
+          e
+          l
+          l
+          o
+          w
+          .
+          j
+          s
+          x
+          -
+          2
+          3
+          5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          2
+          5
+          3
+          ,
+          2
+          5
+          3
+          ,
+          1
+          5
+          1
+          )
+          ;
+          }
+          .
+          b
+          l
+          u
+          e
+          .
+          j
+          s
+          x
+          -
+          2
+          3
+          5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          9
+          8
+          ,
+          1
+          1
+          9
+          ,
+          2
+          2
+          4
           )
           ;
           }
@@ -6750,16 +6773,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -6793,16 +6816,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -6839,16 +6862,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -6884,16 +6907,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -6914,9 +6937,8 @@ exports[`CoinContainer should render properly without coin 1`] = `
           }
         </JSXStyle>
       </div>
-      <div className=\\"jsx-3789763585 coin \\">
-        <Coin color=\\"\\" />
-        <JSXStyle id=\\"3789763585\\">
+      <div className=\\"jsx-2350788877 coin \\">
+        <JSXStyle id=\\"2350788877\\">
           .
           c
           o
@@ -6937,16 +6959,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -7304,16 +7326,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -7430,16 +7452,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -7699,166 +7721,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
-          5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
           2
           3
-          1
-          ,
-          9
-          6
-          ,
-          9
-          6
-          )
-          ;
-          }
-          .
-          g
-          r
-          e
-          e
-          n
-          .
-          j
-          s
-          x
-          -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
           5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
-          1
-          1
-          2
-          ,
-          2
-          3
-          6
-          ,
-          1
-          1
-          2
-          )
-          ;
-          }
-          .
-          y
-          e
-          l
-          l
-          o
-          w
-          .
-          j
-          s
-          x
-          -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
-          5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
-          2
-          3
           0
-          ,
-          2
-          3
-          0
-          ,
-          9
-          1
-          )
-          ;
-          }
-          .
-          b
-          l
-          u
-          e
-          .
-          j
-          s
-          x
-          -
-          3
           7
           8
-          9
-          7
-          6
-          3
-          5
           8
-          5
+          8
+          7
+          7
           {
           b
           a
@@ -7875,15 +7747,169 @@ exports[`CoinContainer should render properly without coin 1`] = `
           g
           b
           (
-          8
-          4
+          2
+          2
+          3
           ,
-          8
-          4
+          1
+          0
+          7
           ,
+          1
+          0
+          7
+          )
+          ;
+          }
+          .
+          g
+          r
+          e
+          e
+          n
+          .
+          j
+          s
+          x
+          -
           2
           3
           5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          1
+          0
+          8
+          ,
+          1
+          7
+          5
+          ,
+          1
+          1
+          8
+          )
+          ;
+          }
+          .
+          y
+          e
+          l
+          l
+          o
+          w
+          .
+          j
+          s
+          x
+          -
+          2
+          3
+          5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          2
+          5
+          3
+          ,
+          2
+          5
+          3
+          ,
+          1
+          5
+          1
+          )
+          ;
+          }
+          .
+          b
+          l
+          u
+          e
+          .
+          j
+          s
+          x
+          -
+          2
+          3
+          5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          9
+          8
+          ,
+          1
+          1
+          9
+          ,
+          2
+          2
+          4
           )
           ;
           }
@@ -7901,16 +7927,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -7944,16 +7970,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -7990,16 +8016,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -8035,16 +8061,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -8066,10 +8092,9 @@ exports[`CoinContainer should render properly without coin 1`] = `
         </JSXStyle>
       </div>
     </div>
-    <div className=\\"jsx-3789763585 container_row\\">
-      <div className=\\"jsx-3789763585 coin \\">
-        <Coin color=\\"\\" />
-        <JSXStyle id=\\"3789763585\\">
+    <div className=\\"jsx-2350788877 container_row\\">
+      <div className=\\"jsx-2350788877 coin \\">
+        <JSXStyle id=\\"2350788877\\">
           .
           c
           o
@@ -8090,16 +8115,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -8457,16 +8482,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -8583,16 +8608,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -8852,166 +8877,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
-          5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
           2
           3
-          1
-          ,
-          9
-          6
-          ,
-          9
-          6
-          )
-          ;
-          }
-          .
-          g
-          r
-          e
-          e
-          n
-          .
-          j
-          s
-          x
-          -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
           5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
-          1
-          1
-          2
-          ,
-          2
-          3
-          6
-          ,
-          1
-          1
-          2
-          )
-          ;
-          }
-          .
-          y
-          e
-          l
-          l
-          o
-          w
-          .
-          j
-          s
-          x
-          -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
-          5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
-          2
-          3
           0
-          ,
-          2
-          3
-          0
-          ,
-          9
-          1
-          )
-          ;
-          }
-          .
-          b
-          l
-          u
-          e
-          .
-          j
-          s
-          x
-          -
-          3
           7
           8
-          9
-          7
-          6
-          3
-          5
           8
-          5
+          8
+          7
+          7
           {
           b
           a
@@ -9028,15 +8903,169 @@ exports[`CoinContainer should render properly without coin 1`] = `
           g
           b
           (
-          8
-          4
+          2
+          2
+          3
           ,
-          8
-          4
+          1
+          0
+          7
           ,
+          1
+          0
+          7
+          )
+          ;
+          }
+          .
+          g
+          r
+          e
+          e
+          n
+          .
+          j
+          s
+          x
+          -
           2
           3
           5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          1
+          0
+          8
+          ,
+          1
+          7
+          5
+          ,
+          1
+          1
+          8
+          )
+          ;
+          }
+          .
+          y
+          e
+          l
+          l
+          o
+          w
+          .
+          j
+          s
+          x
+          -
+          2
+          3
+          5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          2
+          5
+          3
+          ,
+          2
+          5
+          3
+          ,
+          1
+          5
+          1
+          )
+          ;
+          }
+          .
+          b
+          l
+          u
+          e
+          .
+          j
+          s
+          x
+          -
+          2
+          3
+          5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          9
+          8
+          ,
+          1
+          1
+          9
+          ,
+          2
+          2
+          4
           )
           ;
           }
@@ -9054,16 +9083,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -9097,16 +9126,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -9143,16 +9172,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -9188,16 +9217,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -9218,9 +9247,8 @@ exports[`CoinContainer should render properly without coin 1`] = `
           }
         </JSXStyle>
       </div>
-      <div className=\\"jsx-3789763585 coin \\">
-        <Coin color=\\"\\" />
-        <JSXStyle id=\\"3789763585\\">
+      <div className=\\"jsx-2350788877 coin \\">
+        <JSXStyle id=\\"2350788877\\">
           .
           c
           o
@@ -9241,16 +9269,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -9608,16 +9636,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -9734,16 +9762,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           d
           i
@@ -10003,166 +10031,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
-          5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
           2
           3
-          1
-          ,
-          9
-          6
-          ,
-          9
-          6
-          )
-          ;
-          }
-          .
-          g
-          r
-          e
-          e
-          n
-          .
-          j
-          s
-          x
-          -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
           5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
-          1
-          1
-          2
-          ,
-          2
-          3
-          6
-          ,
-          1
-          1
-          2
-          )
-          ;
-          }
-          .
-          y
-          e
-          l
-          l
-          o
-          w
-          .
-          j
-          s
-          x
-          -
-          3
-          7
-          8
-          9
-          7
-          6
-          3
-          5
-          8
-          5
-          {
-          b
-          a
-          c
-          k
-          g
-          r
-          o
-          u
-          n
-          d
-          :
-          r
-          g
-          b
-          (
-          2
-          3
           0
-          ,
-          2
-          3
-          0
-          ,
-          9
-          1
-          )
-          ;
-          }
-          .
-          b
-          l
-          u
-          e
-          .
-          j
-          s
-          x
-          -
-          3
           7
           8
-          9
-          7
-          6
-          3
-          5
           8
-          5
+          8
+          7
+          7
           {
           b
           a
@@ -10179,15 +10057,169 @@ exports[`CoinContainer should render properly without coin 1`] = `
           g
           b
           (
-          8
-          4
+          2
+          2
+          3
           ,
-          8
-          4
+          1
+          0
+          7
           ,
+          1
+          0
+          7
+          )
+          ;
+          }
+          .
+          g
+          r
+          e
+          e
+          n
+          .
+          j
+          s
+          x
+          -
           2
           3
           5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          1
+          0
+          8
+          ,
+          1
+          7
+          5
+          ,
+          1
+          1
+          8
+          )
+          ;
+          }
+          .
+          y
+          e
+          l
+          l
+          o
+          w
+          .
+          j
+          s
+          x
+          -
+          2
+          3
+          5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          2
+          5
+          3
+          ,
+          2
+          5
+          3
+          ,
+          1
+          5
+          1
+          )
+          ;
+          }
+          .
+          b
+          l
+          u
+          e
+          .
+          j
+          s
+          x
+          -
+          2
+          3
+          5
+          0
+          7
+          8
+          8
+          8
+          7
+          7
+          {
+          b
+          a
+          c
+          k
+          g
+          r
+          o
+          u
+          n
+          d
+          :
+          r
+          g
+          b
+          (
+          9
+          8
+          ,
+          1
+          1
+          9
+          ,
+          2
+          2
+          4
           )
           ;
           }
@@ -10205,16 +10237,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -10248,16 +10280,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -10294,16 +10326,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -10339,16 +10371,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
           s
           x
           -
-          3
-          7
-          8
-          9
-          7
-          6
+          2
           3
           5
+          0
+          7
           8
-          5
+          8
+          8
+          7
+          7
           {
           b
           a
@@ -10371,7 +10403,7 @@ exports[`CoinContainer should render properly without coin 1`] = `
       </div>
     </div>
   </div>
-  <JSXStyle id=\\"3789763585\\">
+  <JSXStyle id=\\"2350788877\\">
     .
     c
     o
@@ -10392,16 +10424,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
     s
     x
     -
-    3
-    7
-    8
-    9
-    7
-    6
+    2
     3
     5
+    0
+    7
     8
-    5
+    8
+    8
+    7
+    7
     {
     d
     i
@@ -10759,16 +10791,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
     s
     x
     -
-    3
-    7
-    8
-    9
-    7
-    6
+    2
     3
     5
+    0
+    7
     8
-    5
+    8
+    8
+    7
+    7
     {
     d
     i
@@ -10885,16 +10917,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
     s
     x
     -
-    3
-    7
-    8
-    9
-    7
-    6
+    2
     3
     5
+    0
+    7
     8
-    5
+    8
+    8
+    7
+    7
     {
     d
     i
@@ -11154,166 +11186,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
     s
     x
     -
-    3
-    7
-    8
-    9
-    7
-    6
-    3
-    5
-    8
-    5
-    {
-    b
-    a
-    c
-    k
-    g
-    r
-    o
-    u
-    n
-    d
-    :
-    r
-    g
-    b
-    (
     2
     3
-    1
-    ,
-    9
-    6
-    ,
-    9
-    6
-    )
-    ;
-    }
-    .
-    g
-    r
-    e
-    e
-    n
-    .
-    j
-    s
-    x
-    -
-    3
-    7
-    8
-    9
-    7
-    6
-    3
     5
-    8
-    5
-    {
-    b
-    a
-    c
-    k
-    g
-    r
-    o
-    u
-    n
-    d
-    :
-    r
-    g
-    b
-    (
-    1
-    1
-    2
-    ,
-    2
-    3
-    6
-    ,
-    1
-    1
-    2
-    )
-    ;
-    }
-    .
-    y
-    e
-    l
-    l
-    o
-    w
-    .
-    j
-    s
-    x
-    -
-    3
-    7
-    8
-    9
-    7
-    6
-    3
-    5
-    8
-    5
-    {
-    b
-    a
-    c
-    k
-    g
-    r
-    o
-    u
-    n
-    d
-    :
-    r
-    g
-    b
-    (
-    2
-    3
     0
-    ,
-    2
-    3
-    0
-    ,
-    9
-    1
-    )
-    ;
-    }
-    .
-    b
-    l
-    u
-    e
-    .
-    j
-    s
-    x
-    -
-    3
     7
     8
-    9
-    7
-    6
-    3
-    5
     8
-    5
+    8
+    7
+    7
     {
     b
     a
@@ -11330,15 +11212,169 @@ exports[`CoinContainer should render properly without coin 1`] = `
     g
     b
     (
-    8
-    4
+    2
+    2
+    3
     ,
-    8
-    4
+    1
+    0
+    7
     ,
+    1
+    0
+    7
+    )
+    ;
+    }
+    .
+    g
+    r
+    e
+    e
+    n
+    .
+    j
+    s
+    x
+    -
     2
     3
     5
+    0
+    7
+    8
+    8
+    8
+    7
+    7
+    {
+    b
+    a
+    c
+    k
+    g
+    r
+    o
+    u
+    n
+    d
+    :
+    r
+    g
+    b
+    (
+    1
+    0
+    8
+    ,
+    1
+    7
+    5
+    ,
+    1
+    1
+    8
+    )
+    ;
+    }
+    .
+    y
+    e
+    l
+    l
+    o
+    w
+    .
+    j
+    s
+    x
+    -
+    2
+    3
+    5
+    0
+    7
+    8
+    8
+    8
+    7
+    7
+    {
+    b
+    a
+    c
+    k
+    g
+    r
+    o
+    u
+    n
+    d
+    :
+    r
+    g
+    b
+    (
+    2
+    5
+    3
+    ,
+    2
+    5
+    3
+    ,
+    1
+    5
+    1
+    )
+    ;
+    }
+    .
+    b
+    l
+    u
+    e
+    .
+    j
+    s
+    x
+    -
+    2
+    3
+    5
+    0
+    7
+    8
+    8
+    8
+    7
+    7
+    {
+    b
+    a
+    c
+    k
+    g
+    r
+    o
+    u
+    n
+    d
+    :
+    r
+    g
+    b
+    (
+    9
+    8
+    ,
+    1
+    1
+    9
+    ,
+    2
+    2
+    4
     )
     ;
     }
@@ -11356,16 +11392,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
     s
     x
     -
-    3
-    7
-    8
-    9
-    7
-    6
+    2
     3
     5
+    0
+    7
     8
-    5
+    8
+    8
+    7
+    7
     {
     b
     a
@@ -11399,16 +11435,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
     s
     x
     -
-    3
-    7
-    8
-    9
-    7
-    6
+    2
     3
     5
+    0
+    7
     8
-    5
+    8
+    8
+    7
+    7
     {
     b
     a
@@ -11445,16 +11481,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
     s
     x
     -
-    3
-    7
-    8
-    9
-    7
-    6
+    2
     3
     5
+    0
+    7
     8
-    5
+    8
+    8
+    7
+    7
     {
     b
     a
@@ -11490,16 +11526,16 @@ exports[`CoinContainer should render properly without coin 1`] = `
     s
     x
     -
-    3
-    7
-    8
-    9
-    7
-    6
+    2
     3
     5
+    0
+    7
     8
-    5
+    8
+    8
+    7
+    7
     {
     b
     a

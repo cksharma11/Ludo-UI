@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Dice onRollDice should be onClick if windowPlayer has trun  1`] = `
-"<div className=\\"jsx-865041945\\">
-  <img src=\\"https://upload.wikimedia.org/wikipedia/commons/0/09/Dice-1.svg\\" alt=\\"dice\\" onClick={[Function: noop]} className=\\"jsx-865041945\\" />
-  <JSXStyle id=\\"865041945\\">
+"<div className=\\"jsx-1654207718\\">
+  <img src=\\"https://upload.wikimedia.org/wikipedia/commons/0/09/Dice-1.svg\\" alt=\\"dice\\" onClick={[Function: noop]} className=\\"jsx-1654207718\\" />
+  <JSXStyle id=\\"1654207718\\">
     i
     m
     g
@@ -12,15 +12,16 @@ exports[`Dice onRollDice should be onClick if windowPlayer has trun  1`] = `
     s
     x
     -
-    8
+    1
     6
     5
+    4
+    2
     0
-    4
+    7
+    7
     1
-    9
-    4
-    5
+    8
     {
     h
     e
@@ -59,7 +60,7 @@ exports[`Dice onRollDice should be onClick if windowPlayer has trun  1`] = `
     p
     :
     4
-    5
+    0
     p
     x
     ;
@@ -69,9 +70,9 @@ exports[`Dice onRollDice should be onClick if windowPlayer has trun  1`] = `
 `;
 
 exports[`Dice should render properly 1`] = `
-"<div className=\\"jsx-865041945\\">
-  <img src=\\"https://upload.wikimedia.org/wikipedia/commons/0/09/Dice-1.svg\\" alt=\\"dice\\" onClick={[Function: noop]} className=\\"jsx-865041945\\" />
-  <JSXStyle id=\\"865041945\\">
+"<div className=\\"jsx-1654207718\\">
+  <img src=\\"https://upload.wikimedia.org/wikipedia/commons/0/09/Dice-1.svg\\" alt=\\"dice\\" onClick={[Function: noop]} className=\\"jsx-1654207718\\" />
+  <JSXStyle id=\\"1654207718\\">
     i
     m
     g
@@ -80,15 +81,16 @@ exports[`Dice should render properly 1`] = `
     s
     x
     -
-    8
+    1
     6
     5
+    4
+    2
     0
-    4
+    7
+    7
     1
-    9
-    4
-    5
+    8
     {
     h
     e
@@ -127,7 +129,7 @@ exports[`Dice should render properly 1`] = `
     p
     :
     4
-    5
+    0
     p
     x
     ;

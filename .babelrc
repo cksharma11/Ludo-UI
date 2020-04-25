@@ -1,15 +1,10 @@
 {
-  "presets": [
-    "@babel/preset-env",
-    "@babel/preset-react"
-  ],
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
   "plugins": [
     [
       "styled-jsx/babel",
       {
-        "plugins": [
-          "styled-jsx-plugin-postcss"
-        ]
+        // "plugins": ["styled-jsx-plugin-postcss"]
       }
     ]
   ]

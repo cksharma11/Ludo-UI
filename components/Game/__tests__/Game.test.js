@@ -4,6 +4,7 @@ import Game from '../Game';
 
 describe('Game', () => {
   const gameData = {
+    coinsPosition: [],
     players: [
       {
         playerName: 'test1',
@@ -21,6 +22,12 @@ describe('Game', () => {
         playerName: 'test3',
         turn: false,
         playerId: 3,
+        coins: [{ color: 'red', position: 0 }]
+      },
+      {
+        playerName: 'test4',
+        turn: false,
+        playerId: 4,
         coins: [{ color: 'red', position: 0 }]
       }
     ]

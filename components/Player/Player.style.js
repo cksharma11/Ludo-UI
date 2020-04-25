@@ -11,15 +11,16 @@ const PlayerStyles = css`
     font-family: 'Ubuntu', sans-serif;
     opacity: 40%;
     background: #4a7575;
-    &.current-turn {
-      opacity: 40%;
-      box-shadow: 0 0 50px black;
-    }
-    &.window {
-      font-weight: bold;
-      opacity: 100%;
-    }
     border-radius: 2px;
+  }
+
+  .current-turn {
+    opacity: 40%;
+    box-shadow: 0 0 50px black;
+  }
+  .window {
+    font-weight: bold;
+    opacity: 100%;
   }
 
   .player-name {

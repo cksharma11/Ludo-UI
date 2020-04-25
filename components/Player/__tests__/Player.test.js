@@ -3,12 +3,12 @@ import { shallow } from 'enzyme';
 import Player from '../Player';
 
 describe('Player', () => {
-  let props;
+  let player;
   beforeEach(() => {
-    props = {
+    player = {
       name: 'dummy',
       turn: false,
-      coinData: [
+      coins: [
         {
           color: 'red',
           isCleared: true
@@ -30,13 +30,13 @@ describe('Player', () => {
   });
 
   it('should render properly when turn is false', () => {
-    const wrapper = shallow(<Player {...props} />);
+    const wrapper = shallow(<Player player={player} />);
     expect(wrapper.debug()).toMatchSnapshot();
   });
 
   it('should render properly when turn is true', () => {
-    props.turn = true;
-    const wrapper = shallow(<Player {...props} />);
+    player.turn = true;
+    const wrapper = shallow(<Player player={player} />);
     expect(wrapper.debug()).toMatchSnapshot();
   });
 });

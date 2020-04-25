@@ -10,14 +10,7 @@ module.exports = {
     'pages/**/*.js',
     '!**/*.style.js',
     '!pages/*.js',
-    '!components/Game/GameHook.js'
-  ],
-  coverageThreshold: {
-    global: {
-      statements: 95,
-      branches: 95,
-      functions: 95,
-      lines: 95
-    }
-  }
+    '!components/Game/GameHook.js',
+    '!components/globalStyles.js'
+  ]
 };

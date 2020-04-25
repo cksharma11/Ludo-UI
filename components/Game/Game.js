@@ -123,8 +123,7 @@ const Game = ({ gameData: initialGameData, playerId, gameId }) => {
 
 Game.propTypes = {
   gameData: PropTypes.object.isRequired,
-  playerId: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
-    .isRequired,
+  playerId: PropTypes.any.isRequired,
   gameId: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired
 };
 

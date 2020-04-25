@@ -3,34 +3,34 @@
 exports[`CellRow should render properly 1`] = `
 "<div className=\\"jsx-2616575202 \\">
   <div className=\\"jsx-2616575202 \\">
-    <Cell id={19} className=\\"cell \\" />
-    <Cell id={20} className=\\"cell \\" />
-    <Cell id={21} className=\\"cell \\" />
+    <Cell id={19} className=\\"cell \\" gameData={{...}} playerId={-1} />
+    <Cell id={20} className=\\"cell \\" gameData={{...}} playerId={-1} />
+    <Cell id={21} className=\\"cell \\" gameData={{...}} playerId={-1} />
   </div>
   <div className=\\"jsx-2616575202 \\">
-    <Cell id={22} className=\\"cell  red safe-cell\\" />
-    <Cell id={23} className=\\"cell  red\\" />
-    <Cell id={24} className=\\"cell \\" />
+    <Cell id={22} className=\\"cell  red safe-cell\\" gameData={{...}} playerId={-1} />
+    <Cell id={23} className=\\"cell  red\\" gameData={{...}} playerId={-1} />
+    <Cell id={24} className=\\"cell \\" gameData={{...}} playerId={-1} />
   </div>
   <div className=\\"jsx-2616575202 \\">
-    <Cell id={25} className=\\"cell \\" />
-    <Cell id={26} className=\\"cell  red\\" />
-    <Cell id={27} className=\\"cell  safe-cell\\" />
+    <Cell id={25} className=\\"cell \\" gameData={{...}} playerId={-1} />
+    <Cell id={26} className=\\"cell  red\\" gameData={{...}} playerId={-1} />
+    <Cell id={27} className=\\"cell  safe-cell\\" gameData={{...}} playerId={-1} />
   </div>
   <div className=\\"jsx-2616575202 \\">
-    <Cell id={28} className=\\"cell \\" />
-    <Cell id={29} className=\\"cell  red\\" />
-    <Cell id={30} className=\\"cell \\" />
+    <Cell id={28} className=\\"cell \\" gameData={{...}} playerId={-1} />
+    <Cell id={29} className=\\"cell  red\\" gameData={{...}} playerId={-1} />
+    <Cell id={30} className=\\"cell \\" gameData={{...}} playerId={-1} />
   </div>
   <div className=\\"jsx-2616575202 \\">
-    <Cell id={31} className=\\"cell \\" />
-    <Cell id={32} className=\\"cell  red\\" />
-    <Cell id={33} className=\\"cell \\" />
+    <Cell id={31} className=\\"cell \\" gameData={{...}} playerId={-1} />
+    <Cell id={32} className=\\"cell  red\\" gameData={{...}} playerId={-1} />
+    <Cell id={33} className=\\"cell \\" gameData={{...}} playerId={-1} />
   </div>
   <div className=\\"jsx-2616575202 \\">
-    <Cell id={34} className=\\"cell \\" />
-    <Cell id={35} className=\\"cell  red\\" />
-    <Cell id={36} className=\\"cell \\" />
+    <Cell id={34} className=\\"cell \\" gameData={{...}} playerId={-1} />
+    <Cell id={35} className=\\"cell  red\\" gameData={{...}} playerId={-1} />
+    <Cell id={36} className=\\"cell \\" gameData={{...}} playerId={-1} />
   </div>
   <JSXStyle id=\\"2616575202\\">
     .
@@ -434,34 +434,34 @@ exports[`CellRow should render properly 1`] = `
 exports[`CellRow should render properly with special id 1`] = `
 "<div className=\\"jsx-2616575202 \\">
   <div className=\\"jsx-2616575202 \\">
-    <Cell id={19} className=\\"cell \\" />
-    <Cell id={20} className=\\"cell \\" />
-    <Cell id={21} className=\\"cell \\" />
+    <Cell id={19} className=\\"cell \\" gameData={{...}} playerId={-1} />
+    <Cell id={20} className=\\"cell \\" gameData={{...}} playerId={-1} />
+    <Cell id={21} className=\\"cell \\" gameData={{...}} playerId={-1} />
   </div>
   <div className=\\"jsx-2616575202 \\">
-    <Cell id={22} className=\\"cell  red safe-cell\\" />
-    <Cell id={23} className=\\"cell  red\\" />
-    <Cell id={24} className=\\"cell \\" />
+    <Cell id={22} className=\\"cell  red safe-cell\\" gameData={{...}} playerId={-1} />
+    <Cell id={23} className=\\"cell  red\\" gameData={{...}} playerId={-1} />
+    <Cell id={24} className=\\"cell \\" gameData={{...}} playerId={-1} />
   </div>
   <div className=\\"jsx-2616575202 \\">
-    <Cell id={25} className=\\"cell \\" />
-    <Cell id={26} className=\\"cell  red\\" />
-    <Cell id={27} className=\\"cell  safe-cell\\" />
+    <Cell id={25} className=\\"cell \\" gameData={{...}} playerId={-1} />
+    <Cell id={26} className=\\"cell  red\\" gameData={{...}} playerId={-1} />
+    <Cell id={27} className=\\"cell  safe-cell\\" gameData={{...}} playerId={-1} />
   </div>
   <div className=\\"jsx-2616575202 \\">
-    <Cell id={28} className=\\"cell \\" />
-    <Cell id={29} className=\\"cell  red\\" />
-    <Cell id={30} className=\\"cell \\" />
+    <Cell id={28} className=\\"cell \\" gameData={{...}} playerId={-1} />
+    <Cell id={29} className=\\"cell  red\\" gameData={{...}} playerId={-1} />
+    <Cell id={30} className=\\"cell \\" gameData={{...}} playerId={-1} />
   </div>
   <div className=\\"jsx-2616575202 \\">
-    <Cell id={31} className=\\"cell \\" />
-    <Cell id={32} className=\\"cell  red\\" />
-    <Cell id={33} className=\\"cell \\" />
+    <Cell id={31} className=\\"cell \\" gameData={{...}} playerId={-1} />
+    <Cell id={32} className=\\"cell  red\\" gameData={{...}} playerId={-1} />
+    <Cell id={33} className=\\"cell \\" gameData={{...}} playerId={-1} />
   </div>
   <div className=\\"jsx-2616575202 \\">
-    <Cell id={34} className=\\"cell \\" />
-    <Cell id={35} className=\\"cell  red\\" />
-    <Cell id={36} className=\\"cell \\" />
+    <Cell id={34} className=\\"cell \\" gameData={{...}} playerId={-1} />
+    <Cell id={35} className=\\"cell  red\\" gameData={{...}} playerId={-1} />
+    <Cell id={36} className=\\"cell \\" gameData={{...}} playerId={-1} />
   </div>
   <JSXStyle id=\\"2616575202\\">
     .

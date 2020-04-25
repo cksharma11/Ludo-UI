@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Coin should render properly 1`] = `
-"<div className=\\"jsx-2045488686 coin dark_\\">
-  <JSXStyle id=\\"2045488686\\">
+"<button type=\\"button\\" onClick={[Function: changeCoinPosition]} id=\\"_undefined\\" className=\\"jsx-3848599526 coin dark_ \\">
+  <JSXStyle id=\\"3848599526\\">
     .
     c
     o
@@ -13,17 +13,49 @@ exports[`Coin should render properly 1`] = `
     s
     x
     -
-    2
-    0
+    3
+    8
     4
+    8
     5
-    4
-    8
-    8
-    6
-    8
+    9
+    9
+    5
+    2
     6
     {
+    f
+    o
+    n
+    t
+    -
+    f
+    a
+    m
+    i
+    l
+    y
+    :
+    &#39;
+    U
+    b
+    u
+    n
+    t
+    u
+    &#39;
+    ,
+    s
+    a
+    n
+    s
+    -
+    s
+    e
+    r
+    i
+    f
+    ;
     w
     i
     d
@@ -81,7 +113,7 @@ exports[`Coin should render properly 1`] = `
     e
     r
     :
-    1
+    2
     p
     x
      
@@ -92,12 +124,24 @@ exports[`Coin should render properly 1`] = `
     d
      
     #
+    1
+    0
+    2
+    c
+    1
+    f
+    b
+    5
+    ;
+    z
+    -
+    i
+    n
+    d
     e
-    e
-    e
-    e
-    e
-    e
+    x
+    :
+    1
     ;
     }
     .
@@ -114,15 +158,15 @@ exports[`Coin should render properly 1`] = `
     s
     x
     -
-    2
-    0
+    3
+    8
     4
+    8
     5
-    4
-    8
-    8
-    6
-    8
+    9
+    9
+    5
+    2
     6
     {
     b
@@ -157,15 +201,15 @@ exports[`Coin should render properly 1`] = `
     s
     x
     -
-    2
-    0
+    3
+    8
     4
+    8
     5
-    4
-    8
-    8
-    6
-    8
+    9
+    9
+    5
+    2
     6
     {
     b
@@ -203,15 +247,15 @@ exports[`Coin should render properly 1`] = `
     s
     x
     -
-    2
-    0
+    3
+    8
     4
+    8
     5
-    4
-    8
-    8
-    6
-    8
+    9
+    9
+    5
+    2
     6
     {
     b
@@ -248,15 +292,15 @@ exports[`Coin should render properly 1`] = `
     s
     x
     -
-    2
-    0
+    3
+    8
     4
+    8
     5
-    4
-    8
-    8
-    6
-    8
+    9
+    9
+    5
+    2
     6
     {
     b
@@ -275,7 +319,583 @@ exports[`Coin should render properly 1`] = `
     u
     e
     ;
+    }
+    .
+    p
+    l
+    a
+    y
+    a
+    b
+    l
+    e
+    -
+    c
+    o
+    i
+    n
+    .
+    j
+    s
+    x
+    -
+    3
+    8
+    4
+    8
+    5
+    9
+    9
+    5
+    2
+    6
+    {
+    b
+    o
+    r
+    d
+    e
+    r
+    :
+    2
+    p
+    x
+     
+    s
+    o
+    l
+    i
+    d
+     
+    w
+    h
+    i
+    t
+    e
+    ;
+    b
+    o
+    x
+    -
+    s
+    h
+    a
+    d
+    o
+    w
+    :
+    0
+     
+    2
+    p
+    x
+     
+    1
+    0
+    p
+    x
+     
+    0
+     
+    r
+    g
+    b
+    a
+    (
+    0
+    ,
+    0
+    ,
+    0
+    ,
+    0
+    .
+    1
+    6
+    )
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    a
+    n
+    i
+    m
+    a
+    t
+    i
+    o
+    n
+    -
+    n
+    a
+    m
+    e
+    :
+    e
+    x
+    a
+    m
+    p
+    l
+    e
+    -
+    j
+    s
+    x
+    -
+    3
+    8
+    4
+    8
+    5
+    9
+    9
+    5
+    2
+    6
+    ;
+    a
+    n
+    i
+    m
+    a
+    t
+    i
+    o
+    n
+    -
+    n
+    a
+    m
+    e
+    :
+    e
+    x
+    a
+    m
+    p
+    l
+    e
+    -
+    j
+    s
+    x
+    -
+    3
+    8
+    4
+    8
+    5
+    9
+    9
+    5
+    2
+    6
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    a
+    n
+    i
+    m
+    a
+    t
+    i
+    o
+    n
+    -
+    d
+    u
+    r
+    a
+    t
+    i
+    o
+    n
+    :
+    0
+    .
+    6
+    s
+    ;
+    a
+    n
+    i
+    m
+    a
+    t
+    i
+    o
+    n
+    -
+    d
+    u
+    r
+    a
+    t
+    i
+    o
+    n
+    :
+    0
+    .
+    6
+    s
+    ;
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    a
+    n
+    i
+    m
+    a
+    t
+    i
+    o
+    n
+    -
+    i
+    t
+    e
+    r
+    a
+    t
+    i
+    o
+    n
+    -
+    c
+    o
+    u
+    n
+    t
+    :
+    i
+    n
+    f
+    i
+    n
+    i
+    t
+    e
+    ;
+    a
+    n
+    i
+    m
+    a
+    t
+    i
+    o
+    n
+    -
+    i
+    t
+    e
+    r
+    a
+    t
+    i
+    o
+    n
+    -
+    c
+    o
+    u
+    n
+    t
+    :
+    i
+    n
+    f
+    i
+    n
+    i
+    t
+    e
+    ;
+    c
+    u
+    r
+    s
+    o
+    r
+    :
+    p
+    o
+    i
+    n
+    t
+    e
+    r
+    ;
+    }
+    @
+    -
+    w
+    e
+    b
+    k
+    i
+    t
+    -
+    k
+    e
+    y
+    f
+    r
+    a
+    m
+    e
+    s
+     
+    e
+    x
+    a
+    m
+    p
+    l
+    e
+    -
+    j
+    s
+    x
+    -
+    3
+    8
+    4
+    8
+    5
+    9
+    9
+    5
+    2
+    6
+    {
+    0
+    %
+    {
+    o
+    p
+    a
+    c
+    i
+    t
+    y
+    :
+    0
+    %
+    ;
+    }
+    2
+    5
+    %
+    {
+    o
+    p
+    a
+    c
+    i
+    t
+    y
+    :
+    2
+    5
+    %
+    ;
+    }
+    5
+    0
+    %
+    {
+    o
+    p
+    a
+    c
+    i
+    t
+    y
+    :
+    5
+    0
+    %
+    ;
+    }
+    7
+    5
+    %
+    {
+    o
+    p
+    a
+    c
+    i
+    t
+    y
+    :
+    7
+    5
+    %
+    ;
+    }
+    1
+    0
+    0
+    %
+    {
+    o
+    p
+    a
+    c
+    i
+    t
+    y
+    :
+    1
+    0
+    0
+    %
+    ;
+    }
+    }
+    @
+    k
+    e
+    y
+    f
+    r
+    a
+    m
+    e
+    s
+     
+    e
+    x
+    a
+    m
+    p
+    l
+    e
+    -
+    j
+    s
+    x
+    -
+    3
+    8
+    4
+    8
+    5
+    9
+    9
+    5
+    2
+    6
+    {
+    0
+    %
+    {
+    o
+    p
+    a
+    c
+    i
+    t
+    y
+    :
+    0
+    %
+    ;
+    }
+    2
+    5
+    %
+    {
+    o
+    p
+    a
+    c
+    i
+    t
+    y
+    :
+    2
+    5
+    %
+    ;
+    }
+    5
+    0
+    %
+    {
+    o
+    p
+    a
+    c
+    i
+    t
+    y
+    :
+    5
+    0
+    %
+    ;
+    }
+    7
+    5
+    %
+    {
+    o
+    p
+    a
+    c
+    i
+    t
+    y
+    :
+    7
+    5
+    %
+    ;
+    }
+    1
+    0
+    0
+    %
+    {
+    o
+    p
+    a
+    c
+    i
+    t
+    y
+    :
+    1
+    0
+    0
+    %
+    ;
+    }
     }
   </JSXStyle>
-</div>"
+</button>"
 `;

@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Cell should render properly 1`] = `
-"<div id={0} className=\\"jsx-2833566901 \\">
-  <JSXStyle id=\\"2833566901\\">
+"<div id={0} className=\\"jsx-1130221686 \\">
+  <JSXStyle id=\\"1130221686\\">
     .
     c
     e
@@ -13,16 +13,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
-    8
-    3
-    3
-    5
-    6
-    6
-    9
-    0
     1
+    1
+    3
+    0
+    2
+    2
+    1
+    6
+    8
+    6
     {
     d
     i
@@ -272,16 +272,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
-    8
-    3
-    3
-    5
-    6
-    6
-    9
-    0
     1
+    1
+    3
+    0
+    2
+    2
+    1
+    6
+    8
+    6
     {
     b
     a
@@ -299,14 +299,16 @@ exports[`Cell should render properly 1`] = `
     b
     (
     2
+    2
     3
+    ,
     1
+    0
+    7
     ,
-    9
-    6
-    ,
-    9
-    6
+    1
+    0
+    7
     )
     ;
     }
@@ -321,16 +323,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
-    8
-    3
-    3
-    5
-    6
-    6
-    9
-    0
     1
+    1
+    3
+    0
+    2
+    2
+    1
+    6
+    8
+    6
     {
     b
     a
@@ -348,16 +350,16 @@ exports[`Cell should render properly 1`] = `
     b
     (
     1
-    1
-    2
-    ,
-    2
-    3
-    6
+    0
+    8
     ,
     1
+    7
+    5
+    ,
     1
-    2
+    1
+    8
     )
     ;
     }
@@ -373,16 +375,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
-    8
-    3
-    3
-    5
-    6
-    6
-    9
-    0
     1
+    1
+    3
+    0
+    2
+    2
+    1
+    6
+    8
+    6
     {
     b
     a
@@ -400,14 +402,15 @@ exports[`Cell should render properly 1`] = `
     b
     (
     2
+    5
     3
-    0
     ,
     2
+    5
     3
-    0
     ,
-    9
+    1
+    5
     1
     )
     ;
@@ -422,16 +425,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
-    8
-    3
-    3
-    5
-    6
-    6
-    9
-    0
     1
+    1
+    3
+    0
+    2
+    2
+    1
+    6
+    8
+    6
     {
     b
     a
@@ -448,15 +451,16 @@ exports[`Cell should render properly 1`] = `
     g
     b
     (
+    9
     8
+    ,
+    1
+    1
+    9
+    ,
+    2
+    2
     4
-    ,
-    8
-    4
-    ,
-    2
-    3
-    5
     )
     ;
     }
@@ -474,16 +478,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
-    8
-    3
-    3
-    5
-    6
-    6
-    9
-    0
     1
+    1
+    3
+    0
+    2
+    2
+    1
+    6
+    8
+    6
     {
     b
     a
@@ -497,8 +501,19 @@ exports[`Cell should render properly 1`] = `
     d
     :
     r
-    e
-    d
+    g
+    b
+    (
+    2
+    3
+    5
+    ,
+    4
+    1
+    ,
+    4
+    1
+    )
     ;
     }
     .
@@ -517,16 +532,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
-    8
-    3
-    3
-    5
-    6
-    6
-    9
-    0
     1
+    1
+    3
+    0
+    2
+    2
+    1
+    6
+    8
+    6
     {
     b
     a
@@ -539,11 +554,20 @@ exports[`Cell should render properly 1`] = `
     n
     d
     :
-    g
     r
-    e
-    e
-    n
+    g
+    b
+    (
+    1
+    1
+    ,
+    1
+    5
+    7
+    ,
+    3
+    4
+    )
     ;
     }
     .
@@ -563,16 +587,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
-    8
-    3
-    3
-    5
-    6
-    6
-    9
-    0
     1
+    1
+    3
+    0
+    2
+    2
+    1
+    6
+    8
+    6
     {
     b
     a
@@ -585,12 +609,20 @@ exports[`Cell should render properly 1`] = `
     n
     d
     :
-    y
-    e
-    l
-    l
-    o
-    w
+    r
+    g
+    b
+    (
+    2
+    5
+    5
+    ,
+    2
+    5
+    5
+    ,
+    0
+    )
     ;
     }
     .
@@ -608,16 +640,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
-    8
-    3
-    3
-    5
-    6
-    6
-    9
-    0
     1
+    1
+    3
+    0
+    2
+    2
+    1
+    6
+    8
+    6
     {
     b
     a
@@ -630,10 +662,20 @@ exports[`Cell should render properly 1`] = `
     n
     d
     :
+    r
+    g
     b
-    l
-    u
-    e
+    (
+    4
+    0
+    ,
+    7
+    1
+    ,
+    2
+    3
+    0
+    )
     ;
     }
     .
@@ -651,16 +693,16 @@ exports[`Cell should render properly 1`] = `
     s
     x
     -
-    2
-    8
-    3
-    3
-    5
-    6
-    6
-    9
-    0
     1
+    1
+    3
+    0
+    2
+    2
+    1
+    6
+    8
+    6
     {
     t
     o
@@ -680,358 +722,6 @@ exports[`Cell should render properly 1`] = `
     y
     :
     1
-    ;
-    }
-    .
-    s
-    a
-    f
-    e
-    -
-    c
-    e
-    l
-    l
-    .
-    j
-    s
-    x
-    -
-    2
-    8
-    3
-    3
-    5
-    6
-    6
-    9
-    0
-    1
-    :
-    :
-    b
-    e
-    f
-    o
-    r
-    e
-    ,
-    .
-    s
-    a
-    f
-    e
-    -
-    c
-    e
-    l
-    l
-    .
-    j
-    s
-    x
-    -
-    2
-    8
-    3
-    3
-    5
-    6
-    6
-    9
-    0
-    1
-    :
-    :
-    a
-    f
-    t
-    e
-    r
-    {
-    c
-    o
-    n
-    t
-    e
-    n
-    t
-    :
-    &#39;
-     
-    &#39;
-    ;
-    w
-    i
-    d
-    t
-    h
-    :
-    2
-    p
-    x
-    ;
-    b
-    a
-    c
-    k
-    g
-    r
-    o
-    u
-    n
-    d
-    -
-    c
-    o
-    l
-    o
-    r
-    :
-    #
-    3
-    3
-    3
-    ;
-    }
-    .
-    s
-    a
-    f
-    e
-    -
-    c
-    e
-    l
-    l
-    .
-    j
-    s
-    x
-    -
-    2
-    8
-    3
-    3
-    5
-    6
-    6
-    9
-    0
-    1
-    :
-    :
-    b
-    e
-    f
-    o
-    r
-    e
-    {
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    t
-    r
-    a
-    n
-    s
-    f
-    o
-    r
-    m
-    :
-    r
-    o
-    t
-    a
-    t
-    e
-    (
-    4
-    5
-    d
-    e
-    g
-    )
-    ;
-    -
-    m
-    s
-    -
-    t
-    r
-    a
-    n
-    s
-    f
-    o
-    r
-    m
-    :
-    r
-    o
-    t
-    a
-    t
-    e
-    (
-    4
-    5
-    d
-    e
-    g
-    )
-    ;
-    t
-    r
-    a
-    n
-    s
-    f
-    o
-    r
-    m
-    :
-    r
-    o
-    t
-    a
-    t
-    e
-    (
-    4
-    5
-    d
-    e
-    g
-    )
-    ;
-    }
-    .
-    s
-    a
-    f
-    e
-    -
-    c
-    e
-    l
-    l
-    .
-    j
-    s
-    x
-    -
-    2
-    8
-    3
-    3
-    5
-    6
-    6
-    9
-    0
-    1
-    :
-    :
-    a
-    f
-    t
-    e
-    r
-    {
-    -
-    w
-    e
-    b
-    k
-    i
-    t
-    -
-    t
-    r
-    a
-    n
-    s
-    f
-    o
-    r
-    m
-    :
-    r
-    o
-    t
-    a
-    t
-    e
-    (
-    -
-    4
-    5
-    d
-    e
-    g
-    )
-    ;
-    -
-    m
-    s
-    -
-    t
-    r
-    a
-    n
-    s
-    f
-    o
-    r
-    m
-    :
-    r
-    o
-    t
-    a
-    t
-    e
-    (
-    -
-    4
-    5
-    d
-    e
-    g
-    )
-    ;
-    t
-    r
-    a
-    n
-    s
-    f
-    o
-    r
-    m
-    :
-    r
-    o
-    t
-    a
-    t
-    e
-    (
-    -
-    4
-    5
-    d
-    e
-    g
-    )
     ;
     }
   </JSXStyle>
