@@ -3,7 +3,6 @@ import css from 'styled-jsx/css';
 const GlobalStyles = css.global`
   body,
   html {
-    @import url('https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap');
     padding: 0;
     margin: 0;
     background: radial-gradient(

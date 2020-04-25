@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React, { Fragment } from 'react';
+import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import regeneratorRuntime from 'regenerator-runtime';
 import PropTypes from 'prop-types';
@@ -7,13 +7,14 @@ import Game from '../components/Game/Game';
 import { parseCookie, API_URL } from '../utils/utils';
 import app from '../https/app';
 import GlobalStyles from '../components/globalStyles';
+import PageLayout from '../components/PageLayout/PageLayout';
 
 const GamePage = ({ gameData, playerId, gameId }) => {
   return (
-    <Fragment>
+    <PageLayout>
       <Game gameData={gameData} playerId={playerId} gameId={gameId} />
       <style jsx>{GlobalStyles}</style>
-    </Fragment>
+    </PageLayout>
   );
 };
 

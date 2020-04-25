@@ -1,13 +1,14 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import LoadGame from '../components/LoadGame/LoadGame';
 import GlobalStyles from '../components/globalStyles';
+import PageLayout from '../components/PageLayout/PageLayout';
 
 const loadGame = () => {
   return (
-    <Fragment>
+    <PageLayout>
       <LoadGame />
       <style jsx>{GlobalStyles}</style>
-    </Fragment>
+    </PageLayout>
   );
 };
 

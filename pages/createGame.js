@@ -1,13 +1,14 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import CreateGame from '../components/CreateGame/CreateGame';
 import GlobalStyles from '../components/globalStyles';
+import PageLayout from '../components/PageLayout/PageLayout';
 
 const createGame = () => {
   return (
-    <Fragment>
+    <PageLayout>
       <CreateGame />
       <style jsx>{GlobalStyles}</style>
-    </Fragment>
+    </PageLayout>
   );
 };
 

@@ -6,7 +6,7 @@ import labels from '../../config/labels/labels';
 
 const Home = ({ title, createGameLink, joinGameLink, loadGameLink }) => {
   return (
-    <div className="main-container container">
+    <div className="main-container">
       <Header title={title} />
       <div className="options">
         <a href={createGameLink}>{labels.CREATE_GAME}</a>

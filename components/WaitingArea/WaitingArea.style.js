@@ -31,25 +31,6 @@ const WaitingAreaStyles = css`
     border-radius: 2px;
     border: 1px solid black;
   }
-
-  .container {
-    width: 100vw;
-    height: 100vh;
-    @import url('https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap');
-    padding: 0;
-    margin: -8px;
-    background: radial-gradient(
-      ellipse at center,
-      rgb(99, 155, 155) 0%,
-      rgb(25, 41, 41) 99%,
-      rgb(69, 108, 108) 100%
-    );
-    font-family: 'Ubuntu', sans-serif;
-  }
-  button {
-    font-family: 'Ubuntu', sans-serif;
-    border-radius: 3px;
-  }
 `;
 
 export default WaitingAreaStyles;

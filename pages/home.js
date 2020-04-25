@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from '../components/Home/Home';
+import GlobalStyles from '../components/globalStyles';
 import PageLayout from '../components/PageLayout/PageLayout';
 
 const home = () => {
@@ -11,6 +12,7 @@ const home = () => {
         joinGameLink="joinGame"
         loadGameLink="/loadGame"
       />
+      <style jsx>{GlobalStyles}</style>
     </PageLayout>
   );
 };

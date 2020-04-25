@@ -5,7 +5,7 @@ import labels from '../../config/labels/labels';
 
 const CreateGame = () => {
   return (
-    <div className="container">
+    <div>
       <Header title="Ludo" />
       <div className="form-container">
         <form method="POST" action="/createGame">

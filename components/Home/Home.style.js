@@ -33,24 +33,6 @@ const HomeStyles = css`
   a:hover {
     background: white;
   }
-
-  .container {
-    width: 100vw;
-    height: 100vh;
-    @import url('https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap');
-    padding: 0;
-    margin: -8px;
-    background: radial-gradient(
-      ellipse at center,
-      rgb(99, 155, 155) 0%,
-      rgb(25, 41, 41) 99%,
-      rgb(69, 108, 108) 100%
-    );
-  }
-  button {
-    font-family: 'Ubuntu', sans-serif;
-    border-radius: 3px;
-  }
 `;
 
 export default HomeStyles;
